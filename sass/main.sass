@@ -1,5 +1,10 @@
 @import "vars"
 
+.callback-section
+	background: #e6e6e6 url('../img/callback-bg1.png') no-repeat right center
+	background-size: 1207px
+	padding: 80px 0
+
 // news
 .home-news
 	background: url('../img/news-home-bg.jpg') no-repeat center
@@ -84,7 +89,6 @@
 	padding: 40px 96px 46px 16px
 	background: #e6e6e6
 	border-left: 3px solid $blue
-
 
 .category-house
 	margin: 30px 0 0
@@ -234,5 +238,296 @@
 
 // warranty
 .home-warranty
+	background: url('../img/warranty-home-bg.jpg') no-repeat center
+	background-size: cover
 	.btn-callback
-		margin: 50px 0 0	
+		margin: 50px 0 0
+	.list-advantages
+		margin: 40px 0
+
+.btn-call
+	padding: 16px 39px
+	background: rgba(#000319, .85)
+
+.list-advantages
+	font-size: 18px
+	li
+		display: flex
+		align-items: center
+		margin: 0 0 25px
+		&:last-child
+			margin: 0
+	&__icon
+		width: 32px
+		margin: 0 10px 0 0
+		@include d-flex
+
+.warranty-house
+	overflow: hidden
+	.container
+		flex-wrap: nowrap
+		align-items: center
+	&__content
+		max-width: 607px
+		min-width: 607px
+	&__img
+		max-width: 892px
+		min-width: 892px
+	.box-text
+		ul
+			li
+				margin: 0
+
+.warranty-house-box
+	margin: 25px 0 0
+	h3
+		text-transform: uppercase
+		color: $blue
+		font-weight: bold
+		margin: 0 0 15px
+
+.callback-warranty
+	.callback-content
+		max-width: 515px
+
+.callback-content
+	width: 100%
+
+.works
+	.container
+		max-width: 1170px
+
+.works-box
+	width: 100%
+	&__img
+		position: relative
+		width: 100%
+		height: 360px
+		overflow: hidden
+		z-index: 1
+		border-radius: 5px
+		background: #e6e6e6
+		img
+			width: 100%
+			height: 100%
+			object-fit: cover
+		&::before
+			content: ''
+			position: absolute
+			left: 0
+			top: 0
+			width: 100%
+			height: 0
+			opacity: 0.52
+			background-color: #060606
+			transition: .3s
+
+	&__btn
+		position: absolute
+		z-index: 1
+		opacity: 0
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-50%)
+		padding: 10px 30px
+	&__body
+		padding: 30px 0 0
+	&__name
+		font-size: 18px
+		font-weight: bold
+		color: #696969
+		&:hover
+			color: $accent
+	.link-details
+		margin: 3px 0 0
+	&:hover
+		.works-box__img
+			&::before
+				height: 100%
+		.works-box__btn
+			opacity: 1
+
+.link-details
+	color: #696969
+	&:hover
+		color: $blue
+
+// about 
+.home-about
+	background: url('../img/about-home-bg.jpg') no-repeat center
+	background-size: cover
+	.home-content
+		max-width: 770px
+
+.about-advantages
+	padding: 60px 0 20px
+
+.about-advantages-box
+	width: 100%
+	&__head
+		display: flex
+		align-items: center
+		margin: 0 0 20px
+	&__icon
+		margin: 0 10px 0 0
+		@include d-flex
+	h3
+		font-weight: bold
+		text-transform: uppercase
+		color: $blue
+
+.employee
+	h2
+		margin: 0 auto 32px
+
+	.section-subtext
+		margin: 0 auto 50px
+		max-width: 805px
+
+.employee-box
+	width: 100%
+	height: 445px
+	border-radius: 5px
+	background-color: #d6d6d6
+	overflow: hidden
+	position: relative
+	z-index: 1
+	color: #fff
+	&__photo
+		width: 100%
+		height: 100%
+		@include d-flex
+		img
+			width: 100%
+			height: 100%
+			object-fit: cover
+	&__body
+		position: absolute
+		bottom: 0
+		left: 0
+		width: 100%
+		background: $accent
+		padding: 16px 25px 20px
+		p
+			margin: 0 0 7px 0
+			&:last-child
+				margin: 0
+
+.employee-slider
+	padding: 0 10px
+	.slick-slide
+		padding: 0 25px
+
+.callback-about
+	background: #e6e6e6 url('../img/callback-bg3.png') no-repeat right center
+	background-size: 1211px
+
+.reviews-video
+	.btn-all
+		margin: 0 auto
+
+.reviews-video-box
+	width: 100%
+	img
+		width: 100%
+
+// services
+.home-services
+	background: url('../img/services-home-bg.jpg') no-repeat center
+	background-size: cover
+	.home-content
+		max-width: 465px
+	h1
+		margin: 0 0 30px
+
+.services-section
+	.section-subtext
+		margin: 0 auto 30px
+		max-width: 490px
+
+.service-box
+	width: 100%
+	border-radius: 5px
+	background-color: #dadada
+	overflow: hidden
+	&__img
+		width: 100%
+		height: 225px
+		position: relative
+		z-index: 1
+		@include d-flex
+		&::before
+			content: ''
+			position: absolute
+			left: 0
+			top: 0
+			width: 100%
+			height: 0
+			opacity: 0.52
+			background-color: #060606
+			transition: .3s
+	&__btn
+		position: absolute
+		z-index: 1
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-50%)
+		opacity: 0
+	&:hover
+		.service-box__img
+			&::before
+				height: 100%
+		.service-box__btn
+			opacity: 1
+	&__body
+		width: 100%
+		background: $accent
+		padding: 20px 15px
+	&__title
+		text-transform: uppercase
+		color: #fff
+		&:hover
+			color: #fff
+
+.advantages-services-box
+	text-align: center
+	width: 100%
+	margin: 0 auto
+	&__icon
+		margin: 0 auto 20px
+		@include d-flex
+	h3
+		text-transform: uppercase
+		color: $blue
+		font-weight: bold
+		margin: 0 auto 25px
+
+
+.useful-articles-box
+	width: 100%
+	&__img
+		width: 100%
+		height: 262px
+		@include d-flex
+		overflow: hidden
+		border-radius: 5px
+		img
+			width: 100%
+			height: 100%
+			object-fit: cover
+	&__body
+		width: 100%
+		padding: 20px 0 0
+	&__title
+		text-transform: uppercase
+		color: $blue
+		font-weight: bold
+		margin: 0 0 14px
+		&:hover
+			color: #333
+	.box-text
+		max-height: 156px
+		overflow: hidden
+		line-height: 1.25
+	.link
+		margin: 10px 0 0	

@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>О компании</title>
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+	<!-- add plugins css -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+	<!-- add plugins css end -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="header-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+
+				<div class="btn-burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="nav-menu__close"></div>
+			<div class="container">
+				<nav class="nav-menu">
+
+					<ul class="menu my-ul">
+						<li><a href="index.html">Главная страница</a></li>
+						<li><a href="about.html">О компании</a></li>
+						<li><a href="category.html">Категории</a></li>
+						<li class="dropdown"><a href="services.html" class="dropdown-toggle">Услуги</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Услуги 1</a>
+								<a href="#" class="dropdown-item">Услуги 2</a>
+								<a href="#" class="dropdown-item">Услуги 3</a>
+								<a href="#" class="dropdown-item">Услуги 4</a>
+								<a href="#" class="dropdown-item">Услуги 5</a>
+								<a href="#" class="dropdown-item">Услуги 6</a>
+								<a href="#" class="dropdown-item">Услуги 7</a>
+							</div>
+						</li>
+						<li class="dropdown"><a href="news.html" class="dropdown-toggle">Статьи</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Услуги 1</a>
+								<a href="#" class="dropdown-item">Услуги 2</a>
+								<a href="#" class="dropdown-item">Услуги 3</a>
+								<a href="#" class="dropdown-item">Услуги 4</a>
+								<a href="#" class="dropdown-item">Услуги 5</a>
+								<a href="#" class="dropdown-item">Услуги 6</a>
+								<a href="#" class="dropdown-item">Услуги 7</a>
+							</div>
+						</li>
+						<li><a href="contacts.html">Контакты</a></li>
+						<li><a href="warranty.html">Гарантии</a></li>
+						<li><a href="projects.html">Проекты домов</a></li>
+						<li><a href="project-page.html">Проект дома single</a></li>
+						<li><a href="credits.html">Кредит</a></li>
+					</ul>
+				</nav>
+
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567" class="list-messanger__phone"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="home-page home-about">
+		<div class="container">
+			<ul class="breadcrumb my-ul">
+				<li><a href="index.html">Главная</a></li>
+				<li><span>О компании</span></li>
+			</ul>
+			<div class="home-content">
+				<h1>Наша цель – сделать строительство
+					дома самым счастливым моментом
+					в вашей жизни!</h1>
+			</div>
+		</div>
+	</section>
+
+	<div class="article-section m-100">
+		<div class="container">
+			<div class="article-description">
+				<p>Говоря о нашей строительной, в первую очередь хочется отметить нашу основную ценность – наши сотрудники, в
+					числе которых
+					находятся опытные архитекторы, менеджеры, прорабы и конечно же строители! В нашей компании собраны сотрудники
+					с более
+					чем десятилетним стажем работы в сфере загородного домостроения. Благодаря накопленному опыту и знаниям в этой
+					сфере, мы
+					успешно воплощаем в жизнь мечты наших заказчиков о своем собственном, теплом, красивом и уютном загородном
+					доме.</p>
+
+				<p>Обладая знаниями различных тонкостей и нюансов в строительстве домов по каркасной технологии, мы помогаем
+					сделать нашим
+					заказчикам правильный выбор во всем многообразии предлагаемых строительных материалах и технических решениях.
+				</p>
+
+				<p>Основным принципом работы нашей компании было выбрано не количество, а качество выполняемых проектов! Мы с
+					радостью
+					готовы реализовать как наши типовые, так и индивидуальные проекты. По желанию заказчика, наши архитекторы
+					помогут внести
+					все необходимые изменения и дополнения к типовому проекту или разработают новый.</p>
+
+				<p>В своей работе мы используем только качественные материалы от проверенных поставщиков так как дорожим своей
+					репутацией и
+					даем гарантию на все выполненные работы. Индивидуальный подход к каждому заказчику позволяет спроектировать и
+					построить
+					дом, удобный для проживания каждого члена семьи, который будет радовать много десятилетий!</p>
+
+				<p>Цель нашей компании- построить именно тот дом, который нужен нашему заказчику. Специалисты компании
+					«СК-Лидер» возьмут
+					на себя все работы, связанные с проектированием, подготовкой документов и возведением дома. Вам останется лишь
+					наслаждаться результатом!</p>
+			</div>
+
+		</div>
+	</div>
+
+	<section class="about-advantages bg-grey">
+		<div class="container">
+			<h2 class="text-center">9 причин доверить нам строительство</h2>
+
+			<div class="w-100">
+				<div class="row">
+					<div class="col-3 mb-75">
+						<div class="about-advantages-box">
+							<div class="about-advantages-box__head">
+								<div class="about-advantages-box__icon"><img src="img/adv-about1.png" alt=""></div>
+								<h3>Контроль качества</h3>
+							</div>
+							<div class="about-advantages-box__body">
+								<div class="box-text">
+									<p>
+										На всех этапах строительства мы производим технический контроль, соблюдение технологии строительства
+										и качество
+										используемых материалов.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-75">
+						<div class="about-advantages-box">
+							<div class="about-advantages-box__head">
+								<div class="about-advantages-box__icon"><img src="img/adv-about2.png" alt=""></div>
+								<h3>Лучшая цена</h3>
+							</div>
+							<div class="about-advantages-box__body">
+								<div class="box-text">
+									<p>
+										В нашей компании вы можете заказать дом по очень привлекательной цене, без переплат и наценок. Наши
+										цены порадуют
+										каждого, кто мечтает о собственном,комфортном и теплом доме.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-75">
+						<div class="about-advantages-box">
+							<div class="about-advantages-box__head">
+								<div class="about-advantages-box__icon"><img src="img/adv-about3.png" alt=""></div>
+								<h3>Наши гарантии</h3>
+							</div>
+							<div class="about-advantages-box__body">
+								<div class="box-text">
+									<p>
+										Мы предоставляем гарантию до 10 лет, подтвержденную договором, на строительство каркасных домов. Так
+										же, возводим
+										качественные строения быстро,согласно указанным срокам в договоре, не зависимо от времени года.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-75">
+						<div class="about-advantages-box">
+							<div class="about-advantages-box__head">
+								<div class="about-advantages-box__icon"><img src="img/adv-about4.png" alt=""></div>
+								<h3>Большой опыт
+									строительства</h3>
+							</div>
+							<div class="about-advantages-box__body">
+								<div class="box-text">
+									<p>
+										Более 10-и лет мы занимаемся строительством каркасных домов под ключ, наши проекты и цены дают
+										возможность нашим
+										клиентам подобрать лучший и выгодный вариант, исходя из своих желаний и возможностей</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-75">
+						<div class="about-advantages-box">
+							<div class="about-advantages-box__head">
+								<div class="about-advantages-box__icon"><img src="img/adv-about5.png" alt=""></div>
+								<h3>Фиксированная
+									цена</h3>
+							</div>
+							<div class="about-advantages-box__body">
+								<div class="box-text">
+									<p>
+										При заказе любого проекта наши клиенты могут быть уверены, что по окончанию строительных работ его
+										цена останется
+										неизменной. Первоначальная стоимость фиксируется в договоре, обеспечивая спокойствие наших
+										заказчиков.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-75">
+						<div class="about-advantages-box">
+							<div class="about-advantages-box__head">
+								<div class="about-advantages-box__icon"><img src="img/adv-about6.png" alt=""></div>
+								<h3>Продуманные
+									планировки</h3>
+							</div>
+							<div class="about-advantages-box__body">
+								<div class="box-text">
+									<p>
+										Нашими архитекторами разработано большое количество проектов для комфортного проживания, все дома
+										имеют удобную
+										планировку. Также мы занимаемся проектированием по индивидуальным эскизам, полностью отвечающие
+										требованиям клиента.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-75">
+						<div class="about-advantages-box">
+							<div class="about-advantages-box__head">
+								<div class="about-advantages-box__icon"><img src="img/adv-about7.png" alt=""></div>
+								<h3>Полная
+									комплектация</h3>
+							</div>
+							<div class="about-advantages-box__body">
+								<div class="box-text">
+									<p>
+										Мы предлагаем нашим клиентам три варианта комплектаций для каждого проекта, включающих в себя лучшие
+										материалы,
+										необходимые для создания прочного и надежного дома. Выбирая любую комплектацию, наши заказчики
+										получают готовый дом под
+										ключ без дополнительно навязанных <strong>услуг.</strong></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-75">
+						<div class="about-advantages-box">
+							<div class="about-advantages-box__head">
+								<div class="about-advantages-box__icon"><img src="img/adv-about8.png" alt=""></div>
+								<h3>Превосходное
+									качество материалов</h3>
+							</div>
+							<div class="about-advantages-box__body">
+								<div class="box-text">
+									<p>
+										Мы используем тщательно отобранные, натуральные, экологически чистые струганые пиломатериалы
+										камерной сушки, гарантируя
+										безопасность, надежность и долговечность каждого построенного нами дома.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-75">
+						<div class="about-advantages-box">
+							<div class="about-advantages-box__head">
+								<div class="about-advantages-box__icon"><img src="img/adv-about9.png" alt=""></div>
+								<h3>Команда
+									профессионалов</h3>
+							</div>
+							<div class="about-advantages-box__body">
+								<div class="box-text">
+									<p>
+										В нашей команде работают только русские высококвалифицированные специалисты с большим опытом в
+										загородном каркасном
+										домостроении. При работе используется большое количество профессионального инструмента, что
+										позволяет выполнять работу
+										качественно и в срок</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="employee m-100">
+		<div class="container">
+			<h2 class="text-center">Наши сотрудники</h2>
+
+			<div class="section-subtext text-center">
+				<p>Сотрудники - ключевое звено нашей компании. У нас работают специалисты узкого и широкого профиля,
+					что позволяет обеспечить комплексный подход к решению задач.</p>
+				<p>Они знают, в каком направлении двигаться для лостижения нужного результата.</p>
+				<p>Связитесь с сотрудниками по контактам из карточек специалистов</p>
+			</div>
+
+			<div class="employee-slider">
+				<div class="slide">
+					<div class="employee-box">
+						<div class="employee-box__photo"><img src="img/employee1.jpg" alt=""></div>
+						<div class="employee-box__body">
+							<div class="box-text">
+								<p>Фамилия Имя</p>
+								<p>Ведущий специалист</p>
+								<a href="mailto:info@mail.ru" class="color-inherit">info@mail.ru</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="employee-box">
+						<div class="employee-box__photo"><img src="img/employee2.jpg" alt=""></div>
+						<div class="employee-box__body">
+							<div class="box-text">
+								<p>Фамилия Имя</p>
+								<p>Ведущий специалист</p>
+								<a href="mailto:info@mail.ru" class="color-inherit">info@mail.ru</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="employee-box">
+						<div class="employee-box__photo"><img src="img/employee3.jpg" alt=""></div>
+						<div class="employee-box__body">
+							<div class="box-text">
+								<p>Фамилия Имя</p>
+								<p>Ведущий специалист</p>
+								<a href="mailto:info@mail.ru" class="color-inherit">info@mail.ru</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="employee-box">
+						<div class="employee-box__photo"><img src="img/employee1.jpg" alt=""></div>
+						<div class="employee-box__body">
+							<div class="box-text">
+								<p>Фамилия Имя</p>
+								<p>Ведущий специалист</p>
+								<a href="mailto:info@mail.ru" class="color-inherit">info@mail.ru</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="callback-section callback-about callback-warranty m-100">
+		<div class="container">
+			<div class="callback-content">
+				<h2>Готовы узнать больше
+					о строительстве
+					вашего будущего дома?</h2>
+				<div class="box-text">
+					<p>Получите исчерпывающую консультацию</p>
+				</div>
+
+				<form method="post" class="form form-callback">
+
+					<label><input type="text" name="name" placeholder="Ваше имя"></label>
+
+					<label><input type="text" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+
+
+					<button type="submit" class="btn btn-accent btn-submit">Оставить заявку</button>
+				</form>
+
+				<ul class="list-messangers-call my-ul">
+					<li><a href="https://wa.me/79031234567" target="_blank" class="list-messangers-call-link link-whatsapp">
+							<span class="list-messangers-call__icon"><img src="img/whatsapp-call.png" alt=""></span><span
+								class="list-messangers-call__text">Написать в WhatsApp</span>
+						</a></li>
+					<li><a href="https://t.me/79031234567" target="_blank" class="list-messangers-call-link link-telegram">
+							<span class="list-messangers-call__icon"><img src="img/telegram-white.png" alt=""></span><span
+								class="list-messangers-call__text">Написать в Telegram</span>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="reviews-video">
+		<div class="container">
+			<h2 class="text-center">Отзывы наших клиентов</h2>
+
+			<div class="w-100">
+				<div class="row">
+					<div class="col-6 mb-50">
+						<a href="https://youtu.be/njX2bu-_Vw4?si=xvc9zVLIKCg3zKWe" class="reviews-video-box"
+							data-fancybox="reviews-video">
+							<img src="img/poster-reviews.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-6 mb-50">
+						<a href="https://youtu.be/njX2bu-_Vw4?si=xvc9zVLIKCg3zKWe" class="reviews-video-box" data-fancybox="reviews-video">
+							<img src="img/poster-reviews.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-6 mb-50">
+						<a href="https://youtu.be/njX2bu-_Vw4?si=xvc9zVLIKCg3zKWe" class="reviews-video-box" data-fancybox="reviews-video">
+							<img src="img/poster-reviews.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-6 mb-50">
+						<a href="https://youtu.be/njX2bu-_Vw4?si=xvc9zVLIKCg3zKWe" class="reviews-video-box" data-fancybox="reviews-video">
+							<img src="img/poster-reviews.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<a href="projects.html" class="btn btn-accent btn-all">Все отзывы</a>
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+
+				<div class="footer-wrapper">
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">О компании</a></li>
+							<li><a href="category.html" class="h3">Категории</a></li>
+							<li><a href="category.html">Категория 1</a></li>
+							<li><a href="category.html">Категория 2</a></li>
+							<li><a href="category.html">Категория 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">Услуги</a></li>
+							<li><a href="service.html">Услуга 1</a></li>
+							<li><a href="service.html">Услуга 2</a></li>
+							<li><a href="service.html">Услуга 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="news.html" class="h3">Статьи</a></li>
+							<li><a href="article.html">Статья 1</a></li>
+							<li><a href="article.html">Статья 2</a></li>
+							<li><a href="article.html">Статья 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="contacts.html" class="h3">Контакты</a></li>
+							<li><a href="warranty.html" class="h3">Гарантии</a></li>
+							<li><a href="projects.html" class="h3">Проекты домов</a></li>
+							<li><a href="project-page.html" class="h3">Проект дома single</a></li>
+							<li><a href="credits.html" class="h3">Кредит</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-contacts">
+					<a href="tel:+74951234567" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/phone-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">+7 (495) 123-45-67</span>
+					</a>
+					<a href="mailto:info@mail.ru" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/mail.png" alt=""></span>
+						<span class="footer-contacts-link__text">info@mail.ru</span>
+					</a>
+					<a href="#" target="_blank" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/location-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">Открытое шоссе 15</span>
+					</a>
+				</div>
+
+				<div class="payments-box">
+					<p>Принимаем к оплате</p>
+					<div class="payments-box__icon">
+						<img src="img/payments.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<a href="#" class="link-documents color-accent" target="_blank">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</footer>
+
+
+	<a href="#" class="fixed-btn fixed-btn-whatsapp"><img src="img/whatsapp-call.png" alt=""></a>
+	<a href="#" class="fixed-btn fixed-btn-chat"><img src="img/chat-icon.png" alt=""></a>
+
+	<!--модалное окно-->
+	<div class="modal__div" id="callback__modal">
+		<div class="modal__wrapper">
+			<div class="modal__close"></div>
+			<div class="modal-title">Обратный звонок</div>
+
+			<form method="post" class="modal-form">
+
+				<label><input type="text" name="name" placeholder="Ваше имя"></label>
+
+				<label><input type="text" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+
+
+				<button type="submit" class="btn btn-accent btn-submit">Отправить</button>
+			</form>
+		</div>
+	</div>
+	<!-- Пoдлoжкa -->
+	<div class="overlay"></div>
+
+	<!-- add plugins js-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+	<!-- add plugins js end-->
+
+	<script src="js/common.js"></script>
+
+</body>
+
+</html>
