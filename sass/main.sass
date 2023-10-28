@@ -502,7 +502,6 @@
 		font-weight: bold
 		margin: 0 auto 25px
 
-
 .useful-articles-box
 	width: 100%
 	&__img
@@ -530,4 +529,143 @@
 		overflow: hidden
 		line-height: 1.25
 	.link
-		margin: 10px 0 0	
+		margin: 10px 0 0
+
+// contacts
+.home-contacts
+	background: url('../img/contacts-home-bg.jpg') no-repeat center
+	background-size: cover
+	.text-description
+		margin: 20px 0 30px
+		font-weight: 500
+		max-width: 344px
+
+.welcome
+	.box-text
+		margin: 20px 0
+
+.welcome-map
+	width: calc(100% - 365px)
+	height: 363px
+	iframe
+		width: 100%
+		height: 100%
+
+.welcome-content
+	max-width: 365px
+	padding: 0 65px 0 0
+
+.contacts-box
+	margin: 0 0 50px
+	font-size: 18px
+	color: #343434
+	h3
+		margin: 0 0 20px
+		text-transform: uppercase
+		font-weight: bold
+		color: $blue
+
+// category
+.home-category
+	background: url('../img/category-home-bg.jpg') no-repeat center
+	background-size: cover
+	.home-content
+		max-width: 470px
+	.form
+		margin: 30px 0 0
+
+.category-section
+	margin: 34px 0 0
+	.nav-pagination
+		margin: 0 auto 0
+	.tabs
+		margin: 0 0 30px	
+
+.card-product
+	width: 100%
+	&__img
+		position: relative
+		z-index: 1
+		width: 100%
+		height: 360px
+		overflow: hidden
+		border-radius: 5px
+		background-color: #e6e6e6
+		img
+			width: 100%
+			height: 100%
+			object-fit: cover
+		&::before
+			content: ''
+			position: absolute
+			left: 0
+			top: 0
+			width: 100%
+			height: 0
+			transition: .3s
+			opacity: 0.52
+			background-color: #060606
+	&__btn
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-50%)
+		opacity: 0
+	&:hover
+		.card-product__img
+			&::before
+				height: 100%
+		.card-product__btn
+			opacity: 1
+	&__characteristics
+		width: 100%
+		display: flex
+		align-items: flex-start
+		flex-wrap: wrap
+		margin: 20px 0 0
+		li
+			display: flex
+			align-items: end
+			margin: 0 20px 0 0
+			&:last-child
+				margin: 0
+		&-icon
+			margin: 0 10px 0 0
+	&__body
+		padding: 30px 0 0
+		width: 100%
+	&__title
+		text-transform: uppercase
+
+		color: $blue
+		&:hover
+			color: $accent
+	&__head
+		width: 100%
+		display: flex
+		align-items: center
+		justify-content: space-between
+		flex-wrap: wrap
+		font-weight: bold
+
+.category-filter-list
+	width: 100%
+	display: flex
+	align-items: start
+	flex-wrap: wrap
+	font-size: 12px
+	font-weight: 100
+	color: #464646
+	li
+		border-radius: 3px
+		border: solid 1px #dadada
+		background-color: #f2f2f2
+		cursor: pointer
+		margin: 0 8px 9px 0
+		padding: 5.5px 12px
+		transition: .3s
+		&:hover
+			background: $accent
+			color: #fff
+		&:last-child
+			margin: 0 0 9px

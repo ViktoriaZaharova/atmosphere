@@ -171,7 +171,7 @@ button:hover, button:focus, .btn:hover, .btn:focus {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  padding: 19px 12px;
+  padding: 16px 30px;
   font-size: 16px;
   border-radius: 5px;
   -webkit-transition: 0.3s ease;
@@ -301,6 +301,10 @@ ul, ol {
   max-width: 1170px;
 }
 
+.container-my {
+  max-width: 1170px;
+}
+
 .align-items-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -379,6 +383,10 @@ h2 {
 }
 
 .mb-75 {
+  margin-bottom: 35px;
+}
+
+.mb-80 {
   margin-bottom: 35px;
 }
 
@@ -851,4 +859,93 @@ h2 {
 }
 .list-checked .type-object-wrapper {
   margin: 67px 0 0;
+}
+
+.list-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.list-social li {
+  margin: 0 10px 0 0;
+}
+.list-social li:last-child {
+  margin: 0;
+}
+.list-social li a {
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.js-tab-content {
+  display: none;
+}
+.js-tab-content.active {
+  display: block;
+}
+
+.js-tab-trigger.active {
+  text-decoration: underline;
+  color: #212856;
+}
+
+.tabs {
+  width: 100%;
+}
+
+.tab-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.tab-content__title {
+  max-width: 113px;
+  width: 100%;
+}
+.tab-content__title h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #212856;
+}
+.tab-content__item {
+  width: calc(100% - 113px);
+}
+
+.tab-header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #212856;
+  font-size: 18px;
+  margin: 0 0 20px;
+}
+.tab-header li {
+  cursor: pointer;
+  margin: 0 0 10px;
 }

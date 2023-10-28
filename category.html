@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Категории домов</title>
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+	<!-- add plugins css -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+	<!-- add plugins css end -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="header-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+
+				<div class="btn-burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="nav-menu__close"></div>
+			<div class="container">
+				<nav class="nav-menu">
+
+					<ul class="menu my-ul">
+						<li><a href="index.html">Главная страница</a></li>
+						<li><a href="about.html">О компании</a></li>
+						<li><a href="category.html">Категории</a></li>
+						<li class="dropdown"><a href="services.html" class="dropdown-toggle">Услуги</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Услуги 1</a>
+								<a href="#" class="dropdown-item">Услуги 2</a>
+								<a href="#" class="dropdown-item">Услуги 3</a>
+								<a href="#" class="dropdown-item">Услуги 4</a>
+								<a href="#" class="dropdown-item">Услуги 5</a>
+								<a href="#" class="dropdown-item">Услуги 6</a>
+								<a href="#" class="dropdown-item">Услуги 7</a>
+							</div>
+						</li>
+						<li class="dropdown"><a href="news.html" class="dropdown-toggle">Статьи</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Услуги 1</a>
+								<a href="#" class="dropdown-item">Услуги 2</a>
+								<a href="#" class="dropdown-item">Услуги 3</a>
+								<a href="#" class="dropdown-item">Услуги 4</a>
+								<a href="#" class="dropdown-item">Услуги 5</a>
+								<a href="#" class="dropdown-item">Услуги 6</a>
+								<a href="#" class="dropdown-item">Услуги 7</a>
+							</div>
+						</li>
+						<li><a href="contacts.html">Контакты</a></li>
+						<li><a href="warranty.html">Гарантии</a></li>
+						<li><a href="projects.html">Проекты домов</a></li>
+						<li><a href="project-page.html">Проект дома single</a></li>
+						<li><a href="credits.html">Кредит</a></li>
+					</ul>
+				</nav>
+
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567" class="list-messanger__phone"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="home-page home-category">
+		<div class="container">
+			<ul class="breadcrumb my-ul">
+				<li><a href="index.html">Главная</a></li>
+				<li><span>Категории домов</span></li>
+			</ul>
+			<div class="home-content">
+				<h1>Строительство домов
+					за 4-5 млн. рублей</h1>
+
+				<form method="post" class="form">
+					<label><input type="text" placeholder="Имя" name="name"></label>
+					<label><input type="text" placeholder="+7 (___) ___-__-__" name="phone" required></label>
+					<button type="submit" class="btn btn-accent btn-call">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<div class="category-section">
+		<div class="container">
+			<div class="tabs">
+				<ul class="tab-header my-ul">
+					<li class="tab-header__item js-tab-trigger active" data-tab="1">Все</li>
+					<li class="tab-header__item js-tab-trigger" data-tab="2">Стоимость</li>
+					<li class="tab-header__item js-tab-trigger" data-tab="3">Колличество этажей</li>
+					<li class="tab-header__item js-tab-trigger" data-tab="4">Колличество спален</li>
+					<li class="tab-header__item js-tab-trigger" data-tab="5">Площадь</li>
+					<li class="tab-header__item js-tab-trigger" data-tab="6">Размер</li>
+					<li class="tab-header__item js-tab-trigger" data-tab="7">Особенности</li>
+					<li class="tab-header__item js-tab-trigger" data-tab="8">Стиль</li>
+					<li class="tab-header__item js-tab-trigger" data-tab="9">Форма</li>
+				</ul>
+
+				<div class="tab-content">
+					<div class="tab-content__title">
+						<h3>Категории:</h3>
+					</div>
+					<div class="tab-content__item js-tab-content active" data-tab="1">
+						<ul class="category-filter-list my-ul">
+							<li>До 4 млн. рублей</li>
+							<li>4-5 млн. рублей</li>
+							<li>5 - 6 млн. рублей</li>
+							<li>6 - 7 млн. рублей</li>
+							<li>7 - 8 млн. рублей</li>
+							<li>8 - 9 млн. рублей</li>
+							<li>
+								< 10 млн. рублей</li>
+						</ul>
+						<ul class="category-filter-list my-ul">
+							<li>1 этаж</li>
+							<li>1,5 этажа</li>
+							<li>2 этажа</li>
+						</ul>
+						<ul class="category-filter-list my-ul">
+							<li>1 спальня</li>
+							<li>2 спальни</li>
+							<li>3 спальни</li>
+							<li>4 спальни</li>
+							<li>5 спален</li>
+							<li>6 спален</li>
+						</ul>
+						<ul class="category-filter-list my-ul">
+							<li>До 100 м<sup>2</sup></li>
+							<li>100 - 150 м<sup>2</sup></li>
+							<li>150 - 200 м<sup>2</sup></li>
+							<li>
+								< 200 м<sup>2</sup>
+							</li>
+						</ul>
+						<ul class="category-filter-list my-ul">
+							<li>6х12</li>
+							<li>7х8</li>
+							<li>7x9</li>
+							<li>7x11</li>
+							<li>6х12</li>
+							<li>8x9</li>
+							<li>8x10</li>
+							<li>8x11</li>
+							<li>8x12</li>
+							<li>9х9</li>
+							<li>9x10</li>
+							<li>9x11</li>
+							<li>9x12</li>
+							<li>9x14</li>
+							<li>9x15</li>
+							<li>9x17</li>
+							<li>10x10</li>
+							<li>10x11</li>
+							<li>10x12</li>
+							<li>10x14</li>
+							<li>11x12</li>
+							<li>11x13</li>
+							<li>11x14</li>
+							<li>11x15</li>
+							<li>11x23</li>
+							<li>12x13</li>
+							<li>12x17</li>
+							<li>13x14</li>
+							<li>13x15</li>
+							<li>13x16</li>
+							<li>14x14</li>
+							<li>14x16</li>
+							<li>15x17</li>
+							<li>16х18</li>
+						</ul>
+						<ul class="category-filter-list my-ul">
+							<li>С панорамными окнами</li>
+							<li>С гардеробной</li>
+							<li>С балконом</li>
+							<li>С мансардой</li>
+							<li>С гаражом</li>
+							<li>С 2 гаражами</li>
+							<li>С верандой</li>
+							<li>С террасой</li>
+							<li>С крыльцом</li>
+							<li>С котельнольной</li>
+							<li>2 санузла</li>
+							<li>3 санузла</li>
+							<li>Сезонное проживание</li>
+							<li>Круглогодичное проживание</li>
+							<li>Дачные дома</li>
+							<li>Для узких участков</li>
+						</ul>
+					</div>
+					<div class="tab-content__item js-tab-content" data-tab="2">
+						<ul class="category-filter-list my-ul">
+							<li>До 4 млн. рублей</li>
+							<li>4-5 млн. рублей</li>
+							<li>5 - 6 млн. рублей</li>
+							<li>6 - 7 млн. рублей</li>
+							<li>7 - 8 млн. рублей</li>
+							<li>8 - 9 млн. рублей</li>
+							<li>
+								< 10 млн. рублей</li>
+						</ul>
+						
+					</div>
+					<div class="tab-content__item js-tab-content" data-tab="3">
+						<ul class="category-filter-list my-ul">
+							<li>1 этаж</li>
+							<li>1,5 этажа</li>
+							<li>2 этажа</li>
+						</ul>
+					</div>
+					<div class="tab-content__item js-tab-content" data-tab="4">
+						<ul class="category-filter-list my-ul">
+							<li>1 спальня</li>
+							<li>2 спальни</li>
+							<li>3 спальни</li>
+							<li>4 спальни</li>
+							<li>5 спален</li>
+							<li>6 спален</li>
+						</ul>
+					</div>
+					<div class="tab-content__item js-tab-content" data-tab="5">
+						<ul class="category-filter-list my-ul">
+							<li>До 100 м<sup>2</sup></li>
+							<li>100 - 150 м<sup>2</sup></li>
+							<li>150 - 200 м<sup>2</sup></li>
+							<li>
+								< 200 м<sup>2</sup>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-content__item js-tab-content" data-tab="6">
+						<ul class="category-filter-list my-ul">
+							<li>6х12</li>
+							<li>7х8</li>
+							<li>7x9</li>
+							<li>7x11</li>
+							<li>6х12</li>
+							<li>8x9</li>
+							<li>8x10</li>
+							<li>8x11</li>
+							<li>8x12</li>
+							<li>9х9</li>
+							<li>9x10</li>
+							<li>9x11</li>
+							<li>9x12</li>
+							<li>9x14</li>
+							<li>9x15</li>
+							<li>9x17</li>
+							<li>10x10</li>
+							<li>10x11</li>
+							<li>10x12</li>
+							<li>10x14</li>
+							<li>11x12</li>
+							<li>11x13</li>
+							<li>11x14</li>
+							<li>11x15</li>
+							<li>11x23</li>
+							<li>12x13</li>
+							<li>12x17</li>
+							<li>13x14</li>
+							<li>13x15</li>
+							<li>13x16</li>
+							<li>14x14</li>
+							<li>14x16</li>
+							<li>15x17</li>
+							<li>16х18</li>
+						</ul>
+					</div>
+					<div class="tab-content__item js-tab-content" data-tab="7">
+						<ul class="category-filter-list my-ul">
+							<li>С панорамными окнами</li>
+							<li>С гардеробной</li>
+							<li>С балконом</li>
+							<li>С мансардой</li>
+							<li>С гаражом</li>
+							<li>С 2 гаражами</li>
+							<li>С верандой</li>
+							<li>С террасой</li>
+							<li>С крыльцом</li>
+							<li>С котельнольной</li>
+							<li>2 санузла</li>
+							<li>3 санузла</li>
+							<li>Сезонное проживание</li>
+							<li>Круглогодичное проживание</li>
+							<li>Дачные дома</li>
+							<li>Для узких участков</li>
+						</ul>
+					</div>
+					<div class="tab-content__item js-tab-content" data-tab="8">8</div>
+					<div class="tab-content__item js-tab-content" data-tab="9">9</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container container-my">
+			<div class="w-100">
+				<div class="row">
+					<div class="col-3 mb-80">
+						<div class="card-product">
+							<a href="project-page.html" class="card-product__img">
+								<img src="img/product1.jpg" alt="">
+								<span class="btn btn-border-white card-product__btn">подробнее</span>
+							</a>
+							<div class="card-product__body">
+								<div class="card-product__head">
+									<a href="project-page.html" class="card-product__title">Название</a>
+									<div class="price">от 3440000 руб.</div>
+								</div>
+								<ul class="card-product__characteristics my-ul">
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+										<div class="card-product__characteristics-text">110 кв.м</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+										<div class="card-product__characteristics-text">2</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+										<div class="card-product__characteristics-text">1</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-80">
+						<div class="card-product">
+							<a href="project-page.html" class="card-product__img">
+								<img src="img/product1.jpg" alt="">
+								<span class="btn btn-border-white card-product__btn">подробнее</span>
+							</a>
+							<div class="card-product__body">
+								<div class="card-product__head">
+									<a href="project-page.html" class="card-product__title">Название</a>
+									<div class="price">от 3440000 руб.</div>
+								</div>
+								<ul class="card-product__characteristics my-ul">
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+										<div class="card-product__characteristics-text">110 кв.м</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+										<div class="card-product__characteristics-text">2</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+										<div class="card-product__characteristics-text">1</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-80">
+						<div class="card-product">
+							<a href="project-page.html" class="card-product__img">
+								<img src="img/product1.jpg" alt="">
+								<span class="btn btn-border-white card-product__btn">подробнее</span>
+							</a>
+							<div class="card-product__body">
+								<div class="card-product__head">
+									<a href="project-page.html" class="card-product__title">Название</a>
+									<div class="price">от 3440000 руб.</div>
+								</div>
+								<ul class="card-product__characteristics my-ul">
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+										<div class="card-product__characteristics-text">110 кв.м</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+										<div class="card-product__characteristics-text">2</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+										<div class="card-product__characteristics-text">1</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-80">
+						<div class="card-product">
+							<a href="project-page.html" class="card-product__img">
+								<img src="img/product1.jpg" alt="">
+								<span class="btn btn-border-white card-product__btn">подробнее</span>
+							</a>
+							<div class="card-product__body">
+								<div class="card-product__head">
+									<a href="project-page.html" class="card-product__title">Название</a>
+									<div class="price">от 3440000 руб.</div>
+								</div>
+								<ul class="card-product__characteristics my-ul">
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+										<div class="card-product__characteristics-text">110 кв.м</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+										<div class="card-product__characteristics-text">2</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+										<div class="card-product__characteristics-text">1</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-80">
+						<div class="card-product">
+							<a href="project-page.html" class="card-product__img">
+								<img src="img/product1.jpg" alt="">
+								<span class="btn btn-border-white card-product__btn">подробнее</span>
+							</a>
+							<div class="card-product__body">
+								<div class="card-product__head">
+									<a href="project-page.html" class="card-product__title">Название</a>
+									<div class="price">от 3440000 руб.</div>
+								</div>
+								<ul class="card-product__characteristics my-ul">
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+										<div class="card-product__characteristics-text">110 кв.м</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+										<div class="card-product__characteristics-text">2</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+										<div class="card-product__characteristics-text">1</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-80">
+						<div class="card-product">
+							<a href="project-page.html" class="card-product__img">
+								<img src="img/product1.jpg" alt="">
+								<span class="btn btn-border-white card-product__btn">подробнее</span>
+							</a>
+							<div class="card-product__body">
+								<div class="card-product__head">
+									<a href="project-page.html" class="card-product__title">Название</a>
+									<div class="price">от 3440000 руб.</div>
+								</div>
+								<ul class="card-product__characteristics my-ul">
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+										<div class="card-product__characteristics-text">110 кв.м</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+										<div class="card-product__characteristics-text">2</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+										<div class="card-product__characteristics-text">1</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<nav class="nav-pagination">
+				<ul class="pagination my-ul">
+					<li><a href="#" class="pagination-arrow"><img src="img/double-arrow-left.png" alt=""></a></li>
+					<li><a href="#" class="pagination-arrow"><img src="img/arrow-left.png" alt=""></a></li>
+					<li><a href="#" class="active">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#" class="pagination-arrow"><img src="img/arrow-right.png" alt=""></a></li>
+					<li><a href="#" class="pagination-arrow"><img src="img/double-arrow-right.png" alt=""></a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+
+
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+
+				<div class="footer-wrapper">
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">О компании</a></li>
+							<li><a href="category.html" class="h3">Категории</a></li>
+							<li><a href="category.html">Категория 1</a></li>
+							<li><a href="category.html">Категория 2</a></li>
+							<li><a href="category.html">Категория 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">Услуги</a></li>
+							<li><a href="service.html">Услуга 1</a></li>
+							<li><a href="service.html">Услуга 2</a></li>
+							<li><a href="service.html">Услуга 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="news.html" class="h3">Статьи</a></li>
+							<li><a href="article.html">Статья 1</a></li>
+							<li><a href="article.html">Статья 2</a></li>
+							<li><a href="article.html">Статья 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="contacts.html" class="h3">Контакты</a></li>
+							<li><a href="warranty.html" class="h3">Гарантии</a></li>
+							<li><a href="projects.html" class="h3">Проекты домов</a></li>
+							<li><a href="project-page.html" class="h3">Проект дома single</a></li>
+							<li><a href="credits.html" class="h3">Кредит</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-contacts">
+					<a href="tel:+74951234567" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/phone-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">+7 (495) 123-45-67</span>
+					</a>
+					<a href="mailto:info@mail.ru" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/mail.png" alt=""></span>
+						<span class="footer-contacts-link__text">info@mail.ru</span>
+					</a>
+					<a href="#" target="_blank" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/location-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">Открытое шоссе 15</span>
+					</a>
+				</div>
+
+				<div class="payments-box">
+					<p>Принимаем к оплате</p>
+					<div class="payments-box__icon">
+						<img src="img/payments.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<a href="#" class="link-documents color-accent" target="_blank">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</footer>
+
+
+	<a href="#" class="fixed-btn fixed-btn-whatsapp"><img src="img/whatsapp-call.png" alt=""></a>
+	<a href="#" class="fixed-btn fixed-btn-chat"><img src="img/chat-icon.png" alt=""></a>
+
+	<!--модалное окно-->
+	<div class="modal__div" id="callback__modal">
+		<div class="modal__wrapper">
+			<div class="modal__close"></div>
+			<div class="modal-title">Обратный звонок</div>
+
+			<form method="post" class="modal-form">
+
+				<label><input type="text" name="name" placeholder="Ваше имя"></label>
+
+				<label><input type="text" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+
+
+				<button type="submit" class="btn btn-accent btn-submit">Отправить</button>
+			</form>
+		</div>
+	</div>
+	<!-- Пoдлoжкa -->
+	<div class="overlay"></div>
+
+	<!-- add plugins js-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+	<!-- add plugins js end-->
+
+	<script src="js/common.js"></script>
+
+</body>
+
+</html>

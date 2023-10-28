@@ -56,6 +56,20 @@ Fancybox.bind("[data-fancybox]", {
 	// Your custom options
 });
 
+// показать карточку товара по наведению в зависимости от значениея data-tab
+$(document).ready(function () {
+	$(".js-tab-trigger").click(function () {
+		var id = $(this).attr('data-tab'),
+			content = $(this).parents('.tabs').find('.js-tab-content[data-tab="' + id + '"]');
+
+		$(this).parents('.tabs').find('.js-tab-trigger.active').removeClass('active'); // 1
+		$(this).addClass('active'); // 2
+
+		$(this).parents('.tabs').find('.js-tab-content.active').removeClass('active'); // 3
+		content.addClass('active'); // 4
+	});
+});
+
 // slick slider
 $('.employee-slider').slick({
 	slidesToShow: 3,
@@ -67,7 +81,7 @@ $('.employee-slider').slick({
 			breakpoint: 992,
 			settings: {
 				slidesToShow: 2,
-				
+
 			}
 		},
 		{
