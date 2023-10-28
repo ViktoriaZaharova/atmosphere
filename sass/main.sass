@@ -1,0 +1,238 @@
+@import "vars"
+
+// news
+.home-news
+	background: url('../img/news-home-bg.jpg') no-repeat center
+	background-size: cover
+	.form
+		max-width: 324px
+		margin: 47px 0 0
+		.btn-submit
+			margin: 48px 0 0
+	.text-description
+		max-width: 314px
+		margin: 18px 0 0
+
+.home-content
+	max-width: 458px
+
+.news
+	margin: 70px 0 0
+
+.news-wrapper
+	width: 100%
+
+.new-box
+	width: 100%
+	margin: 0 0 20px
+	padding: 0 0 20px
+	border-bottom: 1px solid #dadada
+	.btn
+		text-transform: none
+		padding: 14px 28px
+	&__head
+		margin: 0 0 15px
+	&__title
+		text-transform: uppercase
+		color: $blue
+		font-weight: 500
+		&:hover
+			color: $accent
+	&__body
+		width: 100%
+		display: flex
+		align-items: stretch
+		flex-wrap: wrap
+	&__img
+		@include d-flex
+		max-width: 380px
+		width: 100%
+		img
+			width: 100%
+			height: 100%
+			object-fit: cover
+	&__content
+		width: calc(100% - 380px)
+		padding: 0 0 0 20px
+		display: flex
+		flex-direction: column
+		.btn
+			margin: auto 0 0
+		.box-text
+			color: #464646
+			margin: 0 0 50px
+			max-height: 216px
+			overflow: hidden
+	&:last-child
+		border: none
+		padding: 0
+		margin: 0
+
+	.date
+		margin: 15px 0 10px
+		color: #464646
+
+// article
+.home-article
+	background: url('../img/article-home-bg.jpg') no-repeat center
+	background-size: cover
+	.home-content
+		max-width: 600px
+		height: 100%
+
+.special-text
+	padding: 40px 96px 46px 16px
+	background: #e6e6e6
+	border-left: 3px solid $blue
+
+
+.category-house
+	margin: 30px 0 0
+	.row
+		margin: 0 -15px
+
+.category-house-box
+	width: 100%
+	height: 100%
+	position: relative
+	z-index: 1
+	background: #dfdfdf
+	border-radius: 10px
+	color: #fff
+	font-size: 18px
+	&__img
+		position: relative
+		width: 100%
+		height: 260px
+		border-radius: 10px 10px 0 0
+		overflow: hidden
+		@include d-flex
+		img
+			width: 100%
+			height: 100%
+			object-fit: cover
+		&::before
+			content: ''
+			position: absolute
+			left: 0
+			top: 0
+			opacity: 0.52
+			background-color: #060606
+			width: 100%
+			height: 0
+			transition: .3s
+			z-index: 1
+	&__btn
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		padding: 10px 20px
+		font-size: 18px
+		z-index: 1
+		opacity: 0
+	&__body
+		width: 100%
+		background: $accent
+		padding: 22px 32px
+		border-radius: 0 0 10px 10px
+		display: flex
+	&__title
+		max-width: 160px
+	&:hover
+		.category-house-box
+			&__btn
+				opacity: 1
+			&__img
+				&::before
+					height: 100%
+
+.type-variable-text
+	color: $blue
+	font-weight: 500
+	text-align: center
+	margin: 0 auto
+	max-width: 495px
+	text-transform: uppercase
+
+.type-object-wrapper
+	width: 100%
+	display: flex
+	align-items: flex-start
+	justify-content: space-between
+	flex-wrap: wrap
+	margin: 30px 0 0
+
+.type-object-box
+	margin: 0 0 30px
+	max-width: 390px
+	width: 100%
+	&__img
+		width: 100%
+		height: 217px
+		@include d-flex
+		background: #e6e6e6
+		overflow: hidden
+		border-radius: 5px
+	&__body
+		padding: 30px 0 0
+		width: 100%
+	&__name
+		text-transform: uppercase
+		color: $blue
+		font-weight: bold
+		margin: 0 0 20px
+
+.callback-article
+	background: #e6e6e6 url('../img/callback-bg2.png') no-repeat right center
+	background-size: 1348px
+	padding: 65px 0
+	.box-text
+		font-size: 22px
+
+	.callback-content
+		max-width: 455px
+
+.form-callback
+	margin: 30px 0 0
+	max-width: 324px
+	.btn-submit
+		border: none
+		padding: 17px 50px
+		text-transform: none
+
+.list-messangers-call
+	margin: 30px 0 0
+	li
+		margin: 0 0 30px 0
+		&:last-child
+			margin: 0
+	&-link
+		display: flex
+		align-items: center
+		padding: 10px
+		max-width: 228px
+		min-width: 228px
+		width: 100%
+		height: 51px
+		color: #fff
+		border-radius: 5px
+
+		&:hover
+			background: $accent
+			color: #fff
+	&__icon
+		@include d-flex
+		width: 30px
+		margin: 0 10px 0 0
+
+.link-whatsapp
+	background: #33ae4b
+
+.link-telegram
+	background: #34a4de
+
+// warranty
+.home-warranty
+	.btn-callback
+		margin: 50px 0 0	

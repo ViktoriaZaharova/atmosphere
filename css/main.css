@@ -1,0 +1,338 @@
+.home-news {
+  background: url("../img/news-home-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+.home-news .form {
+  max-width: 324px;
+  margin: 47px 0 0;
+}
+.home-news .form .btn-submit {
+  margin: 48px 0 0;
+}
+.home-news .text-description {
+  max-width: 314px;
+  margin: 18px 0 0;
+}
+
+.home-content {
+  max-width: 458px;
+}
+
+.news {
+  margin: 70px 0 0;
+}
+
+.news-wrapper {
+  width: 100%;
+}
+
+.new-box {
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 0 0 20px;
+  border-bottom: 1px solid #dadada;
+}
+.new-box .btn {
+  text-transform: none;
+  padding: 14px 28px;
+}
+.new-box__head {
+  margin: 0 0 15px;
+}
+.new-box__title {
+  text-transform: uppercase;
+  color: #0e63a6;
+  font-weight: 500;
+}
+.new-box__title:hover {
+  color: #212856;
+}
+.new-box__body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.new-box__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 380px;
+  width: 100%;
+}
+.new-box__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.new-box__content {
+  width: calc(100% - 380px);
+  padding: 0 0 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.new-box__content .btn {
+  margin: auto 0 0;
+}
+.new-box__content .box-text {
+  color: #464646;
+  margin: 0 0 50px;
+  max-height: 216px;
+  overflow: hidden;
+}
+.new-box:last-child {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.new-box .date {
+  margin: 15px 0 10px;
+  color: #464646;
+}
+
+.home-article {
+  background: url("../img/article-home-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+.home-article .home-content {
+  max-width: 600px;
+  height: 100%;
+}
+
+.special-text {
+  padding: 40px 96px 46px 16px;
+  background: #e6e6e6;
+  border-left: 3px solid #0e63a6;
+}
+
+.category-house {
+  margin: 30px 0 0;
+}
+.category-house .row {
+  margin: 0 -15px;
+}
+
+.category-house-box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  background: #dfdfdf;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+.category-house-box__img {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.category-house-box__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.category-house-box__img::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.52;
+  background-color: #060606;
+  width: 100%;
+  height: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 1;
+}
+.category-house-box__btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  font-size: 18px;
+  z-index: 1;
+  opacity: 0;
+}
+.category-house-box__body {
+  width: 100%;
+  background: #212856;
+  padding: 22px 32px;
+  border-radius: 0 0 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.category-house-box__title {
+  max-width: 160px;
+}
+.category-house-box:hover .category-house-box__btn {
+  opacity: 1;
+}
+.category-house-box:hover .category-house-box__img::before {
+  height: 100%;
+}
+
+.type-variable-text {
+  color: #0e63a6;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 495px;
+  text-transform: uppercase;
+}
+
+.type-object-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 30px 0 0;
+}
+
+.type-object-box {
+  margin: 0 0 30px;
+  max-width: 390px;
+  width: 100%;
+}
+.type-object-box__img {
+  width: 100%;
+  height: 217px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #e6e6e6;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.type-object-box__body {
+  padding: 30px 0 0;
+  width: 100%;
+}
+.type-object-box__name {
+  text-transform: uppercase;
+  color: #0e63a6;
+  font-weight: bold;
+  margin: 0 0 20px;
+}
+
+.callback-article {
+  background: #e6e6e6 url("../img/callback-bg2.png") no-repeat right center;
+  background-size: 1348px;
+  padding: 65px 0;
+}
+.callback-article .box-text {
+  font-size: 22px;
+}
+.callback-article .callback-content {
+  max-width: 455px;
+}
+
+.form-callback {
+  margin: 30px 0 0;
+  max-width: 324px;
+}
+.form-callback .btn-submit {
+  border: none;
+  padding: 17px 50px;
+  text-transform: none;
+}
+
+.list-messangers-call {
+  margin: 30px 0 0;
+}
+.list-messangers-call li {
+  margin: 0 0 30px 0;
+}
+.list-messangers-call li:last-child {
+  margin: 0;
+}
+.list-messangers-call-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  max-width: 228px;
+  min-width: 228px;
+  width: 100%;
+  height: 51px;
+  color: #fff;
+  border-radius: 5px;
+}
+.list-messangers-call-link:hover {
+  background: #212856;
+  color: #fff;
+}
+.list-messangers-call__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30px;
+  margin: 0 10px 0 0;
+}
+
+.link-whatsapp {
+  background: #33ae4b;
+}
+
+.link-telegram {
+  background: #34a4de;
+}
+
+.home-warranty .btn-callback {
+  margin: 50px 0 0;
+}

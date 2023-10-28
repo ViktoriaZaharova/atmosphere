@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Статьи</title>
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+	<!-- add plugins css -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+	<!-- add plugins css end -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="header-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+
+				<div class="btn-burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="nav-menu__close"></div>
+			<div class="container">
+				<nav class="nav-menu">
+
+					<ul class="menu my-ul">
+						<li><a href="index.html">Главная страница</a></li>
+						<li><a href="about.html">О компании</a></li>
+						<li><a href="category.html">Категории</a></li>
+						<li class="dropdown"><a href="services.html" class="dropdown-toggle">Услуги</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Услуги 1</a>
+								<a href="#" class="dropdown-item">Услуги 2</a>
+								<a href="#" class="dropdown-item">Услуги 3</a>
+								<a href="#" class="dropdown-item">Услуги 4</a>
+								<a href="#" class="dropdown-item">Услуги 5</a>
+								<a href="#" class="dropdown-item">Услуги 6</a>
+								<a href="#" class="dropdown-item">Услуги 7</a>
+							</div>
+						</li>
+						<li class="dropdown"><a href="news.html" class="dropdown-toggle">Статьи</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Услуги 1</a>
+								<a href="#" class="dropdown-item">Услуги 2</a>
+								<a href="#" class="dropdown-item">Услуги 3</a>
+								<a href="#" class="dropdown-item">Услуги 4</a>
+								<a href="#" class="dropdown-item">Услуги 5</a>
+								<a href="#" class="dropdown-item">Услуги 6</a>
+								<a href="#" class="dropdown-item">Услуги 7</a>
+							</div>
+						</li>
+						<li><a href="contacts.html">Контакты</a></li>
+						<li><a href="warranty.html">Гарантии</a></li>
+						<li><a href="projects.html">Проекты домов</a></li>
+						<li><a href="project-page.html">Проект дома single</a></li>
+						<li><a href="credits.html">Кредит</a></li>
+					</ul>
+				</nav>
+
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567" class="list-messanger__phone"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="home-page home-article">
+		<div class="container">
+			<ul class="breadcrumb my-ul">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="news.html">Статьи</a></li>
+				<li><span>Название статьи</span></li>
+			</ul>
+			<div class="home-content">
+				<h1>Особенности недвижимости
+					Какая она бывает?
+					Классификация домов</h1>
+
+			</div>
+		</div>
+	</section>
+
+	<div class="article-section m-100">
+		<div class="container">
+			<div class="article-description">
+				<p>Покупка жилья является одним из самых значимых и ответственных решений в нашей жизни. Для тех, кто мечтает о
+					собственном
+					доме, даче или коттедже, важно разобраться в терминологии и выбрать подходящий по всем параметрам вариант. В
+					данной
+					статье мы рассмотрим, что означает категория дома, дачи, коттеджи, и как правильно выбрать недвижимость,
+					соответствующую
+					вашим потребностям и желаниям.
+				</p>
+				<p>Категория дома, дачи, коттеджи – это классификация жилых объектов, которая учитывает их характеристики,
+					размеры,
+					материалы, тип и назначение. В зависимости от категории, недвижимость может иметь свои особенности и
+					преимущества.
+					Например, коттедж – это обычно отдельно стоящий частный жилой дом с участком земли, который имеет больше
+					пространства и
+					комфорта, чем квартира.</p>
+				<p>Выбор подходящего варианта из категории дома, дачи, коттеджи зависит от множества факторов. Одним из важных
+					аспектов
+					является ваш бюджет: купить коттедж может быть значительно дороже, чем приобрести квартиру. Также нужно
+					учитывать
+					количество членов семьи, планируемую площадь жилья, наличие участка земли и другие сопутствующие факторы,
+					включая личные
+					предпочтения и потребности.</p>
+
+
+				<div class="special-text">
+					<p>Необходимо тщательно изучить предложения на рынке недвижимости, сравнить разные варианты и отобрать самые
+						подходящие.
+						Важно также обратить внимание на месторасположение объекта: близость к городу, к магазинам, школам и детским
+						садам,
+						наличие парков и других объектов инфраструктуры могут быть ключевыми факторами при выборе категории дома,
+						дачи,
+						коттеджи.</p>
+				</div>
+			</div>
+
+			<div class="category-house w-100">
+				<div class="row">
+					<div class="col-6">
+						<a href="category.html" class="category-house-box">
+							<span class="category-house-box__img">
+								<img src="img/category1.jpg" alt="">
+								<span class="category-house-box__btn btn btn-border-white">подробнее</span>
+							</span>
+							<span class="category-house-box__body">
+								<span class="category-house-box__title">Дома <br>
+									из газобетона</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-6">
+						<a href="category.html" class="category-house-box">
+							<span class="category-house-box__img">
+								<img src="img/category2.jpg" alt="">
+								<span class="category-house-box__btn btn btn-border-white">подробнее</span>
+							</span>
+							<span class="category-house-box__body">
+								<span class="category-house-box__title">Дома <br>
+									из керамики</span>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="type-objects">
+		<div class="container">
+			<h2 class="text-center">Типы и особенности категории</h2>
+
+			<div class="section-subtext text-center">
+				<p>Категория «дома, дачи, коттеджи» включает в себя различные типы недвижимости,
+					предназначенные для проживания или отдыха.</p>
+				<p>Каждый тип имеет свои особенности, которые важно учитывать при выборе подходящего варианта.</p>
+			</div>
+
+			<div class="type-object-wrapper">
+				<div class="type-object-box">
+					<div class="type-object-box__img"></div>
+					<div class="type-object-box__body">
+						<div class="type-object-box__name">Дом</div>
+						<div class="box-text">
+							<p>
+								Дом представляет собой одноэтажное или многоэтажное строение, предназначенное для жилья. Главная
+								особенность дома —
+								наличие собственной территории и обособленности от других строений. Дом может быть отдельно стоящим или
+								встроенным в
+								жилой комплекс.</p>
+						</div>
+					</div>
+				</div>
+				<div class="type-object-box">
+					<div class="type-object-box__img"></div>
+					<div class="type-object-box__body">
+						<div class="type-object-box__name">Дача</div>
+						<div class="box-text">
+							<p>
+								Дача — это загородный дом, обычно небольших размеров, предназначенный для отдыха и проведения выходных
+								дней.
+								Располагается на приусадебном участке и имеет сад, огород или другие элементы ландшафта. Основная
+								особенность дачи —
+								удаленность от городской суеты и возможность проводить время на природе.</p>
+						</div>
+					</div>
+				</div>
+				<div class="type-object-box">
+					<div class="type-object-box__img"></div>
+					<div class="type-object-box__body">
+						<div class="type-object-box__name">Коттедж</div>
+						<div class="box-text">
+							<p>
+								Коттедж подразумевает более роскошное и просторное жилье, часто расположенное в жилых кварталах или
+								коттеджных поселках.
+								Коттедж обычно имеет собственный участок земли и более современные удобства, такие как гаражи, большой
+								сад и т.д.
+								Коттеджи часто выбираются для постоянного проживания.</p>
+						</div>
+					</div>
+				</div>
+				<div class="type-object-box">
+					<div class="type-object-box__img"></div>
+					<div class="type-object-box__body">
+						<div class="type-object-box__name">Таунхаус</div>
+						<div class="box-text">
+							<p>
+								Таунхаус — это многоквартирное жилое здание, состоящее из нескольких отдельных домов, объединенных общей
+								стеной. Каждый
+								дом имеет свой отдельный вход и небольшой участок земли. Таунхаус часто имеет несколько этажей и
+								стильный дизайн.
+								Особенностью таунхауса является относительная независимость и возможность использования общей
+								инфраструктуры.</p>
+						</div>
+					</div>
+				</div>
+				<div class="type-object-box">
+					<div class="type-object-box__img"></div>
+					<div class="type-object-box__body">
+						<div class="type-object-box__name">Садовый домик</div>
+						<div class="box-text">
+							<p>
+								Садовый домик — это небольшое строение на участке в садовом товариществе или дачном кооперативе. Часто
+								используется для
+								проживания в теплое время года или для хранения садового инвентаря. Особенностью садового домика
+								является его
+								доступность по цене и возможность заниматься садоводством или огородничеством.</p>
+						</div>
+					</div>
+				</div>
+				<div class="type-object-box">
+					<div class="type-object-box__img"></div>
+					<div class="type-object-box__body">
+						<div class="type-object-box__name">Вилла</div>
+						<div class="box-text">
+							<p>
+								Вилла — это особняк, обычно находящийся на берегу моря или в эксклюзивных курортных районах. Виллы часто
+								имеют роскошный
+								дизайн, большой участок земли и высокий уровень комфорта. Виллы обычно арендуются на время отдыха или
+								используются в
+								качестве инвестиций.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="type-variable-text">
+				<p>Выбор типа и особенностей категории зависит <br>
+					от личных предпочтений, целей <br>
+					(проживание, отдых или инвестиции) и возможностей.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="callback-section callback-article m-100">
+		<div class="container">
+			<div class="callback-content">
+				<h2>нЕ знаете какой тип
+					дома выбрать?</h2>
+				<div class="box-text">
+					<p>Оставьте свои контакты
+						и получите исчерпывающую консультацию
+						Или напишите нам в WhatsApp
+						или в Telegram</p>
+				</div>
+
+				<form method="post" class="form form-callback">
+
+					<label><input type="text" name="name" placeholder="Ваше имя"></label>
+
+					<label><input type="text" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+
+
+					<button type="submit" class="btn btn-accent btn-submit">Оставить заявку</button>
+				</form>
+
+				<ul class="list-messangers-call my-ul">
+					<li><a href="https://wa.me/79031234567" target="_blank" class="list-messangers-call-link link-whatsapp">
+							<span class="list-messangers-call__icon"><img src="img/whatsapp-call.png" alt=""></span><span
+								class="list-messangers-call__text">Написать в WhatsApp</span>
+						</a></li>
+					<li><a href="https://t.me/79031234567" target="_blank" class="list-messangers-call-link link-telegram">
+							<span class="list-messangers-call__icon"><img src="img/telegram-white.png" alt=""></span><span
+								class="list-messangers-call__text">Написать в Telegram</span>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="location-section">
+		<div class="container">
+			<h2 class="text-center">Расположение важно для категории</h2>
+			<div class="box-text">
+				<p>Категория дома, дачи, коттеджи включает в себя различные варианты жилых объектов, которые могут находиться в
+					разных
+					местах. Расположение дома или коттеджа имеет большое значение при выборе подходящего варианта.
+				</p>
+				<p>Расположение можно разделить на несколько категорий:
+				</p>
+				<ul class="list-checked my-ul">
+					<li>Городское расположение
+					</li>
+					<li>Пригородное расположение</li>
+					<li>Загородное расположение</li>
+				</ul>
+
+				<p>Городское расположение подразумевает нахождение дома в городской среде, вблизи инфраструктуры, магазинов,
+					развлекательных центров и других удобств. Такое расположение может быть удобным для тех, кто предпочитает жить
+					в суете
+					города и иметь все необходимое под рукой.</p>
+				<p>Пригородное расположение предлагает более тихую и спокойную обстановку, часто с просторными участками земли.
+					В
+					пригороде
+					можно наслаждаться свежим воздухом и природой, при этом имея доступ к нужным объектам города.</p>
+				<p>Загородное расположение предоставляет возможность жить вдали от городской суеты, наслаждаться тишиной и
+					уединением.
+					Такое расположение популярно среди тех, кто ищет отдых и возможность проводить время на природе.</p>
+				<p>При выборе подходящего расположения для категории дома, дачи, коттеджи, важно учесть личные предпочтения и
+					потребности.
+					Некоторым людям важны развлекательные и коммерческие объекты, другим — природа и уединение. Также следует
+					учесть
+					доступность объектов инфраструктуры и транспортную доступность.</p>
+				<p>В итоге, правильно выбранное расположение дома или коттеджа может значительно повлиять на удовлетворение
+					потребностей и
+					комфорт проживания. Поэтому стоит тщательно взвесить все варианты и выбрать подходящее расположение для своих
+					потребностей и стиля жизни.</p>
+			</div>
+
+			<div class="category-house w-100">
+				<div class="row">
+					<div class="col-6">
+						<a href="category.html" class="category-house-box">
+							<span class="category-house-box__img">
+								<img src="img/category1.jpg" alt="">
+								<span class="category-house-box__btn btn btn-border-white">подробнее</span>
+							</span>
+							<span class="category-house-box__body">
+								<span class="category-house-box__title">Дома <br>
+									из газобетона</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-6">
+						<a href="category.html" class="category-house-box">
+							<span class="category-house-box__img">
+								<img src="img/category2.jpg" alt="">
+								<span class="category-house-box__btn btn btn-border-white">подробнее</span>
+							</span>
+							<span class="category-house-box__body">
+								<span class="category-house-box__title">Дома <br>
+									из керамики</span>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="infrastructure m-100">
+		<div class="container">
+			<h2 class="text-center">Инфраструктура вокруг категории</h2>
+			<div class="box-text">
+				<p>При выборе дома, дачи или коттеджа важно обратить внимание не только на само жилье, но и на инфраструктуру,
+					которая
+					расположена вокруг. Наличие различных удобств и сервисов может существенно повлиять на уровень комфорта и
+					удовлетворение
+					потребностей жителей.</p>
+
+				<p>Вот основные элементы инфраструктуры, которые следует учитывать при выборе категории дома или коттеджа:</p>
+
+				<ul class="my-ul list-indent">
+					<li><strong>Транспортная доступность:</strong> оцените близость жилья к автомобильным дорогам, общественному
+						транспорту (остановкам
+						автобусов, дачным поездам и т.д.), а также наличие парковок или гаражей для машин.</li>
+					<li><strong>Близость магазинов и супермаркетов:</strong> проверьте расстояние до ближайших магазинов,
+						супермаркетов и рынков, чтобы
+						иметь
+						возможность быстро и удобно снабжаться продуктами и необходимыми товарами.</li>
+					<li><strong>Медицинские учреждения:</strong> важно узнать о наличии больниц, поликлиник, аптек в ближайшей
+						окрестности, чтобы
+						обеспечить
+						доступ к медицинской помощи в случае необходимости.</li>
+					<li><strong>Образовательные учреждения:</strong> особенно важно для семей с детьми, узнайте о наличии детских
+						садов, школ и
+						университетов в
+						окрестностях, чтобы обеспечить удобное получение образования.</li>
+					<li><strong>Спортивные и развлекательные объекты:</strong> оцените близость к паркам, спортивным клубам,
+						бассейнам, театрам и
+						кинотеатрам,
+						чтобы иметь доступ к активному отдыху и культурным мероприятиям.</li>
+					<li><strong>Близость природных ресурсов:</strong> если вам важно наличие природных объектов, таких как реки,
+						озера, парки, леса,
+						убедитесь,
+						что они находятся в доступной близости.</li>
+				</ul>
+
+				<p>При выборе категории дома, дачи или коттеджа важно учесть все эти факторы и оценить, насколько они
+					соответствуют вашим
+					потребностям и предпочтениям. Удачного выбора!</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="sizing-objects m-100">
+		<div class="container">
+			<h2 class="text-center">Размеры объектов категории</h2>
+
+			<div class="box-text">
+				<p>В категории дома, дачи, коттеджи представлены различные объекты недвижимости, которые отличаются своими
+					размерами.
+					Размеры коттеджей и дач могут варьироваться в зависимости от планировки, материалов, стилей и других факторов.
+				</p>
+
+				<p>Ниже приведены примеры типовых размеров объектов категории:</p>
+
+				<ul class="list-checked my-ul">
+					<li>Коттеджи: могут иметь площадь от 100 до 500 квадратных метров. Такие дома обычно имеют несколько этажей и
+						предоставляют достаточно пространства для проживания нескольких семей.</li>
+					<li>Дачи: размер дач может варьироваться от небольших домиков площадью 30-50 квадратных метров до более
+						крупных
+						строений площадью до 200 квадратных метров. Дачи обычно служат как место отдыха и имеют сад или огород.</li>
+					<li>Дома: размеры домов могут быть разнообразными, в зависимости от типа и назначения. От небольших таунхаусов
+						с
+						площадью около 100 квадратных метров, до больших семейных домов площадью свыше 300 квадратных метров.</li>
+				</ul>
+
+				<p>Это всего лишь некоторые примеры типовых размеров объектов. В реальности размеры каждого отдельного объекта
+					могут сильно
+					отличаться от стандартных. При выборе недвижимости важно учитывать свои потребности и предпочтения, а также
+					сделать
+					осмотр объекта с целью оценки его реальных размеров.</p>
+
+				<p>С учетом указанных факторов, каждый покупатель может найти подходящий вариант недвижимости в категории дома,
+					дачи,
+					коттеджи, который соответствует требуемым размерам и позволит комфортно разместиться всей семье или гостям.
+				</p>
+			</div>
+			<div class="category-house w-100">
+				<div class="row">
+					<div class="col-6">
+						<a href="category.html" class="category-house-box">
+							<span class="category-house-box__img">
+								<img src="img/category1.jpg" alt="">
+								<span class="category-house-box__btn btn btn-border-white">подробнее</span>
+							</span>
+							<span class="category-house-box__body">
+								<span class="category-house-box__title">Дома <br>
+									из газобетона</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-6">
+						<a href="category.html" class="category-house-box">
+							<span class="category-house-box__img">
+								<img src="img/category2.jpg" alt="">
+								<span class="category-house-box__btn btn btn-border-white">подробнее</span>
+							</span>
+							<span class="category-house-box__body">
+								<span class="category-house-box__title">Дома <br>
+									из керамики</span>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="safety">
+		<div class="container">
+			<h2 class="text-center">Безопасность в категории дома, дачи, коттеджи</h2>
+			<div class="box-text">
+				<p>Безопасность в категории дома, дачи, коттеджи является одним из важнейших аспектов при выборе жилья. Ведь дом
+					должен
+					быть не только уютным и комфортным местом, но и предоставлять надежную защиту для его обитателей.</p>
+
+				<p>При выборе дома, дачи или коттеджа следует обратить внимание на ряд факторов, связанных с безопасностью:</p>
+
+				<ul class="my-ul">
+					<li><strong>Расположение и окружение.</strong> Исследуйте близлежащую инфраструктуру и уровень преступности в
+						районе, где находится объект
+						недвижимости. Обратите внимание на наличие охраны, видеонаблюдения, ограждений.</li>
+					<li><strong>Системы безопасности.</strong> Узнайте, есть ли в доме или на территории комплекса системы безопасности, такие как
+						системы
+						сигнализации, видеонаблюдение, контроль доступа.</li>
+						<li><strong>Окна и двери.</strong> Проверьте качество и надежность окон и дверей. Убедитесь, что они имеют хорошие замки и
+						возможность
+						использования дополнительных средств защиты, таких как решетки или пленка против проникновения.</li>
+						<li><strong>Пожарная безопасность.</strong> Узнайте о наличии системы пожарной безопасности, пожарных извещателей, датчиков утечки
+						газа.
+						Проверьте состояние и исправность электропроводки.</li>
+						<li><strong>Вода и газ.</strong> Проверьте качество водоснабжения и систему отопления. Важно, чтобы были установлены счетчики воды и
+						газа, а
+						также предусмотрена система автоматического отключения при аварийных ситуациях.</li>
+						<li><strong>Экстренные выходы.</strong> Убедитесь, что дом или коттедж имеет достаточное количество аварийных выходов и путей
+						эвакуации.
+						Знайте, где находятся пожарные гидранты и огнетушители.</li>
+						<li><strong>Территория и ограда.</strong> Осмотрите территорию вокруг дома, проверьте состояние ограды и наличие освещения на улице.</li>
+				</ul>
+
+				<p>Важным моментом при выборе жилья в категории дома, дачи, коттеджи является соблюдение норм и правил
+				безопасности. Не
+				стоит забывать и о личной ответственности каждого члена семьи.</p>
+
+				<p>Запомните, безопасность – это залог спокойствия и комфорта в вашем доме!</p>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+
+				<div class="footer-wrapper">
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">О компании</a></li>
+							<li><a href="category.html" class="h3">Категории</a></li>
+							<li><a href="category.html">Категория 1</a></li>
+							<li><a href="category.html">Категория 2</a></li>
+							<li><a href="category.html">Категория 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">Услуги</a></li>
+							<li><a href="service.html">Услуга 1</a></li>
+							<li><a href="service.html">Услуга 2</a></li>
+							<li><a href="service.html">Услуга 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="news.html" class="h3">Статьи</a></li>
+							<li><a href="article.html">Статья 1</a></li>
+							<li><a href="article.html">Статья 2</a></li>
+							<li><a href="article.html">Статья 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="contacts.html" class="h3">Контакты</a></li>
+							<li><a href="warranty.html" class="h3">Гарантии</a></li>
+							<li><a href="projects.html" class="h3">Проекты домов</a></li>
+							<li><a href="project-page.html" class="h3">Проект дома single</a></li>
+							<li><a href="credits.html" class="h3">Кредит</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-contacts">
+					<a href="tel:+74951234567" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/phone-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">+7 (495) 123-45-67</span>
+					</a>
+					<a href="mailto:info@mail.ru" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/mail.png" alt=""></span>
+						<span class="footer-contacts-link__text">info@mail.ru</span>
+					</a>
+					<a href="#" target="_blank" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/location-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">Открытое шоссе 15</span>
+					</a>
+				</div>
+
+				<div class="payments-box">
+					<p>Принимаем к оплате</p>
+					<div class="payments-box__icon">
+						<img src="img/payments.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<a href="#" class="link-documents color-accent" target="_blank">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</footer>
+
+
+	<a href="#" class="fixed-btn fixed-btn-whatsapp"><img src="img/whatsapp-call.png" alt=""></a>
+	<a href="#" class="fixed-btn fixed-btn-chat"><img src="img/chat-icon.png" alt=""></a>
+
+	<!--модалное окно-->
+	<div class="modal__div" id="callback__modal">
+		<div class="modal__wrapper">
+			<div class="modal__close"></div>
+			<div class="modal-title">Обратный звонок</div>
+
+			<form method="post" class="modal-form">
+
+				<label><input type="text" name="name" placeholder="Ваше имя"></label>
+
+				<label><input type="text" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+
+
+				<button type="submit" class="btn btn-accent btn-submit">Отправить</button>
+			</form>
+		</div>
+	</div>
+	<!-- Пoдлoжкa -->
+	<div class="overlay"></div>
+
+	<!-- add plugins js-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+	<!-- add plugins js end-->
+
+	<script src="js/common.js"></script>
+
+</body>
+
+</html>
