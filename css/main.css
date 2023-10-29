@@ -1,7 +1,110 @@
+.list-advantages-home {
+  margin: 20px 0 30px;
+}
+
 .callback-section {
   background: #e6e6e6 url("../img/callback-bg1.png") no-repeat right center;
   background-size: 1207px;
   padding: 80px 0;
+}
+
+.construction-house {
+  margin: 80px 0 70px;
+}
+.construction-house h2 {
+  margin: 0 auto 20px;
+}
+.construction-house .section-subtext {
+  max-width: 755px;
+}
+
+.check-list-section {
+  background: #ebeaea url("../img/check-list-bg.png") no-repeat right center;
+  background-size: 770px;
+  padding: 60px 0;
+}
+.check-list-section h2 {
+  margin: 0 0 30px;
+  max-width: 500px;
+}
+.check-list-section__content {
+  max-width: 690px;
+  width: 100%;
+}
+.check-list-section .btn {
+  margin: 24px 0 0;
+}
+
+.popular-projects {
+  margin: 30px 0 40px;
+}
+.popular-projects .section-subtext {
+  max-width: 620px;
+  margin: 0 auto 30px;
+}
+
+.advantages-company {
+  padding: 77px 0 10px;
+}
+
+.advantages-company-box {
+  text-align: center;
+  max-width: 205px;
+  width: 100%;
+  margin: 0 auto;
+}
+.advantages-company-box__icon {
+  margin: 0 auto 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.advantages-company-box h3 {
+  min-height: 32px;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  color: #0e63a6;
+  font-weight: bold;
+}
+
+.callback-work {
+  background: url("../img/callback-bg.jpg") no-repeat center;
+  background-size: cover;
+  padding: 60px 0;
+  color: #fff;
+}
+.callback-work h2 {
+  color: #fff;
+}
+.callback-work__content {
+  max-width: 500px;
+}
+.callback-work .section-subtext {
+  margin: 20px 0 30px;
+  max-width: 380px;
+}
+
+.callback-price {
+  overflow: hidden;
+  padding: 80px 0 90px;
+  background: #fefefe url("../img/calculate-bg.png") no-repeat right center;
+  background-size: 917px;
+}
+.callback-price__content {
+  max-width: 515px;
+}
+.callback-price .section-subtext {
+  max-width: 395px;
+}
+
+.link-page {
+  margin: 0 auto;
 }
 
 .home-news {
@@ -544,6 +647,7 @@
 .employee .section-subtext {
   margin: 0 auto 50px;
   max-width: 805px;
+  font-size: 16px;
 }
 
 .employee-box {

@@ -484,7 +484,7 @@
     margin: 0 0 100px;
   }
   .category-house {
-    margin: 30px 0 0;
+    margin: 50px 0 0;
   }
   .sizing-objects .category-house, .article-section .category-house {
     margin: 100px 0 0;
@@ -586,5 +586,48 @@
   }
   .catalog-content {
     padding: 0 0 0 53px;
+  }
+  .list-advantages-home {
+    margin: 130px 0 60px;
+  }
+  .section-subtext {
+    font-size: 24px;
+  }
+  .popular-projects {
+    margin: 75px 0 100px;
+  }
+  .popular-projects .section-subtext {
+    font-size: 22px;
+    margin: 0 auto 50px;
+  }
+  .popular-projects h2 {
+    margin: 0 auto 40px;
+  }
+  .advantages-company-box__icon {
+    margin: 0 auto 24px;
+  }
+  .advantages-company-box h3 {
+    margin: 0 0 30px;
+  }
+  .mb-100 {
+    margin-bottom: 100px;
+  }
+  .callback-work {
+    padding: 145px 0 120px;
+  }
+  .callback-work .section-subtext {
+    margin: 26px 0 71px;
+  }
+  .callback-work .btn {
+    font-size: 22px;
+    padding: 12px 38px;
+  }
+  .callback-price .section-subtext {
+    font-size: 22px;
+    margin: 45px 0 55px;
+  }
+  .label-file {
+    font-size: 24px;
+    font-weight: 100;
   }
 }

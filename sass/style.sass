@@ -290,6 +290,9 @@ h2
 .mb-80
 	margin-bottom: 35px
 
+.mb-100
+	margin-bottom: 35px
+
 .m-auto
 	margin: 0 auto
 
@@ -303,6 +306,12 @@ h2
 	font-weight: 500
 	&.m-auto
 		margin: 0 auto
+
+.text-transform
+	text-transform: uppercase
+
+.text-decoration
+	text-decoration: underline	
 
 .breadcrumb
 	width: 100%
@@ -358,6 +367,8 @@ h2
 		color: #ccc
 
 .home-page
+	background: url('../img/home-bg.jpg') no-repeat center
+	background-size: cover
 	padding: 126px 0 68px
 	color: #fff
 	mix-blend-mode: multiply
@@ -371,6 +382,7 @@ h2
 		font-weight: 500
 	.home-content
 		height: 100%
+		max-width: 630px
 		display: flex
 		flex-direction: column
 		justify-content: center
@@ -384,6 +396,10 @@ h2
 				color: #fff
 	.text-description
 		margin: 10px 0 20px
+
+.form-callback
+	.btn
+		min-width: 228px
 
 .box-text
 	line-height: 1.25
@@ -813,3 +829,20 @@ h2
 	color: #a3a3a3
 	&::placeholder
 		color: #a3a3a3
+
+.label-file
+	display: flex
+	align-items: center
+	font-size: 18px
+	color: #464646
+	cursor: pointer
+	&__icon
+		width: 35px
+		margin: 0 30px 0 0
+		@include d-flex
+	&__text
+		width: calc(100% - 35px)
+		padding: 0 0 8px
+		border-bottom: 1px solid $accent
+	input
+		display: none
