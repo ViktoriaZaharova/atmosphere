@@ -181,6 +181,30 @@
   .credit-steps-box:nth-child(even) .credit-steps-box__body {
     max-width: none;
   }
+  .sidebar-projects {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 5;
+    border-radius: 0;
+    padding: 30px 20px;
+    display: none;
+  }
+  .catalog-content {
+    width: 100%;
+    padding: 0;
+  }
+  .filter-wrapper {
+    padding: 10px;
+  }
+  .filter-wrapper .form-search {
+    width: 100%;
+    margin: 10px 0 0;
+    max-width: none;
+  }
 }
 @media only screen and (max-width: 768px) {
   .header-top .phone-wrapper {
@@ -414,6 +438,9 @@
   .home-page .text-description {
     margin: 18px 0 50px;
   }
+  .home-page .form {
+    margin: 50px 0 0;
+  }
   .header-bottom .header-box, .header-bottom .btn-callback {
     display: none;
   }
@@ -547,5 +574,17 @@
   }
   .question {
     padding: 75px 0 80px;
+  }
+  .filter-wrapper {
+    margin: 0 0 140px;
+  }
+  .btn-filter {
+    display: none;
+  }
+  .sidebar-head {
+    display: none;
+  }
+  .catalog-content {
+    padding: 0 0 0 53px;
   }
 }

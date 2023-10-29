@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Проекты домов</title>
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+	<!-- add plugins css -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+	<!-- add plugins css end -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="header-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+
+				<div class="btn-burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="nav-menu__close"></div>
+			<div class="container">
+				<nav class="nav-menu">
+
+					<ul class="menu my-ul">
+						<li><a href="index.html">Главная страница</a></li>
+						<li><a href="about.html">О компании</a></li>
+						<li><a href="category.html">Категории</a></li>
+						<li class="dropdown"><a href="services.html" class="dropdown-toggle">Услуги</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Услуги 1</a>
+								<a href="#" class="dropdown-item">Услуги 2</a>
+								<a href="#" class="dropdown-item">Услуги 3</a>
+								<a href="#" class="dropdown-item">Услуги 4</a>
+								<a href="#" class="dropdown-item">Услуги 5</a>
+								<a href="#" class="dropdown-item">Услуги 6</a>
+								<a href="#" class="dropdown-item">Услуги 7</a>
+							</div>
+						</li>
+						<li class="dropdown"><a href="news.html" class="dropdown-toggle">Статьи</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Услуги 1</a>
+								<a href="#" class="dropdown-item">Услуги 2</a>
+								<a href="#" class="dropdown-item">Услуги 3</a>
+								<a href="#" class="dropdown-item">Услуги 4</a>
+								<a href="#" class="dropdown-item">Услуги 5</a>
+								<a href="#" class="dropdown-item">Услуги 6</a>
+								<a href="#" class="dropdown-item">Услуги 7</a>
+							</div>
+						</li>
+						<li><a href="contacts.html">Контакты</a></li>
+						<li><a href="warranty.html">Гарантии</a></li>
+						<li><a href="projects.html">Проекты домов</a></li>
+						<li><a href="project-page.html">Проект дома single</a></li>
+						<li><a href="credits.html">Кредит</a></li>
+					</ul>
+				</nav>
+
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567" class="list-messanger__phone"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="home-page home-projects">
+		<div class="container">
+			<ul class="breadcrumb my-ul">
+				<li><a href="index.html">Главная</a></li>
+				<li><span>Проекты домов</span></li>
+			</ul>
+			<div class="home-content">
+				<h1>Строительство домов</h1>
+
+				<form method="post" class="form">
+					<label><input type="text" placeholder="Имя" name="name"></label>
+					<label><input type="text" placeholder="+7 (___) ___-__-__" name="phone" required></label>
+					<button type="submit" class="btn btn-accent btn-call">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<div class="catalog-projects">
+		<div class="container container-my">
+			<div class="sidebar sidebar-projects">
+				<div class="sidebar-head">
+					<h3>Фильтр</h3>
+					<div class="sidebar__close"></div>
+				</div>
+				
+				<div class="panel_heading panel_heading-sidebar">
+					<div class="block_title">
+						<h3>Цена, ₽</h3>
+						<div class="panel_heading-icon"></div>
+					</div>
+					<div class="block_hover">
+						<div class="polzunok-container polzunok-container-1">
+							<div class="polzunok polzunok-1"></div>
+							<div class="polzunok-input__wrapper">
+								<span>от</span>
+								<input type="text" class="polzunok-input polzunok-input-1-left" />
+							</div>
+							<div class="polzunok-input__wrapper">
+								<span>до</span>
+								<input type="text" class="polzunok-input polzunok-input-1-right " />
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="panel_heading panel_heading-sidebar">
+					<div class="block_title">
+						<h3>Этажность</h3>
+						<div class="panel_heading-icon"></div>
+					</div>
+					<div class="block_hover">
+						<ul class="list-checkbox-filter my-ul">
+							<li>
+								<label class="label-checkbox">
+									<input type="checkbox" name="checkbox" class="inp-check" checked>
+									<span class="checkbox-custom"></span>
+									<span class="checkbox-text">1 этаж</span>
+								</label>
+							</li>
+							<li>
+								<label class="label-checkbox">
+									<input type="checkbox" name="checkbox" class="inp-check">
+									<span class="checkbox-custom"></span>
+									<span class="checkbox-text">1,5 этажа</span>
+								</label>
+							</li>
+							<li>
+								<label class="label-checkbox">
+									<input type="checkbox" name="checkbox" class="inp-check">
+									<span class="checkbox-custom"></span>
+									<span class="checkbox-text">2 этажа</span>
+								</label>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="panel_heading panel_heading-sidebar">
+					<div class="block_title">
+						<h3>Площадь дома, кв.м.</h3>
+						<div class="panel_heading-icon"></div>
+					</div>
+					<div class="block_hover">
+						<div class="polzunok-container polzunok-container-2">
+							<div class="polzunok polzunok-2"></div>
+							<div class="polzunok-input__wrapper">
+								<span>от</span>
+								<input type="text" class="polzunok-input polzunok-input-2-left" />
+							</div>
+							<div class="polzunok-input__wrapper">
+								<span>до</span>
+								<input type="text" class="polzunok-input polzunok-input-2-right " />
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="panel_heading panel_heading-sidebar">
+					<div class="block_title">
+						<h3>кол-во спален</h3>
+						<div class="panel_heading-icon"></div>
+					</div>
+					<div class="block_hover">
+						<ul class="list-checkbox-filter my-ul">
+							<li>
+								<label class="label-checkbox">
+									<input type="checkbox" name="checkbox" class="inp-check" checked>
+									<span class="checkbox-custom"></span>
+									<span class="checkbox-text">1</span>
+								</label>
+							</li>
+							<li>
+								<label class="label-checkbox">
+									<input type="checkbox" name="checkbox" class="inp-check">
+									<span class="checkbox-custom"></span>
+									<span class="checkbox-text">2</span>
+								</label>
+							</li>
+							<li>
+								<label class="label-checkbox">
+									<input type="checkbox" name="checkbox" class="inp-check">
+									<span class="checkbox-custom"></span>
+									<span class="checkbox-text">3</span>
+								</label>
+							</li>
+							<li>
+								<label class="label-checkbox">
+									<input type="checkbox" name="checkbox" class="inp-check">
+									<span class="checkbox-custom"></span>
+									<span class="checkbox-text">4</span>
+								</label>
+							</li>
+							<li>
+								<label class="label-checkbox">
+									<input type="checkbox" name="checkbox" class="inp-check">
+									<span class="checkbox-custom"></span>
+									<span class="checkbox-text">5</span>
+								</label>
+							</li>
+							<li>
+								<label class="label-checkbox">
+									<input type="checkbox" name="checkbox" class="inp-check">
+									<span class="checkbox-custom"></span>
+									<span class="checkbox-text">6</span>
+								</label>
+							</li>
+							<li>
+								<label class="label-checkbox">
+									<input type="checkbox" name="checkbox" class="inp-check">
+									<span class="checkbox-custom"></span>
+									<span class="checkbox-text">7</span>
+								</label>
+							</li>
+							<li>
+								<label class="label-checkbox">
+									<input type="checkbox" name="checkbox" class="inp-check">
+									<span class="checkbox-custom"></span>
+									<span class="checkbox-text">8</span>
+								</label>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="catalog-content">
+				<div class="filter-wrapper">
+					<div class="sorting-box">
+						<p>Сортировка:</p>
+						<div class="dropdown dropdown-sorting">
+							<a href="#" class="dropdown-toggle">Сначала популярные</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item active">Сначала популярные</a>
+								<a href="#" class="dropdown-item">Сначала новые</a>
+								<a href="#" class="dropdown-item">Сначала дешевле</a>
+								<a href="#" class="dropdown-item">Сначала дороже</a>
+								<a href="#" class="dropdown-item">По увеличению площади</a>
+								<a href="#" class="dropdown-item">По уменьшению площади</a>
+							</div>
+						</div>
+					</div>
+
+					<a href="#" class="btn btn-accent btn-filter">
+						<img src="img/filter-icon.svg" alt="">
+						<span>Фильтр</span>
+					</a>
+
+					<form method="post" class="form-search">
+						<label><input type="text" placeholder="По названию" name="name"></label>
+						<button type="submit"><img src="img/search.png" alt=""></button>
+					</form>
+				</div>
+
+				<div class="w-100">
+					<div class="row">
+						<div class="col-6 mb-80">
+							<div class="card-product box-overlay">
+								<a href="project-page.html" class="card-product__img box-overlay__img">
+									<img src="img/product1.jpg" alt="">
+									<span class="btn btn-border-white card-product__btn box-overlay__btn">подробнее</span>
+								</a>
+								<div class="card-product__body">
+									<div class="card-product__head">
+										<a href="project-page.html" class="card-product__title">Название</a>
+										<div class="price">от 3440000 руб.</div>
+									</div>
+									<ul class="card-product__characteristics my-ul">
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+											<div class="card-product__characteristics-text">110 кв.м</div>
+										</li>
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+											<div class="card-product__characteristics-text">2</div>
+										</li>
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+											<div class="card-product__characteristics-text">1</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-6 mb-80">
+							<div class="card-product box-overlay">
+								<a href="project-page.html" class="card-product__img box-overlay__img">
+									<img src="img/product1.jpg" alt="">
+									<span class="btn btn-border-white card-product__btn box-overlay__btn">подробнее</span>
+								</a>
+								<div class="card-product__body">
+									<div class="card-product__head">
+										<a href="project-page.html" class="card-product__title">Название</a>
+										<div class="price">от 3440000 руб.</div>
+									</div>
+									<ul class="card-product__characteristics my-ul">
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+											<div class="card-product__characteristics-text">110 кв.м</div>
+										</li>
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+											<div class="card-product__characteristics-text">2</div>
+										</li>
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+											<div class="card-product__characteristics-text">1</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-6 mb-80">
+							<div class="card-product box-overlay">
+								<a href="project-page.html" class="card-product__img box-overlay__img">
+									<img src="img/product1.jpg" alt="">
+									<span class="btn btn-border-white card-product__btn box-overlay__btn">подробнее</span>
+								</a>
+								<div class="card-product__body">
+									<div class="card-product__head">
+										<a href="project-page.html" class="card-product__title">Название</a>
+										<div class="price">от 3440000 руб.</div>
+									</div>
+									<ul class="card-product__characteristics my-ul">
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+											<div class="card-product__characteristics-text">110 кв.м</div>
+										</li>
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+											<div class="card-product__characteristics-text">2</div>
+										</li>
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+											<div class="card-product__characteristics-text">1</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-6 mb-80">
+							<div class="card-product box-overlay">
+								<a href="project-page.html" class="card-product__img box-overlay__img">
+									<img src="img/product1.jpg" alt="">
+									<span class="btn btn-border-white card-product__btn box-overlay__btn">подробнее</span>
+								</a>
+								<div class="card-product__body">
+									<div class="card-product__head">
+										<a href="project-page.html" class="card-product__title">Название</a>
+										<div class="price">от 3440000 руб.</div>
+									</div>
+									<ul class="card-product__characteristics my-ul">
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+											<div class="card-product__characteristics-text">110 кв.м</div>
+										</li>
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+											<div class="card-product__characteristics-text">2</div>
+										</li>
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+											<div class="card-product__characteristics-text">1</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-6 mb-80">
+							<div class="card-product box-overlay">
+								<a href="project-page.html" class="card-product__img box-overlay__img">
+									<img src="img/product1.jpg" alt="">
+									<span class="btn btn-border-white card-product__btn box-overlay__btn">подробнее</span>
+								</a>
+								<div class="card-product__body">
+									<div class="card-product__head">
+										<a href="project-page.html" class="card-product__title">Название</a>
+										<div class="price">от 3440000 руб.</div>
+									</div>
+									<ul class="card-product__characteristics my-ul">
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+											<div class="card-product__characteristics-text">110 кв.м</div>
+										</li>
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+											<div class="card-product__characteristics-text">2</div>
+										</li>
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+											<div class="card-product__characteristics-text">1</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-6 mb-80">
+							<div class="card-product box-overlay">
+								<a href="project-page.html" class="card-product__img box-overlay__img">
+									<img src="img/product1.jpg" alt="">
+									<span class="btn btn-border-white card-product__btn box-overlay__btn">подробнее</span>
+								</a>
+								<div class="card-product__body">
+									<div class="card-product__head">
+										<a href="project-page.html" class="card-product__title">Название</a>
+										<div class="price">от 3440000 руб.</div>
+									</div>
+									<ul class="card-product__characteristics my-ul">
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+											<div class="card-product__characteristics-text">110 кв.м</div>
+										</li>
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+											<div class="card-product__characteristics-text">2</div>
+										</li>
+										<li>
+											<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+											<div class="card-product__characteristics-text">1</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<nav class="nav-pagination">
+					<ul class="pagination my-ul">
+						<li><a href="#" class="pagination-arrow"><img src="img/double-arrow-left.png" alt=""></a></li>
+						<li><a href="#" class="pagination-arrow"><img src="img/arrow-left.png" alt=""></a></li>
+						<li><a href="#" class="active">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#" class="pagination-arrow"><img src="img/arrow-right.png" alt=""></a></li>
+						<li><a href="#" class="pagination-arrow"><img src="img/double-arrow-right.png" alt=""></a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+
+				<div class="footer-wrapper">
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">О компании</a></li>
+							<li><a href="category.html" class="h3">Категории</a></li>
+							<li><a href="category.html">Категория 1</a></li>
+							<li><a href="category.html">Категория 2</a></li>
+							<li><a href="category.html">Категория 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">Услуги</a></li>
+							<li><a href="service.html">Услуга 1</a></li>
+							<li><a href="service.html">Услуга 2</a></li>
+							<li><a href="service.html">Услуга 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="news.html" class="h3">Статьи</a></li>
+							<li><a href="article.html">Статья 1</a></li>
+							<li><a href="article.html">Статья 2</a></li>
+							<li><a href="article.html">Статья 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="contacts.html" class="h3">Контакты</a></li>
+							<li><a href="warranty.html" class="h3">Гарантии</a></li>
+							<li><a href="projects.html" class="h3">Проекты домов</a></li>
+							<li><a href="project-page.html" class="h3">Проект дома single</a></li>
+							<li><a href="credits.html" class="h3">Кредит</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-contacts">
+					<a href="tel:+74951234567" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/phone-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">+7 (495) 123-45-67</span>
+					</a>
+					<a href="mailto:info@mail.ru" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/mail.png" alt=""></span>
+						<span class="footer-contacts-link__text">info@mail.ru</span>
+					</a>
+					<a href="#" target="_blank" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/location-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">Открытое шоссе 15</span>
+					</a>
+				</div>
+
+				<div class="payments-box">
+					<p>Принимаем к оплате</p>
+					<div class="payments-box__icon">
+						<img src="img/payments.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<a href="#" class="link-documents color-accent" target="_blank">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</footer>
+
+
+	<a href="#" class="fixed-btn fixed-btn-whatsapp"><img src="img/whatsapp-call.png" alt=""></a>
+	<a href="#" class="fixed-btn fixed-btn-chat"><img src="img/chat-icon.png" alt=""></a>
+
+	<!--модалное окно-->
+	<div class="modal__div" id="callback__modal">
+		<div class="modal__wrapper">
+			<div class="modal__close"></div>
+			<div class="modal-title">Обратный звонок</div>
+
+			<form method="post" class="modal-form">
+
+				<label><input type="text" name="name" placeholder="Ваше имя"></label>
+
+				<label><input type="text" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+
+
+				<button type="submit" class="btn btn-accent btn-submit">Отправить</button>
+			</form>
+		</div>
+	</div>
+	<!-- Пoдлoжкa -->
+	<div class="overlay"></div>
+
+	<!-- add plugins js-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+	<!-- add plugins js end-->
+
+	<script src="js/common.js"></script>
+
+</body>
+
+</html>

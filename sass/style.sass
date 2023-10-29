@@ -268,7 +268,7 @@ h2
 
 .col-6
 	width: 50%
-	padding: 0 15px
+	padding: 0 22px
 
 .col-3
 	width: 33.33%
@@ -291,10 +291,10 @@ h2
 	margin-bottom: 35px
 
 .m-auto
-	margin: 0 auto	
+	margin: 0 auto
 
 .d-inline
-	display: inline-block	
+	display: inline-block
 
 .btn-all
 	margin: 40px auto 0
@@ -375,7 +375,8 @@ h2
 		flex-direction: column
 		justify-content: center
 		margin: 0 0 20px
-	form
+	.form
+		margin: 20px 0 0
 		input
 			color: #fff
 			border-color: #fff
@@ -497,28 +498,26 @@ h2
 .label-checkbox
 	position: relative
 	display: flex
-	align-items: flex-start
-	color: rgba(255, 255, 255, 0.5)
-	font-size: 14px
-	margin: 15px 0 0
-	line-height: 1.14
-
-.inp-check
-	display: none
+	align-items: center
+	color: #464646
+	font-size: 16px
+	input
+		display: none
+		&:checked ~ .checkbox-custom
+			background: url("../img/check.png") no-repeat center
+			background-size: 11px
 
 .checkbox-custom
-	margin: 0 12px 0 0
+	margin: 0 20px 0 0
 	position: relative
-	border-radius: 6px
-	background-color: #fff
-	width: 16px
-	height: 16px
-	min-width: 16px
+	border-radius: 1px
+	border: solid 1px #dadada
+	background: transparent
+	width: 15px
+	height: 15px
+	min-width: 15px
 	cursor: pointer
 
-.inp-check:checked ~ .checkbox-custom
-	background: #fff url("../img/check-black.svg") no-repeat center
-	background-size: 8px
 //checkbox my end
 
 .text-description
@@ -711,3 +710,106 @@ h2
 		.box-overlay__img
 			&::before
 				height: 100%
+
+.form-search
+	position: relative
+	width: 100%
+	max-width: 268px
+	border-radius: 5px
+	border: solid 1px #dadada
+	background-color: #fff
+	input
+		width: 100%
+		border: none
+		color: #a3a3a3
+		font-size: 12px
+		font-weight: 500
+		padding: 0 13px
+		height: 41px
+		&::placeholder
+			color: #a3a3a3
+	label
+		margin: 0
+	[type='submit']
+		background: transparent
+		padding: 0
+		position: absolute
+		top: 50%
+		transform: translate(0,-50%)
+		right: 8px
+		width: 22px
+		height: 22px
+		@include d-flex
+
+.polzunok-container
+	width: 100%
+
+.polzunok
+	width: 100%
+	height: 1px
+	border: none
+	border-radius: 0
+	background: $accent
+	margin: 0 0 20px
+	&.ui-widget.ui-widget-content
+		border: none
+		background: $accent
+	.ui-slider-range
+		border-radius: 0
+	.ui-widget-header
+		background: $blue
+
+.ui-slider-handle
+	width: 7px
+	height: 7px
+	border: none
+	border-radius: 50%
+	background: $accent
+	outline: none
+	box-shadow: none
+	cursor: pointer
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active
+	border: none
+	background: $accent
+	width: 7px
+	height: 7px
+	top: -3px
+
+.ui-slider-horizontal .ui-slider-handle
+	margin-left: 0
+
+.polzunok-container
+	width: 100%
+	display: flex
+	align-items: flex-start
+	flex-wrap: wrap
+
+.polzunok-input__wrapper
+	position: relative
+	margin: 0 auto 0 0
+	width: calc(50% - 11px)
+	border-radius: 3px
+	border: solid 1px #dadada
+	background: #fff
+	padding: 3px 0
+	span
+		position: absolute
+		top: 6px
+		left: 10px
+		font-size: 12px
+		font-weight: 500
+		color: #dadada
+
+	&:last-child
+		margin: 0
+
+.polzunok-input
+	border: none
+	width: 100%
+	height: auto
+	padding: 0 0 0 30px
+	font-size: 12px
+	color: #a3a3a3
+	&::placeholder
+		color: #a3a3a3
