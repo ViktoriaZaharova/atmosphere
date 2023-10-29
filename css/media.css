@@ -339,7 +339,7 @@
   }
   h2 {
     font-size: 36px;
-    margin: 0 0 50px;
+    margin: 0 auto 50px;
   }
   .modal-title {
     font-size: 26px;
@@ -352,6 +352,9 @@
   }
   .home-page h1 {
     font-size: 44px;
+  }
+  .home-page .text-description {
+    margin: 18px 0 50px;
   }
   .header-bottom .header-box, .header-bottom .btn-callback {
     display: none;
@@ -410,10 +413,10 @@
   .callback-section .box-text {
     font-size: 22px;
   }
-  .works-box__name, .service-box__name, .card-product__name {
+  .works-box__name, .service-box__name, .card-product__name, .box-overlay__name {
     font-size: 22px;
   }
-  .works-box__btn, .service-box__btn, .card-product__btn {
+  .works-box__btn, .service-box__btn, .card-product__btn, .box-overlay__btn {
     font-size: 22px;
     padding: 20px 72px;
   }
@@ -477,5 +480,17 @@
   }
   .category-section .tabs {
     margin: 0 0 100px;
+  }
+  .payments-variable {
+    margin: 100px 0 60px;
+  }
+  .payments-variable-card__val {
+    font-size: 22px;
+  }
+  .type-object-wrapper {
+    margin: 67px 0 0;
+  }
+  .question {
+    padding: 75px 0 80px;
   }
 }

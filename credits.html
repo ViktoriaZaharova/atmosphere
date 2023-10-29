@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Кредит</title>
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+	<!-- add plugins css -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+	<!-- add plugins css end -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="header-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+
+				<div class="btn-burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="nav-menu__close"></div>
+			<div class="container">
+				<nav class="nav-menu">
+
+					<ul class="menu my-ul">
+						<li><a href="index.html">Главная страница</a></li>
+						<li><a href="about.html">О компании</a></li>
+						<li><a href="category.html">Категории</a></li>
+						<li class="dropdown"><a href="services.html" class="dropdown-toggle">Услуги</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Услуги 1</a>
+								<a href="#" class="dropdown-item">Услуги 2</a>
+								<a href="#" class="dropdown-item">Услуги 3</a>
+								<a href="#" class="dropdown-item">Услуги 4</a>
+								<a href="#" class="dropdown-item">Услуги 5</a>
+								<a href="#" class="dropdown-item">Услуги 6</a>
+								<a href="#" class="dropdown-item">Услуги 7</a>
+							</div>
+						</li>
+						<li class="dropdown"><a href="news.html" class="dropdown-toggle">Статьи</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Услуги 1</a>
+								<a href="#" class="dropdown-item">Услуги 2</a>
+								<a href="#" class="dropdown-item">Услуги 3</a>
+								<a href="#" class="dropdown-item">Услуги 4</a>
+								<a href="#" class="dropdown-item">Услуги 5</a>
+								<a href="#" class="dropdown-item">Услуги 6</a>
+								<a href="#" class="dropdown-item">Услуги 7</a>
+							</div>
+						</li>
+						<li><a href="contacts.html">Контакты</a></li>
+						<li><a href="warranty.html">Гарантии</a></li>
+						<li><a href="projects.html">Проекты домов</a></li>
+						<li><a href="project-page.html">Проект дома single</a></li>
+						<li><a href="credits.html">Кредит</a></li>
+					</ul>
+				</nav>
+
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567" class="list-messanger__phone"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="home-page home-credit">
+		<div class="container">
+			<ul class="breadcrumb my-ul">
+				<li><a href="index.html">Главная</a></li>
+				<li><span>Кредит</span></li>
+			</ul>
+			<div class="home-content">
+				<h1>Сколько будет стоить
+					ваш дом</h1>
+
+				<div class="text-description">
+					<p>Заполните форму <br>
+						и получите рассчет бесплатно</p>
+				</div>
+
+				<form method="post" class="form">
+					<label><input type="text" placeholder="Имя" name="name"></label>
+					<label><input type="text" placeholder="+7 (___) ___-__-__" name="phone" required></label>
+					<button type="submit" class="btn btn-accent btn-call">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<section class="payments-variable">
+		<div class="container container-my">
+			<h2 class="text-center">Работаем со всеми вариантами оплаты</h2>
+
+			<div class="w-100">
+				<div class="row">
+					<div class="col-25 mb-30">
+						<div class="payments-variable-card">
+							<div class="payments-variable-card__head">
+								<div class="payments-variable-card__title">максимальная сумма</div>
+								<div class="payments-variable-card__val">до 12 000 000 руб.</div>
+							</div>
+							<div class="payments-variable-card__img">
+								<img src="img/pay1.jpg" alt="">
+								<div class="payments-variable-card__body">
+									<div class="box-text">
+										<p>через материнский
+											капитал</p>
+									</div>
+								</div>
+							</div>
+
+
+							<a href="#callback__modal" class="btn btn-accent open_modal">Оставить заявку</a>
+						</div>
+					</div>
+					<div class="col-25 mb-30">
+						<div class="payments-variable-card">
+							<div class="payments-variable-card__head">
+								<div class="payments-variable-card__title">ставка по ипотеке</div>
+								<div class="payments-variable-card__val">до 3%</div>
+							</div>
+							<div class="payments-variable-card__img">
+								<img src="img/pay2.jpg" alt="">
+								<div class="payments-variable-card__body">
+									<div class="box-text">
+										<p>за наличные средства</p>
+									</div>
+								</div>
+							</div>
+
+
+							<a href="#callback__modal" class="btn btn-accent open_modal">Оставить заявку</a>
+						</div>
+					</div>
+					<div class="col-25 mb-30">
+						<div class="payments-variable-card">
+							<div class="payments-variable-card__head">
+								<div class="payments-variable-card__title">срок ипотеки</div>
+								<div class="payments-variable-card__val">до 30 лет</div>
+							</div>
+							<div class="payments-variable-card__img">
+								<img src="img/pay3.jpg" alt="">
+								<div class="payments-variable-card__body">
+									<div class="box-text">
+										<p>обменять на квартиру</p>
+									</div>
+								</div>
+							</div>
+
+
+							<a href="#callback__modal" class="btn btn-accent open_modal">Оставить заявку</a>
+						</div>
+					</div>
+					<div class="col-25 mb-30">
+						<div class="payments-variable-card">
+							<div class="payments-variable-card__head">
+								<div class="payments-variable-card__title">первый взнос</div>
+								<div class="payments-variable-card__val">от 10 %</div>
+							</div>
+							<div class="payments-variable-card__img">
+								<img src="img/pay4.jpg" alt="">
+								<div class="payments-variable-card__body">
+									<div class="box-text">
+										<p>*ипотека / рассрочка</p>
+									</div>
+								</div>
+							</div>
+
+							<a href="#callback__modal" class="btn btn-accent open_modal">Оставить заявку</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<ul class="list-bank my-ul">
+				<li><img src="img/bank1.png" alt=""></li>
+				<li><img src="img/bank2.png" alt=""></li>
+				<li><img src="img/bank3.png" alt=""></li>
+				<li><img src="img/bank4.png" alt=""></li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="about-credit bg-grey">
+		<div class="container">
+			<h2>Подробнее об Ипотеке на строительство дома</h2>
+			<div class="about-credit__content">
+				<div class="box-text">
+					<p>Покупка дома в ипотеку - это разумное решение в ситуации,
+						когда у вас нет достаточных накоплений для единовременной выплаты всей суммы,
+						необходимой для строительства дома.
+						В настоящее время многие банки регионов России предлагают специальные программы
+						ипотечного финансирования для строительства домов и коттеджей
+						с различными процентными ставками, сроками кредитования,
+						размерами первоначального взноса, условиями для заемщика.
+						Ипотека - это очень распространенный и часто используемый механизм,
+						т.к. по данным опросов, более 60% россиян хотят жить в собственном доме,
+						несмотря на то, что выплату всей суммы строительства позволить себе может не каждый.
+						Так одним из частых вариантов взятия ипотеки является
+						именно желание приобретения частного жилья - дома в вашей личной собственности,
+						обычно с небольшим участком и расположенного в закрытом поселке
+						или в экологически чистом районе, удаленном от шума города.</p>
+
+					<p>Наша компания предлагает своим клиентам различные способы оформления ипотеки
+						и помощь с ее получением по необходимости.
+						Мы предлагаем варианты строительства дома как за наличные,
+						через оформление ипотеки или рассрочки, так и через обмен квартиры,
+						использование материнского капитала.
+						Для уточнения всей интересующей вас информации обратитесь
+						по номеру телефона, указанному на сайте и наши менеджеры непременно вам помогут!</p>
+				</div>
+
+				<div class="about-credit-box">
+					<h3>Список документов, необходимых <br>
+						для оформления ипотеки на строительство дома:</h3>
+					<div class="box-text">
+						<ul class="list-check my-ul">
+							<li>Паспорт и копия паспорта гражданина Российской Федерации;</li>
+							<li>Копия трудовой книжки или контракта (для военнослужащих);</li>
+							<li>Подтверждение дохода согласно второй декларации по НДФЛ;</li>
+							<li>Справка о семейном положении (женат или разведен);</li>
+							<li>Свидетельства о рождении детей (при наличии);</li>
+							<li>Для предпринимателей и индивидуальных предпринимателей - декларация
+								о доходах за последний отчетный период;</li>
+							<li>Некоторые банки могут потребовать другие документы для ипотеки
+								на строительство дома, в этом случае лучше проконсультироваться
+								со специалистом конкретного банка.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="about-credit__img"><img src="img/credit-about.png" alt=""></div>
+	</section>
+
+	<section class="credit-steps m-100">
+		<div class="container">
+			<h2 class="text-center">Оформите ипотеку всего за 3 шага</h2>
+
+			<div class="credit-steps-wrapper">
+
+				<div class="credit-steps-box">
+					<div class="credit-steps-box__icon"><img src="img/credit-step1.png" alt=""></div>
+					<div class="credit-steps-box__body">
+						<h3>1 шаг</h3>
+						<div class="credit-steps-box__description">
+							<p>Выберите проект для строительства</p>
+						</div>
+						<div class="box-text">
+							<p>Выберите проект из нашего <a href="category.html" class="color-blue d-inline">каталога</a> или
+								свяжитесь с нами, чтобы наши специалисты могли предложить вам варианты</p>
+						</div>
+					</div>
+				</div>
+				<div class="credit-steps-box">
+					<div class="credit-steps-box__icon"><img src="img/credit-step2.png" alt=""></div>
+					<div class="credit-steps-box__body">
+						<h3>2 шаг</h3>
+						<div class="credit-steps-box__description">
+							<p>Выберите подходящие
+								условия кредитования</p>
+						</div>
+						<div class="box-text">
+							<p>Вы подаете заявку на получение ипотечного кредита.
+								Мы поможем вам правильно
+								оформить заявку, чтобы получить выгодные условия</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="credit-steps-box">
+					<div class="credit-steps-box__icon"><img src="img/credit-step3.png" alt=""></div>
+					<div class="credit-steps-box__body">
+						<h3>3 шаг</h3>
+						<div class="credit-steps-box__description">
+							<p>Оформление сделки</p>
+						</div>
+						<div class="box-text">
+							<p>Согласовываем все детали строительства и получаем одобрение банка. Как только ипотека одобрена, можно
+								приступать к
+								строительству</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="question bg-grey m-100">
+		<div class="container">
+			<h2 class="text-center">Ответы на частые вопросы
+				при оформлении ипотеки</h2>
+
+			<div class="panel_heading panel_heading-question">
+				<div class="block_title">
+					<div class="panel_heading-icon"></div>
+					<h3>Что такое ипотека?</h3>
+				</div>
+				<div class="block_hover">
+					<div class="box-text">
+						<p>Ипотеку на покупку квартиры или дома выдают физическим лицам, имеющим:</p>
+						<ul class="my-ul">
+							<li>- прописку на территории РФ;</li>
+							<li>- стабильный доход;</li>
+							<li>- стаж на текущем месте работы от 3 месяцев;</li>
+							<li>- возраст в пределах от 18 до 75 лет (на момент внесения последнего платежа), а без подтверждения
+								дохода — от 18 до 65
+								лет.</li>
+						</ul>
+
+						<p>По ряду программ к заёмщику могут предъявляться дополнительные требования. Льготную ипотеку с
+							господдержкой для семей с
+							детьми могут взять только семьи, где есть ребенок.</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel_heading panel_heading-question">
+				<div class="block_title">
+					<div class="panel_heading-icon"></div>
+					<h3>Кто может оформить ипотеку по программе господдержки?</h3>
+				</div>
+				<div class="block_hover">
+					<div class="box-text">
+						<p>Ипотеку на покупку квартиры или дома выдают физическим лицам, имеющим:</p>
+						<ul class="my-ul">
+							<li>- прописку на территории РФ;</li>
+							<li>- стабильный доход;</li>
+							<li>- стаж на текущем месте работы от 3 месяцев;</li>
+							<li>- возраст в пределах от 18 до 75 лет (на момент внесения последнего платежа), а без подтверждения
+								дохода —
+								от 18 до 65
+								лет.</li>
+						</ul>
+
+						<p>По ряду программ к заёмщику могут предъявляться дополнительные требования. Льготную ипотеку с
+							господдержкой для
+							семей с
+							детьми могут взять только семьи, где есть ребенок.</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel_heading panel_heading-question">
+				<div class="block_title">
+					<div class="panel_heading-icon"></div>
+					<h3>Для кого предназначена семейная ипотека?</h3>
+				</div>
+				<div class="block_hover">
+					<div class="box-text">
+						<p>Ипотеку на покупку квартиры или дома выдают физическим лицам, имеющим:</p>
+						<ul class="my-ul">
+							<li>- прописку на территории РФ;</li>
+							<li>- стабильный доход;</li>
+							<li>- стаж на текущем месте работы от 3 месяцев;</li>
+							<li>- возраст в пределах от 18 до 75 лет (на момент внесения последнего платежа), а без подтверждения
+								дохода —
+								от 18 до 65
+								лет.</li>
+						</ul>
+
+						<p>По ряду программ к заёмщику могут предъявляться дополнительные требования. Льготную ипотеку с
+							господдержкой для
+							семей с
+							детьми могут взять только семьи, где есть ребенок.</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel_heading panel_heading-question">
+				<div class="block_title">
+					<div class="panel_heading-icon"></div>
+					<h3>Какие документы требуются для подачи ипотеки?</h3>
+				</div>
+				<div class="block_hover">
+					<div class="box-text">
+						<p>Ипотеку на покупку квартиры или дома выдают физическим лицам, имеющим:</p>
+						<ul class="my-ul">
+							<li>- прописку на территории РФ;</li>
+							<li>- стабильный доход;</li>
+							<li>- стаж на текущем месте работы от 3 месяцев;</li>
+							<li>- возраст в пределах от 18 до 75 лет (на момент внесения последнего платежа), а без подтверждения
+								дохода —
+								от 18 до 65
+								лет.</li>
+						</ul>
+
+						<p>По ряду программ к заёмщику могут предъявляться дополнительные требования. Льготную ипотеку с
+							господдержкой для
+							семей с
+							детьми могут взять только семьи, где есть ребенок.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<section class="projects">
+		<div class="container container-my"">
+			<h2 class=" text-center">Выбрать проект</h2>
+
+			<div class="w-100">
+				<div class="row">
+					<div class="col-3 mb-80">
+						<div class="card-product box-overlay">
+							<a href="project-page.html" class="card-product__img box-overlay__img">
+								<img src="img/product1.jpg" alt="">
+								<span class="btn btn-border-white card-product__btn box-overlay__btn">подробнее</span>
+							</a>
+							<div class="card-product__body">
+								<div class="card-product__head">
+									<a href="project-page.html" class="card-product__title">Название</a>
+									<div class="price">от 3440000 руб.</div>
+								</div>
+								<ul class="card-product__characteristics my-ul">
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+										<div class="card-product__characteristics-text">110 кв.м</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+										<div class="card-product__characteristics-text">2</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+										<div class="card-product__characteristics-text">1</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-80">
+						<div class="card-product box-overlay">
+							<a href="project-page.html" class="card-product__img box-overlay__img">
+								<img src="img/product1.jpg" alt="">
+								<span class="btn btn-border-white card-product__btn box-overlay__btn">подробнее</span>
+							</a>
+							<div class="card-product__body">
+								<div class="card-product__head">
+									<a href="project-page.html" class="card-product__title">Название</a>
+									<div class="price">от 3440000 руб.</div>
+								</div>
+								<ul class="card-product__characteristics my-ul">
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+										<div class="card-product__characteristics-text">110 кв.м</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+										<div class="card-product__characteristics-text">2</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+										<div class="card-product__characteristics-text">1</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-80">
+						<div class="card-product box-overlay">
+							<a href="project-page.html" class="card-product__img box-overlay__img">
+								<img src="img/product1.jpg" alt="">
+								<span class="btn btn-border-white card-product__btn box-overlay__btn">подробнее</span>
+							</a>
+							<div class="card-product__body">
+								<div class="card-product__head">
+									<a href="project-page.html" class="card-product__title">Название</a>
+									<div class="price">от 3440000 руб.</div>
+								</div>
+								<ul class="card-product__characteristics my-ul">
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+										<div class="card-product__characteristics-text">110 кв.м</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+										<div class="card-product__characteristics-text">2</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+										<div class="card-product__characteristics-text">1</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<a href="projects.html" class="btn btn-accent m-auto btn-all">Все проекты</a>
+		</div>
+	</section>
+
+
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+
+				<div class="footer-wrapper">
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">О компании</a></li>
+							<li><a href="category.html" class="h3">Категории</a></li>
+							<li><a href="category.html">Категория 1</a></li>
+							<li><a href="category.html">Категория 2</a></li>
+							<li><a href="category.html">Категория 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">Услуги</a></li>
+							<li><a href="service.html">Услуга 1</a></li>
+							<li><a href="service.html">Услуга 2</a></li>
+							<li><a href="service.html">Услуга 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="news.html" class="h3">Статьи</a></li>
+							<li><a href="article.html">Статья 1</a></li>
+							<li><a href="article.html">Статья 2</a></li>
+							<li><a href="article.html">Статья 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="contacts.html" class="h3">Контакты</a></li>
+							<li><a href="warranty.html" class="h3">Гарантии</a></li>
+							<li><a href="projects.html" class="h3">Проекты домов</a></li>
+							<li><a href="project-page.html" class="h3">Проект дома single</a></li>
+							<li><a href="credits.html" class="h3">Кредит</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-contacts">
+					<a href="tel:+74951234567" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/phone-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">+7 (495) 123-45-67</span>
+					</a>
+					<a href="mailto:info@mail.ru" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/mail.png" alt=""></span>
+						<span class="footer-contacts-link__text">info@mail.ru</span>
+					</a>
+					<a href="#" target="_blank" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/location-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">Открытое шоссе 15</span>
+					</a>
+				</div>
+
+				<div class="payments-box">
+					<p>Принимаем к оплате</p>
+					<div class="payments-box__icon">
+						<img src="img/payments.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<a href="#" class="link-documents color-accent" target="_blank">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</footer>
+
+
+	<a href="#" class="fixed-btn fixed-btn-whatsapp"><img src="img/whatsapp-call.png" alt=""></a>
+	<a href="#" class="fixed-btn fixed-btn-chat"><img src="img/chat-icon.png" alt=""></a>
+
+	<!--модалное окно-->
+	<div class="modal__div" id="callback__modal">
+		<div class="modal__wrapper">
+			<div class="modal__close"></div>
+			<div class="modal-title">Обратный звонок</div>
+
+			<form method="post" class="modal-form">
+
+				<label><input type="text" name="name" placeholder="Ваше имя"></label>
+
+				<label><input type="text" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+
+
+				<button type="submit" class="btn btn-accent btn-submit">Отправить</button>
+			</form>
+		</div>
+	</div>
+	<!-- Пoдлoжкa -->
+	<div class="overlay"></div>
+
+	<!-- add plugins js-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+	<!-- add plugins js end-->
+
+	<script src="js/common.js"></script>
+
+</body>
+
+</html>

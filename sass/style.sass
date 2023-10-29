@@ -256,7 +256,7 @@ h1
 
 h2
 	font-size: 24px
-	margin: 0 0 20px
+	margin: 0 auto 20px
 	text-transform: uppercase
 	color: $blue
 
@@ -274,6 +274,10 @@ h2
 	width: 33.33%
 	padding: 0 22px
 
+.col-25
+	width: 25%
+	padding: 0 22px
+
 .mb-30
 	margin-bottom: 30px
 
@@ -286,10 +290,19 @@ h2
 .mb-80
 	margin-bottom: 35px
 
+.m-auto
+	margin: 0 auto	
+
+.d-inline
+	display: inline-block	
+
 .btn-all
 	margin: 40px auto 0
-	padding: 16px 54px
+	padding: 16px 20px
+	min-width: 228px
 	font-weight: 500
+	&.m-auto
+		margin: 0 auto
 
 .breadcrumb
 	width: 100%
@@ -368,6 +381,8 @@ h2
 			border-color: #fff
 			&::placeholder
 				color: #fff
+	.text-description
+		margin: 10px 0 20px
 
 .box-text
 	line-height: 1.25
@@ -595,8 +610,19 @@ h2
 			background: url('../img/checked.png') no-repeat center
 			background-size: 100%
 
-	.type-object-wrapper
-		margin: 67px 0 0
+.list-check
+	li
+		&::before
+			content: ''
+			display: inline-flex
+			width: 12px
+			height: 12px
+			background: url('../img/check-icon.png') no-repeat center
+			background-size: 100%
+			margin: 0 5px 0 0
+
+.type-object-wrapper
+	margin: 30px 0 0
 
 .list-social
 	display: flex
@@ -633,9 +659,9 @@ h2
 		h3
 			font-size: 18px
 			font-weight: bold
-			color: $accent	
+			color: $accent
 	&__item
-		width: calc(100% - 113px)	
+		width: calc(100% - 113px)
 
 .tab-header
 	width: 100%
@@ -650,5 +676,38 @@ h2
 		cursor: pointer
 		margin: 0 0 10px
 
-
-
+.box-overlay
+	&__img
+		position: relative
+		z-index: 1
+		width: 100%
+		height: 360px
+		overflow: hidden
+		border-radius: 5px
+		background-color: #e6e6e6
+		img
+			width: 100%
+			height: 100%
+			object-fit: cover
+		&::before
+			content: ''
+			position: absolute
+			left: 0
+			top: 0
+			width: 100%
+			height: 0
+			transition: .3s
+			opacity: 0.52
+			background-color: #060606
+	&__btn
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-50%)
+		opacity: 0
+	&:hover
+		.box-overlay__btn
+			opacity: 1
+		.box-overlay__img
+			&::before
+				height: 100%

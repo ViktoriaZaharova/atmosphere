@@ -579,44 +579,13 @@
 	.nav-pagination
 		margin: 0 auto 0
 	.tabs
-		margin: 0 0 30px	
+		margin: 0 0 30px
 
 .card-product
 	width: 100%
 	&__img
-		position: relative
-		z-index: 1
-		width: 100%
 		height: 360px
-		overflow: hidden
-		border-radius: 5px
-		background-color: #e6e6e6
-		img
-			width: 100%
-			height: 100%
-			object-fit: cover
-		&::before
-			content: ''
-			position: absolute
-			left: 0
-			top: 0
-			width: 100%
-			height: 0
-			transition: .3s
-			opacity: 0.52
-			background-color: #060606
-	&__btn
-		position: absolute
-		top: 50%
-		left: 50%
-		transform: translate(-50%,-50%)
-		opacity: 0
-	&:hover
-		.card-product__img
-			&::before
-				height: 100%
-		.card-product__btn
-			opacity: 1
+
 	&__characteristics
 		width: 100%
 		display: flex
@@ -636,7 +605,7 @@
 		width: 100%
 	&__title
 		text-transform: uppercase
-
+		width: calc(100% - 150px)
 		color: $blue
 		&:hover
 			color: $accent
@@ -669,3 +638,224 @@
 			color: #fff
 		&:last-child
 			margin: 0 0 9px
+
+// credits
+.home-credit
+	background: url('../img/credits-home-bg.jpg') no-repeat center
+	background-size: cover
+
+.payments-variable
+	margin: 50px 0 30px
+
+.list-bank
+	width: 100%
+	display: flex
+	align-items: end
+	justify-content: center
+	flex-wrap: wrap
+	margin: 20px 0 0
+	li
+		@include d-flex
+		margin: 0 25px 20px 0
+		&:last-child
+			margin: 0 0 20px
+
+.payments-variable-card
+	width: 100%
+	&__head
+		padding: 0 10px 15px
+
+		font-weight: bold
+	&__val
+		font-size: 18px
+		margin: 10px 0 0
+		color: $blue
+	&__title
+		text-transform: uppercase
+	&__img
+		width: 100%
+		border-radius: 5px
+		overflow: hidden
+		height: 203px
+		background: #f8fcfd
+		position: relative
+		z-index: 1
+		@include d-flex
+		img
+			width: 100%
+			height: 100%
+			object-fit: cover
+	&__body
+		width: 100%
+		min-height: 67px
+		position: absolute
+		left: 0
+		bottom: 0
+		z-index: 1
+		padding: 15px 10px
+		background: $blue
+		color: #fff
+		text-transform: uppercase
+	.btn
+		width: 100%
+		margin: 15px 0 0
+
+.about-credit
+	position: relative
+	padding: 75px 0 100px
+	z-index: 1
+	&__img
+		position: absolute
+		right: 0
+		bottom: 0
+		max-width: 1071px
+		width: 100%
+		z-index: -1
+		@include d-flex
+	&__content
+		max-width: 700px
+		width: 100%
+
+.about-credit-box
+	margin: 30px 0 0
+	max-width: 600px
+	width: 100%
+	h3
+		text-transform: uppercase
+		font-weight: bold
+		color: $blue
+	ul
+		li
+			margin: 0
+
+.credit-steps-wrapper
+	margin: 0 auto
+	max-width: 930px
+	width: 100%
+	display: flex
+	flex-direction: column
+
+.credit-steps-box
+	display: flex
+	align-items: flex-start
+	margin: 0 auto 10px 0
+	position: relative
+	z-index: 1
+	&::after
+		content: ''
+		position: absolute
+		z-index: -1
+		background: url('../img/border-step1.png') no-repeat center
+		background-size: 100%
+		top: 120px
+		left: 58px
+		width: 456px
+		height: 127px
+	&:nth-child(2)
+		.credit-steps-box__body
+			max-width: 282px
+		&::after
+			background: url('../img/border-step2.png') no-repeat center
+			width: 226px
+			height: 148px
+			left: -148px
+			top: 125px
+	&:last-child
+		&::after
+			display: none
+	&:nth-child(even)
+		margin: 0 0 10px auto
+	&__icon
+		position: relative
+		z-index: 1
+		border-radius: 50%
+		width: 117px
+		min-width: 117px
+		height: 117px
+		background: rgba(#212856, .29)
+		@include d-flex
+		&::before, &::after
+			content: ''
+			position: absolute
+			left: 50%
+			top: 50%
+			transform: translate(-50%,-50%)
+			border-radius: 50%
+			z-index: -1
+		&::before
+			width: calc(100% - 10px)
+			height: calc(100% - 10px)
+			background: rgba(#212856, .61)
+		&::after
+			width: calc(100% - 20px)
+			height: calc(100% - 20px)
+			background: #212856
+	&__body
+		width: calc(100% - 117px)
+		padding: 30px 0 0 15px
+
+	h3
+		text-transform: uppercase
+		font-weight: bold
+		color: $blue
+	&__description
+		margin: 10px 0 20px
+		text-transform: uppercase
+	.box-text
+		max-width: 282px
+
+.question
+	padding: 40px 0
+	h2
+		max-width: 585px
+
+.panel_heading
+	width: 100%
+	&-icon
+		width: 23px
+		min-width: 23px
+		height: 23px
+		margin: 0 10px 0 0
+		border: 1px solid $accent
+		border-radius: 50%
+		background: $accent
+		@include d-flex
+		&::before
+			content: '+'
+			display: inline-block
+			color: #fff
+	&.in
+		.panel_heading-icon
+			background: transparent
+			&::before
+				content: '-'		
+				color: $accent
+
+.panel_heading-question
+	max-width: 610px
+	margin: 0 0 14px
+	&:last-child
+		margin: 0
+	.block_title
+		h3
+			text-transform: uppercase
+			font-weight: bold
+			color: $blue
+	.block_hover
+		color: #565756
+		padding: 13px 0 0 33px
+		.box-text
+			p
+				margin: 0 
+			ul
+				margin: 0 0 20px
+				li
+					margin: 0
+
+.block_title
+	cursor: pointer
+	display: flex
+	align-items: center
+
+.block_hover
+	display: none
