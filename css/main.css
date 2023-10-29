@@ -962,7 +962,7 @@
   font-weight: bold;
 }
 .payments-variable-card__val {
-  font-size: 18px;
+  font-size: 22px;
   margin: 10px 0 0;
   color: #0e63a6;
 }
@@ -1109,6 +1109,7 @@
   width: 117px;
   min-width: 117px;
   height: 117px;
+  padding: 20px;
   background: rgba(33, 40, 86, 0.29);
   display: -webkit-box;
   display: -ms-flexbox;

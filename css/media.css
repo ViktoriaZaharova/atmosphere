@@ -17,6 +17,15 @@
     max-width: 500px;
     min-width: 500px;
   }
+  .payments-variable-card__val {
+    font-size: 18px;
+  }
+  .col-25 {
+    width: 50%;
+  }
+  .list-bank {
+    margin: 0;
+  }
 }
 @media only screen and (max-width: 992px) {
   .btn-burger {
@@ -140,11 +149,37 @@
   .works-box__img {
     height: 200px;
   }
-  .col-3 {
+  .col-3, .col-25, .col-6 {
     padding: 0 15px;
   }
   .card-product__img {
     height: 260px;
+  }
+  .about-credit__img {
+    max-width: 700px;
+  }
+  .about-credit-box {
+    max-width: 500px;
+  }
+  .credit-steps-box {
+    margin: 0 0 20px;
+    max-width: none;
+  }
+  .credit-steps-box__body {
+    max-width: none;
+    padding: 0 0 0 15px;
+  }
+  .credit-steps-box__body .box-text {
+    max-width: none;
+  }
+  .credit-steps-box::after {
+    display: none;
+  }
+  .credit-steps-box:nth-child(even) {
+    margin: 0 0 20px;
+  }
+  .credit-steps-box:nth-child(even) .credit-steps-box__body {
+    max-width: none;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -247,6 +282,12 @@
   .contacts-box {
     margin: 0 0 30px;
   }
+  .about-credit {
+    padding: 50px 0 40px;
+  }
+  .about-credit__img {
+    max-width: 500px;
+  }
 }
 @media only screen and (max-width: 576px) {
   .col-6 {
@@ -302,6 +343,23 @@
   }
   .card-product__body {
     padding: 20px 0 0;
+  }
+  .col-25 {
+    width: 100%;
+  }
+  .about-credit {
+    padding: 40px 0;
+  }
+  .about-credit__img {
+    display: none;
+  }
+  .credit-steps-box__icon {
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+  }
+  .credit-steps-box__body {
+    width: calc(100% - 80px);
   }
 }
 @media only screen and (max-width: 480px) {
@@ -483,9 +541,6 @@
   }
   .payments-variable {
     margin: 100px 0 60px;
-  }
-  .payments-variable-card__val {
-    font-size: 22px;
   }
   .type-object-wrapper {
     margin: 67px 0 0;
