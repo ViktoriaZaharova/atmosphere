@@ -135,6 +135,7 @@ button, .btn
 	position: relative
 	z-index: 1
 	text-transform: uppercase
+	min-width: 228px
 	&::before
 		content: ''
 		position: absolute
@@ -311,7 +312,7 @@ h2
 	text-transform: uppercase
 
 .text-decoration
-	text-decoration: underline	
+	text-decoration: underline
 
 .breadcrumb
 	width: 100%
@@ -846,3 +847,45 @@ h2
 		border-bottom: 1px solid $accent
 	input
 		display: none
+
+.js-tab-content
+	display: none
+	&.active
+		display: block
+
+.js-tab-trigger
+	&.active
+		box-shadow: 0px 3px 7px 0 #c2bebe
+		border: solid 1px #212856
+		color: $blue
+		text-decoration: none
+
+.tabs-answer
+	width: 100%
+	display: flex
+	align-items: center
+	flex-wrap: wrap
+
+	.tab-content
+		max-width: 464px
+		width: 100%
+		&__item
+			width: 100%
+
+	.tab-header
+		width: calc(100% - 464px)
+		padding: 0 0 0 23px
+		text-transform: uppercase
+		margin: 0
+		text-transform: uppercase
+		font-weight: bold
+		font-size: 16px
+		li
+			color: $blue
+			padding: 15px 25px 15px 20px
+			border-radius: 5px
+			border: 1px solid transparent
+			width: 100%
+			&::before
+				content: '+'
+				display: inline-flex

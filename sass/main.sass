@@ -78,7 +78,92 @@
 		max-width: 395px
 		
 .link-page 
-	margin: 0 auto
+	margin: 10px auto 0
+	font-weight: bold
+
+.why-wrapper
+	width: 100%
+	display: flex
+	justify-content: center
+	flex-wrap: wrap
+
+.why-box
+	text-align: center
+	margin: 0 110px 40px 0
+	h3
+		text-transform: uppercase
+		font-weight: bold
+		color: $blue
+		font-size: 20px
+		margin: 0 auto 10px
+	&:last-child
+		margin: 0 0 40px
+	&__icon
+		margin: 0 auto 10px
+		@include d-flex	
+
+.sheme-work
+	padding: 40px 0 30px
+	.credit-steps-wrapper
+		max-width: 850px
+	.credit-steps-box
+		margin: 0 0 40px
+		&::after
+			top: 123px
+		&:first-child
+			margin: 0
+			&::after
+				background: url('../img/sheme-border1.png') no-repeat center
+				background-size: 100%
+				width: 314px
+				height: 120px	
+				top: 45px 
+				left: 213px
+		&:nth-child(2)
+			margin: -10px 0 38px auto
+			&::after
+				background: url('../img/sheme-border2.png') no-repeat center
+				width: 168px
+				height: 119px	
+				left: -92px
+				top: 120px
+			.credit-steps-box__body
+				max-width: 265px			
+		&:nth-child(3)
+			&::after
+				background: url('../img/sheme-border4.png') no-repeat center
+				width: 397px
+				height: 98px	
+			.credit-steps-box__description
+				max-width: 225px	
+		&:nth-child(4)
+			margin: 0 0 10px auto
+			&::after
+				background: url('../img/sheme-border3.png') no-repeat center
+				width: 191px
+				height: 91px	
+				left: -116px
+
+			.credit-steps-box__body
+				max-width: 265px	
+		&:nth-child(5)
+			margin: 0 0 75px
+			&::after
+				background: url('../img/sheme-border5.png') no-repeat center
+				width: 397px
+				height: 135px
+			.credit-steps-box__body
+				max-width: 230px		
+		&:last-child
+			margin: 0 0 0 auto
+			.credit-steps-box__body
+				max-width: 265px		
+		h3
+			text-transform: none	
+			font-size: 18px
+		&__body
+			padding-top: 15px
+			max-width: 255px
 
 // news
 .home-news
@@ -876,10 +961,13 @@
 		font-weight: bold
 		color: $blue
 	&__description
-		margin: 10px 0 20px
+		margin: 10px 0 0
 		text-transform: uppercase
 	.box-text
 		max-width: 282px
+		margin: 20px 0 0
+	.btn
+		margin: 20px 0 0	
 
 .question
 	padding: 40px 0
