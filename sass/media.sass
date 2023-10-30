@@ -9,6 +9,16 @@
 		max-width: 600px
 		min-width: 600px
 
+	.check-list-section__content
+		max-width: 550px
+
+	.check-list-section
+		background-size: 600px
+		padding: 40px 0
+
+	.callback-price
+		background-size: 700px
+
 @media only screen and (max-width: 1200px)
 	.footer-contacts
 		margin: 0 0 0 auto
@@ -25,6 +35,11 @@
 
 	.list-bank
 		margin: 0
+
+	.advantages-company-box
+		max-width: none
+		br
+			display: none
 
 @media only screen and (max-width: 992px)
 	.btn-burger
@@ -184,6 +199,50 @@
 			margin: 10px 0 0
 			max-width: none
 
+	.check-list-section
+		background: #ebeaea
+		&__content
+			max-width: none
+		.section-subtext
+			max-width: none
+			margin: 0
+		h2
+			max-width: none
+
+	.callback-price
+		background-size: 400px
+		background-position: right bottom
+		padding: 50px 0
+		text-align: center
+		&__content
+			max-width: none
+		.section-subtext
+			max-width: none
+			margin: 0
+		.form-callback
+			[type="submit"]
+			width: 100%
+
+	.why-box
+		margin: 0 auto 30px
+		&:last-child
+			margin: 0 auto 30px
+
+	.sheme-work
+		.credit-steps-box
+			&:first-child, &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5), &:last-child
+				margin: 0 0 20px
+				.credit-steps-box__body
+					max-width: none
+
+	.tabs-answer 
+		.tab-header	
+			padding: 0
+			width: 100%
+		.tab-content
+			max-width: none
+			margin: 30px 0 0				
+
 @media only screen and (max-width: 768px)
 	.header-top
 		.phone-wrapper
@@ -271,6 +330,10 @@
 		&__img
 			max-width: 500px
 
+	.callback-price
+		background: #fff
+		padding: 0
+
 @media only screen and (max-width: 576px)
 	.col-6
 		width: 100%
@@ -335,6 +398,15 @@
 			min-width: 80px
 		&__body
 			width: calc(100% - 80px)
+
+	.advantages-company-box h3
+		min-height: auto
+
+	.callback-work__content
+		max-width: 300px
+
+	.btn
+		min-width: 200px	
 
 @media only screen and (max-width: 480px)
 	.header-top .btn-callback
@@ -592,7 +664,7 @@
 
 	.sheme-work
 		padding: 75px 0 150px
-		.credit-steps-box 
+		.credit-steps-box
 			h3
 				font-size: 24px
 

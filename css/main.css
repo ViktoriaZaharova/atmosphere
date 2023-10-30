@@ -19,7 +19,7 @@
 }
 
 .check-list-section {
-  background: #ebeaea url("../img/check-list-bg.png") no-repeat right center;
+  background: #ebeaea url("../img/check-list-bg.png") no-repeat right bottom;
   background-size: 770px;
   padding: 60px 0;
 }
@@ -106,6 +106,7 @@
 .link-page {
   margin: 10px auto 0;
   font-weight: bold;
+  text-align: center;
 }
 
 .why-wrapper {
