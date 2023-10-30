@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Кредит</title>
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+	<!-- add plugins css -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+	<!-- add plugins css end -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="header-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+
+				<div class="btn-burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="nav-menu__close"></div>
+			<div class="container">
+				<nav class="nav-menu">
+
+					<ul class="menu my-ul">
+						<li><a href="index.html">Главная страница</a></li>
+						<li><a href="about.html">О компании</a></li>
+						<li><a href="category.html">Категории</a></li>
+						<li class="dropdown"><a href="services.html" class="dropdown-toggle">Услуги</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Услуги 1</a>
+								<a href="#" class="dropdown-item">Услуги 2</a>
+								<a href="#" class="dropdown-item">Услуги 3</a>
+								<a href="#" class="dropdown-item">Услуги 4</a>
+								<a href="#" class="dropdown-item">Услуги 5</a>
+								<a href="#" class="dropdown-item">Услуги 6</a>
+								<a href="#" class="dropdown-item">Услуги 7</a>
+							</div>
+						</li>
+						<li class="dropdown"><a href="news.html" class="dropdown-toggle">Статьи</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Услуги 1</a>
+								<a href="#" class="dropdown-item">Услуги 2</a>
+								<a href="#" class="dropdown-item">Услуги 3</a>
+								<a href="#" class="dropdown-item">Услуги 4</a>
+								<a href="#" class="dropdown-item">Услуги 5</a>
+								<a href="#" class="dropdown-item">Услуги 6</a>
+								<a href="#" class="dropdown-item">Услуги 7</a>
+							</div>
+						</li>
+						<li><a href="contacts.html">Контакты</a></li>
+						<li><a href="warranty.html">Гарантии</a></li>
+						<li><a href="projects.html">Проекты домов</a></li>
+						<li><a href="project-page.html">Проект дома single</a></li>
+						<li><a href="credits.html">Кредит</a></li>
+					</ul>
+				</nav>
+
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567" class="list-messanger__phone"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="home-page home-project">
+		<div class="container">
+			<ul class="breadcrumb my-ul">
+				<li><a href="index.html">Главная</a></li>
+				<li><span>Проект каркасного дома single</span></li>
+			</ul>
+			<div class="home-content">
+				<h1>Заказать строительство
+					каркасного дома</h1>
+
+				<form method="post" class="form">
+					<label><input type="text" placeholder="Имя" name="name"></label>
+					<label><input type="text" placeholder="+7 (___) ___-__-__" name="phone" required></label>
+					<button type="submit" class="btn btn-accent btn-call">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<section class="object-section m-100">
+		<div class="container">
+			<h2 class="text-center">Проект каркасного дома Single</h2>
+			<div class="section-subtext text-center">
+				<p>Внешний дизайн дома Single - отличное предложение для любителей современной архитектуры, <br>
+					а также классных, уютных интерьеров. Корпус простой и компактный, облицован плоской плиткой
+					и отделан натуральными материалами.</p>
+
+				<p>Остекленная панорамная стена в гостиной прекрасно освещает интерьер <br>
+					и гарантирует отличный вид из окна. Камин по передней стене дома создает уют и делает интерьер необычным. <br>
+					Второй свет делает пространство целостным и светлым. <br>
+					На мансардном этаже расположено 3 спальни, оттуда открывается прекрасный вид на окрестности.</p>
+			</div>
+			<div class="object-wrapper">
+				<div class="object-gallery">
+					<div class="object-gallery-max">
+						<div class="slide">
+							<a href="img/photo1.jpg" class="object-gallery-item" data-fancybox="gallery"><img src="img/photo1.jpg"
+									alt=""></a>
+						</div>
+						<div class="slide">
+							<a href="img/photo2.jpg" class="object-gallery-item" data-fancybox="gallery"><img src="img/photo2.jpg"
+									alt=""></a>
+						</div>
+						<div class="slide">
+							<a href="img/photo3.jpg" class="object-gallery-item" data-fancybox="gallery"><img src="img/photo3.jpg"
+									alt=""></a>
+						</div>
+						<div class="slide">
+							<a href="img/photo4.jpg" class="object-gallery-item" data-fancybox="gallery"><img src="img/photo4.jpg"
+									alt=""></a>
+						</div>
+					</div>
+					<div class="object-gallery-preview">
+							<div class="slide">
+								<div class="object-gallery-item"><img src="img/photo1.jpg" alt=""></div>
+							</div>
+							<div class="slide">
+								<div class="object-gallery-item"><img src="img/photo2.jpg" alt=""></div>
+							</div>
+							<div class="slide">
+								<div class="object-gallery-item"><img src="img/photo3.jpg" alt=""></div>
+							</div>
+							<div class="slide">
+								<div class="object-gallery-item"><img src="img/photo4.jpg" alt=""></div>
+							</div>
+					</div>
+				</div>
+
+				<div class="object-characteristics">
+					<div class="price-object">
+						<h3>Стоимость проекта (АР+КР) 
+						<span class="price-object__val">222 000 руб.</span></h3>
+						<span class="tooltip-wrapper">
+							<span class="tooltip-btn">?</span>
+							<span class="tooltip-box">
+								<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eaque quas vitae optio consequuntur
+									suscipit quis?</span>
+							</span>
+						</span>
+					</div>
+
+					<ul class="object-characteristics-list my-ul">
+						<li><span>Общая площадь:</span><strong>370</strong></li>
+						<li><span>Полезная площадь:</span><strong>284,52</strong></li>
+						<li><span>Жилая площадь:</span><strong>95,81</strong></li>
+						<li><span>Технология:</span><strong>Каркасная, Пеноблоки, Кирпич</strong></li>
+						<li><span>Количество этажей:</span><strong>1,5</strong></li>
+						<li><span>Количество спален:</span> <strong>4</strong></li>
+						<li><span>Количество с/у:</span><strong>2</strong></li>
+						<li><span>Наличие сауны / бани:</span><strong>нет</strong></li>
+						<li><span>Гараж:</span><strong>да</strong></li>
+						<li><span>Форма дома:</span><strong>Прямоугольник</strong></li>
+						<li><span>Тип крыши:</span><strong>Двускатная</strong></li>
+						<li><span>Размер дома:</span><strong>24 м x 12,8 м</strong></li>
+						<li><span>Стиль дома:</span><strong>Барнхаус</strong></li>
+						<li><span>Срок сборки:</span><strong>90 дней под ключ</strong></li>
+					</ul>
+
+					<div class="price-details">
+						<p>11 914 000 руб. под ключ дачный дом</p>
+						<p>17 612 000 руб. под ключ для ПМЖ</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="prices-project m-100">
+		<div class="container container-my">
+			<h2 class="text-center">Стоимость строительства дома
+				по проекту «Проект каркасного дома Single»
+				для дома постоянного проживания (ПМЖ)</h2>
+
+			<div class="prices-project-wrapper">
+				<div class="prices-project-box">
+					<div class="prices-project-box__head">
+						<h3>ЗАКРЫТЫЙ КОНТУР. <br>
+							ВНЕШНЯЯ ОТДЕЛКА</h3>
+						<div class="mini-description">
+							<p>Каркас дома без утепления.</p>
+							<p>Строительство можно продолжить позднее.</p>
+						</div>
+					</div>
+					<div class="prices-project-box__body">
+
+						<ul class="list-dots my-ul">
+							<li>Перепланировка дома</li>
+							<li>Полный проект дома</li>
+							<li>Доставка до 50км от МКАД</li>
+							<li>Обеспечение туалетом и бытовкой на объекте</li>
+							<li>Свайно-винтовой фундамент</li>
+						</ul>
+
+						<ul class="list-dots my-ul">
+							<li>
+								<strong>Обвязка:
+								</strong>
+								<div class="box-text">
+									<p>Гидроизоляция по фундаменту,
+										устройство нижней обвязки
+										из антисептированного пакета досок 200x50x3.</p>
+								</div>
+							</li>
+							<li>
+								<strong>Каркас:</strong>
+								<div class="box-text">
+									<p>
+										Каркас дома из сухой строганой доски
+										камерной сушки: силовой каркас, хедеры, ригеля,
+										обвязки каркаса, стропильная система,
+										перекрытия, перегородки.</p>
+								</div>
+							</li>
+							<li>
+								<strong>Окна, дверь:</strong>
+								<div class="box-text">
+									<p>
+										Окна/балконные двери
+										белые металлопластиковые
+										с двухкамерным стеклопакетом.
+										Профиль Brusbox. Входная дверь металлическая
+										с теплоразрывом.</p>
+								</div>
+							</li>
+							<li>
+								<strong>Кровельная система:</strong>
+								<div class="box-text">
+									<p>
+										Кровельное покрытие
+										фальцевая кровля/металлочерепица
+										с комплектом фасонных изделий, г
+										идро ветрозащитной
+										мембраной, обрешетка, контр обрешетка</p>
+								</div>
+							</li>
+							<li>
+								<strong>Внешняя отделка:</strong>
+								<div class="box-text">
+									<p>
+										Доска / Цементно-стружечная плита (ЦСП),
+										оконные отливы, наличники окон и дверей.</p>
+								</div>
+							</li>
+							<li>
+								<strong>Водосточная система</strong>
+							</li>
+							<li class="no-active">
+								<strong>Утепление дома:</strong>
+								<div class="box-text">
+									<p>
+										Теплоизоляция полов и потолков
+										утеплителем Rockwool 250 мм,
+										теплоизоляция стен утеплителем Rockwool 200 мм,
+										шумоизоляция перегородок Rockwool 100мм.
+										Пароизоляционные мембраны проклеиваются,
+										ветро-влагозащитные мембраны
+										монтируются внахлест</p>
+								</div>
+							</li>
+							<li class="no-active">
+								<strong>Напольное покрытие:</strong>
+								<div class="box-text">
+									<p>
+										Фанера ФК, ЦСП в мокрых зонах</p>
+								</div>
+							</li>
+							<li class="no-active">
+								<strong>Внутренняя отделка:</strong>
+								<div class="box-text">
+									<p>
+										Внутренняя отделка стен
+										и потолков гипсокартоном.
+										Межкомнатные двери.</p>
+								</div>
+							</li>
+							<li class="no-active">
+								<strong>Напольное покрытие террас, балконов:</strong>
+								<div class="box-text">
+									<p>
+										Устройстро полов террас и балконов
+										выполняется из доски 25 мм</p>
+								</div>
+							</li>
+							<li class="no-active">
+								<strong>Ограждения террас, балконов:</strong>
+								<div class="box-text">
+									<p>
+										Устройство ограждений террас и балконов
+										по проекту</p>
+								</div>
+							</li>
+						</ul>
+
+						<div class="price-project-val">Цена: 9 842 000 руб.</div>
+					</div>
+				</div>
+
+				<div class="prices-project-box">
+					<div class="prices-project-box__head">
+						<h3>ТЕПЛЫЙ КОНТУР</h3>
+						<div class="mini-description">
+							<p>Каркас дома с утеплением.</p>
+							<p>Можно приступать к внутренней отделке дома.</p>
+						</div>
+					</div>
+					<div class="prices-project-box__body">
+
+						<ul class="list-dots my-ul">
+							<li>Перепланировка дома</li>
+							<li>Полный проект дома</li>
+							<li>Доставка до 50км от МКАД</li>
+							<li>Обеспечение туалетом и бытовкой на объекте</li>
+							<li>Свайно-винтовой фундамент</li>
+						</ul>
+
+						<ul class="list-dots my-ul">
+							<li>
+								<strong>Обвязка:</strong>
+								<div class="box-text">
+									<p>
+										Гидроизоляция по фундаменту,
+										устройство нижней обвязки
+										из антисептированного пакета досок 200x50x3.</p>
+								</div>
+							</li>
+							<li>
+								<strong>Каркас:</strong>
+								<div class="box-text">
+									<p>
+										Каркас дома из сухой строганой доски камерной
+										сушки: силовой каркас, хедеры, ригеля,
+										обвязки каркаса,
+										стропильная система, перекрытия, перегородки.</p>
+								</div>
+							</li>
+							<li>
+								<strong>Окна, дверь:</strong>
+								<div class="box-text">
+									<p>
+										Окна/балконные двери белые металлопластиковые
+										с двухкамерным стеклопакетом.
+										Профиль Brusbox. Входная дверь металлическая
+										с теплоразрывом.</p>
+								</div>
+							</li>
+							<li>
+								<strong>Кровельная система:</strong>
+								<div class="box-text">
+									<p>
+										Кровельное покрытие фальцевая
+										кровля/металлочерепица
+										с комплектом фасонных изделий,
+										гидро ветрозащитной мембраной, обрешетка,
+										контр обрешетка</p>
+								</div>
+							</li>
+							<li>
+								<strong>Внешняя отделка:</strong>
+								<div class="box-text">
+									<p>
+										Доска / Цементно-стружечная плита (ЦСП),
+										оконные отливы, наличники окон и дверей.</p>
+								</div>
+							</li>
+							<li>
+								<strong>Водосточная система</strong>
+							</li>
+							<li>
+								<strong>Утепление дома:</strong>
+								<div class="box-text">
+									<p>
+										Теплоизоляция полов и потолков
+										утеплителем Rockwool 250 мм,
+										теплоизоляция стен утеплителем Rockwool 200 мм,
+										шумоизоляция перегородок Rockwool 100мм.
+										Пароизоляционные мембраны проклеиваются,
+										ветро-влагозащитные мембраны монтируются внахлест</p>
+								</div>
+							</li>
+							<li>
+								<strong>Напольное покрытие:</strong>
+								<div class="box-text">
+									<p>
+										Фанера ФК, ЦСП в мокрых зонах</p>
+								</div>
+							</li>
+							<li class="no-active">
+								<strong>Внутренняя отделка:</strong>
+								<div class="box-text">
+									<p>
+										Внутренняя отделка стен и потолков
+										гипсокартоном. Межкомнатные двери.</p>
+								</div>
+							</li>
+							<li class="no-active">
+								<strong>Напольное покрытие террас, балконов:</strong>
+								<div class="box-text">
+									<p>
+										Устройстро полов террас и балконов выполняется
+										из доски 25 мм</p>
+								</div>
+							</li>
+							<li class="no-active">
+								<strong>Ограждения террас, балконов:</strong>
+								<div class="box-text">
+									<p>Устройство ограждений террас и балконов
+										по проекту</p>
+								</div>
+							</li>
+						</ul>
+						<div class="price-project-val">Цена: 12 950 000 руб.</div>
+					</div>
+				</div>
+
+				<div class="prices-project-box">
+					<div class="prices-project-box__head">
+						<h3>ВНУТРЕННЯЯ ОТДЕЛКА</h3>
+						<div class="mini-description">
+							<p>Готовый дом.</p>
+							<p>Можно приступать к установке
+								инженерных систем и чистовой отделке.</p>
+						</div>
+					</div>
+					<div class="prices-project-box__body">
+						<ul class="list-dots my-ul">
+							<li>Перепланировка дома
+							</li>
+							<li>Полный проект дома</li>
+							<li>Доставка до 50км от МКАД</li>
+							<li>Обеспечение туалетом и бытовкой на объекте</li>
+							<li>Свайно-винтовой фундамент</li>
+						</ul>
+
+						<ul class="list-dots my-ul">
+							<li>
+								<strong>Обвязка:</strong>
+								<div class="box-text">
+									<p>Гидроизоляция по фундаменту, устройство
+										нижней обвязки из антисептированного
+										пакета досок 200x50x3.</p>
+								</div>
+							</li>
+							<li>
+								<strong>Каркас:</strong>
+								<div class="box-text">
+									<p>Каркас дома из сухой строганой доски
+										камерной сушки: силовой каркас,
+										хедеры, ригеля, обвязки каркаса,
+										стропильная система, перекрытия, перегородки.</p>
+								</div>
+							</li>
+							<li>
+								<strong>Окна, дверь:</strong>
+								<div class="box-text">
+									<p>Окна/балконные двери белые
+										металлопластиковые с двухкамерным
+										стеклопакетом. Профиль Brusbox.
+										Входная дверь металлическая
+										с теплоразрывом.</p>
+								</div>
+							</li>
+							<li>
+								<strong>Кровельная система:</strong>
+								<div class="box-text">
+									<p>Кровельное покрытие фальцевая
+										кровля/металлочерепица с комплектом
+										фасонных изделий, гидро ветрозащитной
+										мембраной, обрешетка, контр обрешетка</p>
+								</div>
+							</li>
+							<li>
+								<strong>Внешняя отделка:</strong>
+								<div class="box-text">
+									<p>Доска / Цементно-стружечная плита (ЦСП),
+										оконные отливы, наличники окон и дверей.</p>
+								</div>
+							</li>
+							<li>
+								<strong>Водосточная система</strong>
+							</li>
+							<li>
+								<strong>Утепление дома:</strong>
+								<div class="box-text">
+									<p>Теплоизоляция полов и потолков утеплителем
+										Rockwool 250 мм, теплоизоляция стен
+										утеплителем Rockwool 200 мм,
+										шумоизоляция перегородок Rockwool 100мм.
+										Пароизоляционные мембраны
+										проклеиваются, ветро-влагозащитные
+										мембраны монтируются внахлест</p>
+								</div>
+							</li>
+							<li>
+								<strong>Напольное покрытие:</strong>
+								<div class="box-text">
+									<p>Фанера ФК, ЦСП в мокрых зонах</p>
+								</div>
+							</li>
+							<li>
+								<strong>Внутренняя отделка:</strong>
+								<div class="box-text">
+									<p>Внутренняя отделка стен и потолков
+										гипсокартоном. Межкомнатные двери.</p>
+								</div>
+							</li>
+
+							<li><strong>Напольное покрытие террас, балконов:</strong>
+								<div class="box-text">
+									<p>Устройстро полов террас и балконов
+										выполняется из доски 25 мм</p>
+								</div>
+							</li>
+
+							<li><strong>Ограждения террас, балконов:</strong>
+								<div class="box-text">
+									<p>Устройство ограждений террас и балконов
+										по проекту</p>
+								</div>
+							</li>
+						</ul>
+
+						<div class="price-project-val">Цена: 12 950 000 руб.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="projects">
+		<div class="container container-my"">
+			<h2 class=" text-center">Проекты той же площади</h2>
+
+			<div class="w-100">
+				<div class="row">
+					<div class="col-3 mb-80">
+						<div class="card-product box-overlay">
+							<a href="project-page.html" class="card-product__img box-overlay__img">
+								<img src="img/product1.jpg" alt="">
+								<span class="btn btn-border-white card-product__btn box-overlay__btn">подробнее</span>
+							</a>
+							<div class="card-product__body">
+								<div class="card-product__head">
+									<a href="project-page.html" class="card-product__title">Название</a>
+									<div class="price">от 3440000 руб.</div>
+								</div>
+								<ul class="card-product__characteristics my-ul">
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+										<div class="card-product__characteristics-text">110 кв.м</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+										<div class="card-product__characteristics-text">2</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+										<div class="card-product__characteristics-text">1</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-80">
+						<div class="card-product box-overlay">
+							<a href="project-page.html" class="card-product__img box-overlay__img">
+								<img src="img/product1.jpg" alt="">
+								<span class="btn btn-border-white card-product__btn box-overlay__btn">подробнее</span>
+							</a>
+							<div class="card-product__body">
+								<div class="card-product__head">
+									<a href="project-page.html" class="card-product__title">Название</a>
+									<div class="price">от 3440000 руб.</div>
+								</div>
+								<ul class="card-product__characteristics my-ul">
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+										<div class="card-product__characteristics-text">110 кв.м</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+										<div class="card-product__characteristics-text">2</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+										<div class="card-product__characteristics-text">1</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-80">
+						<div class="card-product box-overlay">
+							<a href="project-page.html" class="card-product__img box-overlay__img">
+								<img src="img/product1.jpg" alt="">
+								<span class="btn btn-border-white card-product__btn box-overlay__btn">подробнее</span>
+							</a>
+							<div class="card-product__body">
+								<div class="card-product__head">
+									<a href="project-page.html" class="card-product__title">Название</a>
+									<div class="price">от 3440000 руб.</div>
+								</div>
+								<ul class="card-product__characteristics my-ul">
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon1.png" alt=""></div>
+										<div class="card-product__characteristics-text">110 кв.м</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon2.png" alt=""></div>
+										<div class="card-product__characteristics-text">2</div>
+									</li>
+									<li>
+										<div class="card-product__characteristics-icon"><img src="img/category-icon3.png" alt=""></div>
+										<div class="card-product__characteristics-text">1</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<a href="projects.html" class="btn btn-accent m-auto btn-all">Другие проекты</a>
+		</div>
+	</section>
+
+
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+
+				<div class="footer-wrapper">
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">О компании</a></li>
+							<li><a href="category.html" class="h3">Категории</a></li>
+							<li><a href="category.html">Категория 1</a></li>
+							<li><a href="category.html">Категория 2</a></li>
+							<li><a href="category.html">Категория 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">Услуги</a></li>
+							<li><a href="service.html">Услуга 1</a></li>
+							<li><a href="service.html">Услуга 2</a></li>
+							<li><a href="service.html">Услуга 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="news.html" class="h3">Статьи</a></li>
+							<li><a href="article.html">Статья 1</a></li>
+							<li><a href="article.html">Статья 2</a></li>
+							<li><a href="article.html">Статья 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="contacts.html" class="h3">Контакты</a></li>
+							<li><a href="warranty.html" class="h3">Гарантии</a></li>
+							<li><a href="projects.html" class="h3">Проекты домов</a></li>
+							<li><a href="project-page.html" class="h3">Проект дома single</a></li>
+							<li><a href="credits.html" class="h3">Кредит</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-contacts">
+					<a href="tel:+74951234567" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/phone-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">+7 (495) 123-45-67</span>
+					</a>
+					<a href="mailto:info@mail.ru" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/mail.png" alt=""></span>
+						<span class="footer-contacts-link__text">info@mail.ru</span>
+					</a>
+					<a href="#" target="_blank" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/location-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">Открытое шоссе 15</span>
+					</a>
+				</div>
+
+				<div class="payments-box">
+					<p>Принимаем к оплате</p>
+					<div class="payments-box__icon">
+						<img src="img/payments.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<a href="#" class="link-documents color-accent" target="_blank">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</footer>
+
+
+	<a href="#" class="fixed-btn fixed-btn-whatsapp"><img src="img/whatsapp-call.png" alt=""></a>
+	<a href="#" class="fixed-btn fixed-btn-chat"><img src="img/chat-icon.png" alt=""></a>
+
+	<!--модалное окно-->
+	<div class="modal__div" id="callback__modal">
+		<div class="modal__wrapper">
+			<div class="modal__close"></div>
+			<div class="modal-title">Обратный звонок</div>
+
+			<form method="post" class="modal-form">
+
+				<label><input type="text" name="name" placeholder="Ваше имя"></label>
+
+				<label><input type="text" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+
+
+				<button type="submit" class="btn btn-accent btn-submit">Отправить</button>
+			</form>
+		</div>
+	</div>
+	<!-- Пoдлoжкa -->
+	<div class="overlay"></div>
+
+	<!-- add plugins js-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+	<!-- add plugins js end-->
+
+	<script src="js/common.js"></script>
+
+</body>
+
+</html>

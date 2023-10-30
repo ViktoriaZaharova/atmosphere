@@ -92,7 +92,25 @@ $('.employee-slider').slick({
 		}
 	]
 });
+$('.object-gallery-max').slick({
+	slidesToShow: 1,
+	arrows: false,
+});
 
+$('.object-gallery-preview').slick({
+	slidesToShow: 4,
+	focusOnSelect: true,
+	arrows: false,
+	asNavFor: '.object-gallery-max',
+	responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2,
+			}
+		}
+	]
+});
 // accordeon
 function accordeon() {
 	var panel = $('.panel_heading');

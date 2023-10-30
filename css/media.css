@@ -270,6 +270,18 @@
     max-width: none;
     margin: 30px 0 0;
   }
+  .prices-project-box__body ul {
+    max-width: none;
+  }
+  .prices-project-box .mini-description {
+    margin: 15px 0 0;
+  }
+  .object-characteristics-list li {
+    margin: 0 0 10px;
+  }
+  .object-section .section-subtext br {
+    display: none;
+  }
 }
 @media only screen and (max-width: 768px) {
   .header-top .phone-wrapper {
@@ -380,6 +392,20 @@
   .callback-price {
     background: #fff;
     padding: 0;
+  }
+  .object-gallery {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 20px;
+  }
+  .object-characteristics {
+    max-width: none;
+  }
+  .object-characteristics-list li {
+    margin: 0 0 10px;
+  }
+  .price-object {
+    margin: 0 0 20px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -518,6 +544,7 @@
   }
   .home-page .form {
     margin: 50px 0 0;
+    max-width: 324px;
   }
   .header-bottom .header-box, .header-bottom .btn-callback {
     display: none;
@@ -731,5 +758,34 @@
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+  }
+  .prices-project h2 {
+    margin: 0 auto 40px;
+  }
+  .prices-project-wrapper {
+    padding: 36px 21px 62px;
+  }
+  .prices-project-box {
+    width: 33.33%;
+    margin: 0;
+  }
+  .prices-project-box h3 {
+    min-height: 37px;
+  }
+  .prices-project-box .mini-description {
+    min-height: 45px;
+  }
+  .price-project-val {
+    margin: 45px 0 0;
+  }
+  .object-section .section-subtext {
+    margin: 0 auto 50px;
+  }
+  .price-details {
+    margin: 45px 0 0;
+  }
+  .price-object {
+    margin: 0 0 20px;
+    font-size: 22px;
   }
 }
