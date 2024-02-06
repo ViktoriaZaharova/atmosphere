@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Кредит</title>
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+	<!-- add plugins css -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+	<!-- add plugins css end -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="header-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+
+				<div class="btn-burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="nav-menu__close"></div>
+			<div class="container">
+				<nav class="nav-menu">
+
+					<ul class="menu my-ul">
+						<li><a href="index.html">Главная страница</a></li>
+						<li><a href="about.html">О компании</a></li>
+						<li><a href="category.html">Категории</a></li>
+						<li class="dropdown"><a href="services.html" class="dropdown-toggle">Услуги</a>
+							<div class="dropdown-menu">
+								<a href="service-page1.html" class="dropdown-item">Крыша</a>
+								<a href="service-page2.html" class="dropdown-item">Кладка стен</a>
+								<a href="service-page3.html" class="dropdown-item">Монтаж стропильной системы</a>
+								<a href="service-page4.html" class="dropdown-item">Монтаж фундамента</a>
+							</div>
+						</li>
+						<li class="dropdown"><a href="news.html" class="dropdown-toggle">Статьи</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Услуги 1</a>
+								<a href="#" class="dropdown-item">Услуги 2</a>
+								<a href="#" class="dropdown-item">Услуги 3</a>
+								<a href="#" class="dropdown-item">Услуги 4</a>
+								<a href="#" class="dropdown-item">Услуги 5</a>
+								<a href="#" class="dropdown-item">Услуги 6</a>
+								<a href="#" class="dropdown-item">Услуги 7</a>
+							</div>
+						</li>
+						<li><a href="contacts.html">Контакты</a></li>
+						<li><a href="warranty.html">Гарантии</a></li>
+						<li><a href="projects.html">Проекты домов</a></li>
+						<li><a href="project-page.html">Проект дома single</a></li>
+						<li><a href="credits.html">Кредит</a></li>
+					</ul>
+				</nav>
+
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567" class="list-messanger__phone"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="home-page home-service home-service1">
+		<div class="container">
+			<ul class="breadcrumb my-ul">
+				<li><a href="index.html">Главная</a></li>
+				<li><span>Крыша</span></li>
+			</ul>
+			<div class="home-content">
+				<h1>Узнать стоимость
+					работ по крыше</h1>
+
+				<div class="text-description">
+					<p>Заполните форму <br>
+						и получите рассчет бесплатно</p>
+				</div>
+
+				<form method="post" class="form">
+					<label><input type="text" placeholder="Имя" name="name"></label>
+					<label><input type="text" placeholder="+7 (___) ___-__-__" name="phone" required></label>
+					<button type="submit" class="btn btn-accent btn-call">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<section class="types-work">
+		<div class="container">
+			<h2 class="text-center">Виды работ по крыше</h2>
+			<div class="section-subtext text-center">
+				<p>Кровельные работы – обязательный вид работ при строительстве, капитальном ремонте, реконструкции здания.</p>
+				<p>Ключевая функция крыши состоит в защите помещений от осадков, солнца, других природных воздействий.</p>
+				<p>Кроме этого, она должна обеспечивать теплоизоляцию и звукоизоляцию, отвечать требованиям пожарной
+					безопасности.</p>
+			</div>
+
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work1.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">Подшив карнизов и фронтонов
+						<span>(вагонка, сафиты, сайдинг)</span>
+					</div>
+					<div class="box-text">
+						<p>Свес крыши – это продолжение ее стропильной системы, отстоящее на определенную величину от стен строения.
+							Подшивка
+							свесов крыши нужна для того, чтобы защитить стены здания от дождя, снега, других атмосферных воздействий.
+							Она дает
+							возможность устроить вентиляцию подкровельного пространства – тогда утеплитель будет оставаться сухим, и
+							вся конструкция
+							прослужит долго. Подшивка свеса крыши выполняет и декоративную функцию.</p>
+						<p>Свесы бывают скатными (карнизными) и фронтонными. Первые являются продолжениями скатов. Фронтонные
+							образованы
+							продолжением обрешетки на торцах дома. Основная задача скатного свеса — обеспечение вентиляции в
+							подкровельном
+							пространстве. Если об этом позаботиться, то на чердаке или в мансарде будет сухо, потому что влага не
+							будет
+							задерживаться. Но ошибки при устройстве вентиляционной системы приводят к тому, что влага скапливается,
+							разрушает
+							«кровельный пирог» и отделочные материалы, способствует появлению плесени и размножению грибка.</p>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work2.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">Монтаж водосточных систем(металлические и пвх)</div>
+					<div class="box-text">
+						<p>Водосточная система — это совокупность различных элементов, которые устанавливаются согласно определенной
+							последовательности на кровле и фасаде здания. Водосточная система предназначена для защиты кровли, фасада
+							и фундамента
+							здания от негативного воздействия атмосферных осадков.</p>
+
+						<p>Что же лучше: пластиковые или металлические водостоки? <br>
+							Ответ на этот вопрос зависит от вашей потребности, типа объекта, климата и просто-напросто эстетических
+							предпочтений.
+							Если вы хотите, чтобы облик дома отражал вашу индивидуальность, был надёжным и долговечным – ваш выбор,
+							безусловно,
+							металлический водосток. Если же бюджет ограничен или водосток нужен для хозяйственной постройки, гаража,
+							небольшой дачи
+							– подойдёт пластик.</p>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work3.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">Монтаж снегозадержателей</div>
+					<div class="box-text">
+						<p>Снегозадержатель необходим для кровли, покрытой металлочерепицей или профнастилом, а также для фальцевой
+							крыши,
+							выполняемой из отдельных панелей листового или рулонного проката. Это гладкие материалы, с которых большие
+							снежные массы
+							могут легко скатываться. Для их сдерживания и нужно установить снегозадержатель.</p>
+
+						<p>Обратите внимание: кроме своего прямого назначения, конструкция выполняет декоративную функцию, придавая
+							кровле
+							завершенный вид.</p>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work4.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">Вентиляция кровли</div>
+					<div class="box-text">
+						<p>Через крышу дом теряет до 30% тепла. Чтобы снизить теплопотери, кровлю утепляют. Зачем тут вентиляция, и
+							не увеличит ли
+							она выдувания тепла? Нет, и даже наоборот: если правильно устроить кровельный пирог, вентиляция увеличит
+							эффективность
+							утепления. <br>
+							Под кровлей скапливается влажный пар, который поступает из помещений. Если этот пар не отводится, он
+							оседает на
+							стропильных балках, внутренней поверхности кровельного покрытия, в слое утеплителя</p>
+
+						<p>Основное предназначение и функции кровельной вентиляции:</p>
+
+						<ol>
+							<li>Предупреждение длительного скопления воздуха в подкровельном пространстве и помещении;</li>
+							<li>Препятствие образованию влаги в подкровельном пространстве;</li>
+							<li>Снижение риска возникновения обледенений на крыше и в подкровельном пространстве.</li>
+						</ol>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work5.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">мансардные окна</div>
+					<div class="box-text">
+						<p>Главным преимуществом установки мансардных окон является организация природного освещения подкровельного
+							пространства.
+							Дополнительно обустраивается источник тепла, проветривания помещения, естественной конвекции воздуха в
+							течение суток.
+							Плюс такой проем является оригинальным декоративным элементом крыши.
+							Среди недостатков выделяется высокая цена. Это касается стеклопакетов, дополнительных изоляционных
+							материалов, монтажных
+							работ.</p>
+
+						<p>Какие мансардные окна лучше?</p>
+
+						<p>Профессионалы советуют отдавать предпочтение наклонным мансардным окнам, а не вертикальным. Они позволяют
+							не только
+							добавить света в помещение, но еще и позволяют освободить место для размещения всей необходимой мебели.
+						</p>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work6.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">чердачные лестницы</div>
+					<div class="box-text">
+						<p>У каждого загородного дома есть подкровельное пространство. Это пространство может быть двух видов: жилая
+							мансарда либо
+							чердачное помещение.</p>
+
+						<p>Для того, чтобы подняться в чердачное помещение, можно установить стационарную лестницу, но обычно это не
+							оправдано
+							дорого и очень громоздко. Если рассмотреть стремянку, то её Вы будете вынуждены где-то хранить, занимая
+							пространство.
+							Также стремянку придётся доставать, носить и раскладывать. Плюс к этому, она небезопасна.</p>
+
+						<p>Чердачная лестница с люком – комфортное современное решение для безопасного подъёма и спуска. Благодаря
+							своей
+							конструкции, складная лестница на чердак убирается в потолок с помощью стержня и освобождает место в
+							помещении.</p>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work7.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">Трубы, колпаки (дымники)</div>
+					<div class="box-text">
+						<p>Дымник – кровельный добор, который выполняет не только эстетическую, но и практическую функции – защищает
+							трубу от
+							негативных атмосферных факторов и преждевременного разрушения. Также иногда называется зонтиком для печной
+							трубы,
+							колпаком дымохода, однако в действительности эти доборы отличаются друг от друга.</p>
+
+						<p>Этот небольшой, но важный добор – гарант безопасности вашего дома. Если не уделить должного внимания
+							защите
+							дымоотводного канала, увеличивается риск возгорания, отравления угарным газом. Вот почему защитные колпаки
+							рекомендуются
+							к установке не только на печные трубы, но и вентиляционные, каминные и газоходные. Они препятствуют
+							воздействию ветра,
+							который может задуть огонь в камине или печи.</p>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="callback-section callback-service m-100">
+		<div class="container">
+			<div class="callback-content">
+				<h2>У вас остались вопросы?</h2>
+				<div class="box-text">
+					<p>Получите исчерпывающую консультацию</p>
+				</div>
+
+				<form method="post" class="form form-callback">
+
+					<label><input type="text" name="name" placeholder="Ваше имя"></label>
+
+					<label><input type="text" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+
+
+					<button type="submit" class="btn btn-accent btn-submit">Оставить заявку</button>
+				</form>
+
+				<ul class="list-messangers-call my-ul">
+					<li><a href="https://wa.me/79031234567" target="_blank" class="list-messangers-call-link link-whatsapp">
+							<span class="list-messangers-call__icon"><img src="img/whatsapp-call.png" alt=""></span><span
+								class="list-messangers-call__text">Написать в WhatsApp</span>
+						</a></li>
+					<li><a href="https://t.me/79031234567" target="_blank" class="list-messangers-call-link link-telegram">
+							<span class="list-messangers-call__icon"><img src="img/telegram-white.png" alt=""></span><span
+								class="list-messangers-call__text">Написать в Telegram</span>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="works m-100">
+		<div class="container">
+			<h2 class="text-center">Наши работы</h2>
+
+			<div class="w-100">
+				<div class="row">
+					<div class="col-3 mb-100">
+						<div class="works-box">
+							<a href="project-page.html" class="works-box__img"><img src="img/gallery1.jpg" alt="">
+								<span class="works-box__btn btn btn-border-white">подробнее</span>
+							</a>
+							<div class="works-box__body">
+								<a href="project-page.html" class="works-box__name">Загородное шоссе 154</a>
+								<a href="project-page.html" class="link-details">подробнее</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-100">
+						<div class="works-box">
+							<a href="project-page.html" class="works-box__img"><img src="img/gallery1.jpg" alt="">
+								<span class="works-box__btn btn btn-border-white">подробнее</span>
+							</a>
+							<div class="works-box__body">
+								<a href="project-page.html" class="works-box__name">Загородное шоссе 154</a>
+								<a href="project-page.html" class="link-details">подробнее</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-100">
+						<div class="works-box">
+							<a href="project-page.html" class="works-box__img"><img src="img/gallery1.jpg" alt="">
+								<span class="works-box__btn btn btn-border-white">подробнее</span>
+							</a>
+							<div class="works-box__body">
+								<a href="project-page.html" class="works-box__name">Загородное шоссе 154</a>
+								<a href="project-page.html" class="link-details">подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<a href="projects.html" class="btn btn-accent btn-all m-auto">больше работ</a>
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+
+				<div class="footer-wrapper">
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">О компании</a></li>
+							<li><a href="category.html" class="h3">Категории</a></li>
+							<li><a href="category.html">Категория 1</a></li>
+							<li><a href="category.html">Категория 2</a></li>
+							<li><a href="category.html">Категория 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">Услуги</a></li>
+							<li><a href="service.html">Услуга 1</a></li>
+							<li><a href="service.html">Услуга 2</a></li>
+							<li><a href="service.html">Услуга 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="news.html" class="h3">Статьи</a></li>
+							<li><a href="article.html">Статья 1</a></li>
+							<li><a href="article.html">Статья 2</a></li>
+							<li><a href="article.html">Статья 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="contacts.html" class="h3">Контакты</a></li>
+							<li><a href="warranty.html" class="h3">Гарантии</a></li>
+							<li><a href="projects.html" class="h3">Проекты домов</a></li>
+							<li><a href="project-page.html" class="h3">Проект дома single</a></li>
+							<li><a href="credits.html" class="h3">Кредит</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-contacts">
+					<a href="tel:+74951234567" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/phone-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">+7 (495) 123-45-67</span>
+					</a>
+					<a href="mailto:info@mail.ru" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/mail.png" alt=""></span>
+						<span class="footer-contacts-link__text">info@mail.ru</span>
+					</a>
+					<a href="#" target="_blank" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/location-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">Открытое шоссе 15</span>
+					</a>
+				</div>
+
+				<div class="payments-box">
+					<p>Принимаем к оплате</p>
+					<div class="payments-box__icon">
+						<img src="img/payments.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<a href="#" class="link-documents color-accent" target="_blank">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</footer>
+
+
+	<a href="#" class="fixed-btn fixed-btn-whatsapp"><img src="img/whatsapp-call.png" alt=""></a>
+	<a href="#" class="fixed-btn fixed-btn-chat"><img src="img/chat-icon.png" alt=""></a>
+
+	<!--модалное окно-->
+	<div class="modal__div" id="callback__modal">
+		<div class="modal__wrapper">
+			<div class="modal__close"></div>
+			<div class="modal-title">Обратный звонок</div>
+
+			<form method="post" class="modal-form">
+
+				<label><input type="text" name="name" placeholder="Ваше имя"></label>
+
+				<label><input type="text" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+
+
+				<button type="submit" class="btn btn-accent btn-submit">Отправить</button>
+			</form>
+		</div>
+	</div>
+	<!-- Пoдлoжкa -->
+	<div class="overlay"></div>
+
+	<!-- add plugins js-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+	<!-- add plugins js end-->
+
+	<script src="js/common.js"></script>
+
+</body>
+
+</html>

@@ -330,6 +330,10 @@ a.color-inherit:hover {
   color: inherit;
 }
 
+.color-blue {
+  color: #0e63a6;
+}
+
 a.color-blue {
   color: #0e63a6;
 }
@@ -482,6 +486,7 @@ h2 {
   background: rgba(0, 0, 0, 0.57);
   border-radius: 3px;
   padding: 9px 6px;
+  min-width: 200px;
 }
 
 .dropdown-item {
@@ -584,6 +589,18 @@ h2 {
 }
 .box-text ul strong {
   font-weight: 500;
+}
+.box-text ol {
+  margin: 0 0 20px;
+}
+.box-text ol li {
+  margin: 0 0 20px;
+}
+.box-text ol li:last-child {
+  margin: 0;
+}
+.box-text ol:last-child {
+  margin: 0;
 }
 
 .list-indent {

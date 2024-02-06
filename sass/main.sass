@@ -1352,3 +1352,111 @@
 	&__val
 		display: block
 		color: #464646
+
+// service page
+
+.home-service1
+	background: url('../img/service-page-bg1.jpg') no-repeat center
+	background-size: cover
+	.home-content
+		max-width: 380px
+
+.home-service2
+	background: url('../img/service-page-bg2.jpg') no-repeat center
+	background-size: cover
+	h1
+		margin: 0 0 70px
+	.home-content
+		max-width: 480px
+
+.home-service3
+	background: url('../img/service-page-bg3.jpg') no-repeat center
+	background-size: cover
+	h1
+		margin: 0 0 70px
+	.home-content
+		max-width: 480px
+
+.home-service4
+	background: url('../img/service-page-bg4.jpg') no-repeat center
+	background-size: cover
+	.home-content
+		max-width: 480px
+
+.types-work
+	margin: 80px 0 100px
+	.section-subtext
+		max-width: none
+		font-size: 16px
+
+.types-work-box
+	width: 100%
+	display: flex
+	align-items: center
+	flex-wrap: wrap
+	padding: 0 0 70px
+	border-bottom: 1px solid #dadada
+	margin: 60px 0 0
+	color: #464646
+	&__img
+		max-width: 420px
+		width: 100%
+		@include d-flex
+	&__content
+		width: calc(100% - 420px)
+		padding: 0 0 0 40px
+		.box-text
+			p
+				strong
+					font-weight: 500
+	&__name
+		text-transform: uppercase
+		font-weight: 500
+		color: $blue
+		margin: 0 0 45px
+		span
+			text-transform: none
+			display: block
+	&__price
+		margin: 35px 0 0
+		strong
+			font-weight: 500
+	&__btn
+		text-transform: none
+		padding: 10px 23px
+		margin: 38px 0 0
+	&__advantages
+		margin: 45px 0 0
+		&-title
+			margin: 0 0 12px
+			color: $blue
+			font-weight: 500
+	.list-like
+		li
+			margin: 0 0 3px
+			&:last-child
+				margin: 0
+	&:last-child
+		padding: 0
+		border: none
+
+.list-like
+	li
+		display: flex
+		align-items: flex-start
+		margin: 0 0 3px
+		&:last-child
+			margin: 0
+		&::before
+			content: ''
+			display: inline-block
+			width: 21px
+			min-width: 21px
+			height: 20px
+			margin: 0 10px 0 0
+			background: url('../img/like-icon.png') no-repeat center
+			background-size: 100%
+
+.callback-service
+	background: #e6e6e6 url("../img/callback-bg4.png") no-repeat right center
+	background-size: 1110px

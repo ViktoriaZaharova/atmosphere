@@ -240,6 +240,9 @@ a.color-inherit
 	&:hover
 		color: inherit
 
+.color-blue
+	color: $blue
+
 a.color-blue
 	color: $blue
 	&:hover
@@ -357,6 +360,7 @@ h2
 	background: rgba(#000, .57)
 	border-radius: 3px
 	padding: 9px 6px
+	min-width: 200px
 
 .dropdown-item
 	font-size: 15px
@@ -416,6 +420,14 @@ h2
 				margin: 0
 		strong
 			font-weight: 500
+	ol
+		margin: 0 0 20px
+		li
+			margin: 0 0 20px
+			&:last-child
+				margin: 0
+		&:last-child
+			margin: 0 
 
 .list-indent
 	text-indent: 10px
@@ -897,7 +909,7 @@ h2
 	&:hover
 		.tooltip-box
 			display: block
-	
+
 .tooltip-btn
 	@include d-flex
 	border-radius: 50%
@@ -924,4 +936,3 @@ h2
 	padding: 10px
 	box-shadow: 0 0 16px 0 rgba(72, 72, 72, 0.19)
 	display: none
-

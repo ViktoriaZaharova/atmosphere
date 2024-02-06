@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Кредит</title>
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+	<!-- add plugins css -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+	<!-- add plugins css end -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="header-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+
+				<div class="btn-burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="nav-menu__close"></div>
+			<div class="container">
+				<nav class="nav-menu">
+
+					<ul class="menu my-ul">
+						<li><a href="index.html">Главная страница</a></li>
+						<li><a href="about.html">О компании</a></li>
+						<li><a href="category.html">Категории</a></li>
+						<li class="dropdown"><a href="services.html" class="dropdown-toggle">Услуги</a>
+							<div class="dropdown-menu">
+								<a href="service-page1.html" class="dropdown-item">Крыша</a>
+								<a href="service-page2.html" class="dropdown-item">Кладка стен</a>
+								<a href="service-page3.html" class="dropdown-item">Монтаж стропильной системы</a>
+								<a href="service-page4.html" class="dropdown-item">Монтаж фундамента</a>
+							</div>
+						</li>
+						<li class="dropdown"><a href="news.html" class="dropdown-toggle">Статьи</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Услуги 1</a>
+								<a href="#" class="dropdown-item">Услуги 2</a>
+								<a href="#" class="dropdown-item">Услуги 3</a>
+								<a href="#" class="dropdown-item">Услуги 4</a>
+								<a href="#" class="dropdown-item">Услуги 5</a>
+								<a href="#" class="dropdown-item">Услуги 6</a>
+								<a href="#" class="dropdown-item">Услуги 7</a>
+							</div>
+						</li>
+						<li><a href="contacts.html">Контакты</a></li>
+						<li><a href="warranty.html">Гарантии</a></li>
+						<li><a href="projects.html">Проекты домов</a></li>
+						<li><a href="project-page.html">Проект дома single</a></li>
+						<li><a href="credits.html">Кредит</a></li>
+					</ul>
+				</nav>
+
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567" class="list-messanger__phone"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="home-page home-service home-service2">
+		<div class="container">
+			<ul class="breadcrumb my-ul">
+				<li><a href="index.html">Главная</a></li>
+				<li><span>Кладка стен</span></li>
+			</ul>
+			<div class="home-content">
+				<h1>Наша компания
+					осуществляет кладку
+					всеми каменными
+					материалами</h1>
+
+				<a href="#callback__modal" class="btn btn-accent btn-call open_modal">Заказать звонок</a>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="types-work">
+		<div class="container">
+			<h2 class="text-center">Виды кладок из каменных материалов</h2>
+			<div class="section-subtext text-center">
+				<p>Планируя возведение каменных стен необходимо определиться с видом кладки.</p>
+				<p>Существуют следующие виды кладки, которые используют при строительстве домов:</p>
+			</div>
+
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work-type1.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">укладка керамзитобетонных блоков
+					</div>
+					<div class="box-text">
+						<p>Самая популярная и экономичная технология укладки керамзитобетонных блоков с перевязкой наружных и
+							внутренних стен.
+							Толщина стены равняется уже длине керамзитоблока, она получается толще — в два ряда блоков, поэтому лучше
+							сохраняет
+							тепло.</p>
+
+						<p>Керамзитобетонные блоки состоят из керамзита, цемента и песка. Их малый вес, низкая теплопроводность и
+							относительно
+							невысокая стоимость позволяет неплохо сэкономить на материале для стен. Этот материал популярен в странах
+							Европы, растет
+							его востребованость и в малоэтажном домостроении в России.</p>
+
+						<p>Чтобы все эти достоинства реализовались на практике, монтаж фальцевой кровли необходимо доверить
+							профессионалам.</p>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work-type2.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">Кладка газоблока</div>
+					<div class="box-text">
+						<p>Газобетон изготавливается из тех же базовых компонентов, что и традиционные марки бетона. Однако,
+							присутствие в составе
+							компонентов для газообразования (известь и алюминиевая пудра) придает материалу пористую структуру. Она
+							кардинальным
+							образом меняет свойства газобетона, придавая ему новые качества, как положительные, так и отрицательные.
+						</p>
+
+						<p>Газобетон обладает малым весом и низкой теплопроводностью. Это полезные качества, следствием которых
+							является
+							значительная экономия. Например, малый вес позволяет получить легкие постройки и снизить мощность
+							фундамента. Это весьма
+							значимое преимущество, так как сметная стоимость основания составляет около 40 % от общей суммы. Кроме
+							того, легкие
+							блоки можно без особого напряжения укладывать вручную, без использования подъемной техники.</p>
+
+						<p>Низкая теплопроводность позволяет снизить интенсивность работы отопительной системы. Это дает экономию на
+							обогреве в
+							течение всего срока эксплуатации дома. изначально многие строителя относились к газобетону как к
+							разновидности жесткого
+							теплоизолятора, что достаточно ярко иллюстрирует его способности к теплосбережению.</p>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work-type3.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">кладка кирпича (полнотелый)</div>
+					<div class="box-text">
+						<p>Полнотелый кирпич выдерживает большую нагрузку, обладает высокой морозостойкостью и влагостойкостью,
+							поэтому нашел
+							широкое применение в строительстве.</p>
+
+						<p>Существует несколько видов кладки полнотелого кирпича:</p>
+
+						<ol>
+							<li>
+								В полкирпича. Подходит для сооружения стен, разделяющих комнаты в помещении. Созданная конструкция
+								обеспечивает
+								надёжную звукоизоляцию.
+							</li>
+							<li>В 1 кирпич. Применяется при возведении 1–2-этажных зданий в южных районах. Характеризуется
+								недостаточным
+								уровнем
+								теплоизоляции.</li>
+							<li>В 1,5 кирпича. Наиболее популярная строительная технология, которая применяется при сооружении зданий
+								с
+								высотой 1–3
+								этажа. Её толщина составляет 380 мм, а швы выполняются с размером 10–12 мм.</li>
+							<li>В 2 кирпича. Толщина стен зданий получается не менее 510 мм. Может быть однорядной, трёхрядной и
+								многорядной.</li>
+						</ol>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work-type4.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">Кладка керамоблока</div>
+					<div class="box-text">
+						<p>Керамический блок — искусственный керамический камень сложной формы, предназначенный для кладки стен,
+							перегородок,
+							перекрытий и ограждений. Это строительный материал, получаемый способом формования и обжига глины и
+							представляющий собой
+							замену пустотелому кирпичу.</p>
+
+						<p>Керамоблок получил широкое применение в жилом и промышленном строительстве малоэтажных и многоэтажных
+							зданий (до девяти
+							этажей).</p>
+
+						<p>Чем отличается керамоблок от газобетона?</p>
+
+						<p>Отличием является лишь то, что газобетон не может быть использован в качестве облицовочного материала, не
+							нуждающегося в
+							последующей отделке. Керамоблок – наоборот имеет в своей классификации облицовочные изделия. Ценовая
+							категория Газобетон
+							– значительно дешевле, керамоблок – достаточно дорогостоящий материал.</p>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work-type5.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">облицовочный кирпич
+						<span>(«одинарный», «полуторный», «эконом»)</span>
+					</div>
+					<div class="box-text">
+						<p>Как для облицовки, так и для строительства стен дома гораздо выгоднее использовать полуторный кирпич, так
+							как,
+							во-первых, экономится время, так как работа по кладке продвигается гораздо быстрее, чем если бы в кладке
+							использовался
+							стандартный одинарный кирпич.</p>
+						<p>Во-вторых, при использовании полуторного кирпича существенно снижается количество кладочного раствора,
+							так
+							как параметры
+							(объем) полуторного кирпича в 1,35 раза больше, чем у одинарного, поэтому и количество кладочных швов
+							будет меньше.</p>
+
+						<p>Разновидности формовки</p>
+
+						<p>Одинарные (250х120х65 мм) – самая распространенная разновидность формовки – одинарный прямоугольный
+							брусок. При работе с
+							этим кирпичом каменщику удобно работать одной рукой.
+							Полуторные (250х120х88 мм) кирпичи имеют меньший расход по площади и по количеству раствора - кладка
+							продвигается
+							быстрее.</p>
+						<p>Двойной кирпич (250х120х138 мм) – по ГОСТу называется камень керамический. По высоте он равняется двум
+							одинарным. При
+							использовании керамический камень позволяет сократить расходы на материалы и увеличивает скорость кладки.
+						</p>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work-type6.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">Декоративный камень</div>
+					<div class="box-text">
+						<p>Декоративный камень — это имитация натуральных природных материалов для отделки домов и квартир. Его
+							изготавливают из
+							экологичных компонентов: гипса, цемента, глины или песка, добавляют крошку горных пород.
+							В результате получается материал, который выглядит как настоящие каменные плиты, но при этом его вес и
+							цена гораздо
+							ниже.</p>
+
+						<p>Существуют следующие виды декоративных (искусственных) камней: из гипса; из кварца; из акрила; на основе
+							бетона;
+							керамограниты.</p>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work-type7.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">Искусственный камень</div>
+					<div class="box-text">
+						<p>Декоративный искусственный камень — облицовочный материал, который имитирует природный камень: травертин, бут, сланец
+						или скальные породы. Одна из его граней плоская для удобства крепления на фасад, а другая — рельефная, имитирующая
+						фактуру натурального камня.</p>
+						
+						<p>С помощью искусственного камня можно оформить фасад в любом стиле и защитить его от непогоды. Наиболее популярен камень
+						на бетонной основе и основе из гипса.</p>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="callback-section callback-service m-100">
+		<div class="container">
+			<div class="callback-content">
+				<h2>У вас остались вопросы?</h2>
+				<div class="box-text">
+					<p>Получите исчерпывающую консультацию</p>
+				</div>
+
+				<form method="post" class="form form-callback">
+
+					<label><input type="text" name="name" placeholder="Ваше имя"></label>
+
+					<label><input type="text" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+
+
+					<button type="submit" class="btn btn-accent btn-submit">Оставить заявку</button>
+				</form>
+
+				<ul class="list-messangers-call my-ul">
+					<li><a href="https://wa.me/79031234567" target="_blank" class="list-messangers-call-link link-whatsapp">
+							<span class="list-messangers-call__icon"><img src="img/whatsapp-call.png" alt=""></span><span
+								class="list-messangers-call__text">Написать в WhatsApp</span>
+						</a></li>
+					<li><a href="https://t.me/79031234567" target="_blank" class="list-messangers-call-link link-telegram">
+							<span class="list-messangers-call__icon"><img src="img/telegram-white.png" alt=""></span><span
+								class="list-messangers-call__text">Написать в Telegram</span>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="works m-100">
+		<div class="container">
+			<h2 class="text-center">Наши работы</h2>
+
+			<div class="w-100">
+				<div class="row">
+					<div class="col-3 mb-100">
+						<div class="works-box">
+							<a href="project-page.html" class="works-box__img"><img src="img/gallery1.jpg" alt="">
+								<span class="works-box__btn btn btn-border-white">подробнее</span>
+							</a>
+							<div class="works-box__body">
+								<a href="project-page.html" class="works-box__name">Загородное шоссе 154</a>
+								<a href="project-page.html" class="link-details">подробнее</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-100">
+						<div class="works-box">
+							<a href="project-page.html" class="works-box__img"><img src="img/gallery1.jpg" alt="">
+								<span class="works-box__btn btn btn-border-white">подробнее</span>
+							</a>
+							<div class="works-box__body">
+								<a href="project-page.html" class="works-box__name">Загородное шоссе 154</a>
+								<a href="project-page.html" class="link-details">подробнее</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-100">
+						<div class="works-box">
+							<a href="project-page.html" class="works-box__img"><img src="img/gallery1.jpg" alt="">
+								<span class="works-box__btn btn btn-border-white">подробнее</span>
+							</a>
+							<div class="works-box__body">
+								<a href="project-page.html" class="works-box__name">Загородное шоссе 154</a>
+								<a href="project-page.html" class="link-details">подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<a href="projects.html" class="btn btn-accent btn-all m-auto">больше работ</a>
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+
+				<div class="footer-wrapper">
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">О компании</a></li>
+							<li><a href="category.html" class="h3">Категории</a></li>
+							<li><a href="category.html">Категория 1</a></li>
+							<li><a href="category.html">Категория 2</a></li>
+							<li><a href="category.html">Категория 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">Услуги</a></li>
+							<li><a href="service.html">Услуга 1</a></li>
+							<li><a href="service.html">Услуга 2</a></li>
+							<li><a href="service.html">Услуга 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="news.html" class="h3">Статьи</a></li>
+							<li><a href="article.html">Статья 1</a></li>
+							<li><a href="article.html">Статья 2</a></li>
+							<li><a href="article.html">Статья 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="contacts.html" class="h3">Контакты</a></li>
+							<li><a href="warranty.html" class="h3">Гарантии</a></li>
+							<li><a href="projects.html" class="h3">Проекты домов</a></li>
+							<li><a href="project-page.html" class="h3">Проект дома single</a></li>
+							<li><a href="credits.html" class="h3">Кредит</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-contacts">
+					<a href="tel:+74951234567" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/phone-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">+7 (495) 123-45-67</span>
+					</a>
+					<a href="mailto:info@mail.ru" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/mail.png" alt=""></span>
+						<span class="footer-contacts-link__text">info@mail.ru</span>
+					</a>
+					<a href="#" target="_blank" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/location-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">Открытое шоссе 15</span>
+					</a>
+				</div>
+
+				<div class="payments-box">
+					<p>Принимаем к оплате</p>
+					<div class="payments-box__icon">
+						<img src="img/payments.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<a href="#" class="link-documents color-accent" target="_blank">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</footer>
+
+
+	<a href="#" class="fixed-btn fixed-btn-whatsapp"><img src="img/whatsapp-call.png" alt=""></a>
+	<a href="#" class="fixed-btn fixed-btn-chat"><img src="img/chat-icon.png" alt=""></a>
+
+	<!--модалное окно-->
+	<div class="modal__div" id="callback__modal">
+		<div class="modal__wrapper">
+			<div class="modal__close"></div>
+			<div class="modal-title">Обратный звонок</div>
+
+			<form method="post" class="modal-form">
+
+				<label><input type="text" name="name" placeholder="Ваше имя"></label>
+
+				<label><input type="text" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+
+
+				<button type="submit" class="btn btn-accent btn-submit">Отправить</button>
+			</form>
+		</div>
+	</div>
+	<!-- Пoдлoжкa -->
+	<div class="overlay"></div>
+
+	<!-- add plugins js-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+	<!-- add plugins js end-->
+
+	<script src="js/common.js"></script>
+
+</body>
+
+</html>

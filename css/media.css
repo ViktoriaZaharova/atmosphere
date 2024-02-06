@@ -282,6 +282,32 @@
   .object-section .section-subtext br {
     display: none;
   }
+  .types-work {
+    margin: 50px 0;
+  }
+  .types-work-box {
+    margin: 30px 0 0;
+    padding: 0 0 30px;
+  }
+  .types-work-box__img {
+    max-width: 300px;
+  }
+  .types-work-box__content {
+    width: calc(100% - 300px);
+    padding: 0 0 0 20px;
+  }
+  .types-work-box__name {
+    margin: 0 0 30px;
+  }
+  .types-work-box__price {
+    margin: 20px 0;
+  }
+  .types-work-box__btn {
+    margin: 20px 0 0;
+  }
+  .types-work-box__advantages {
+    margin: 20px 0 0;
+  }
 }
 @media only screen and (max-width: 768px) {
   .header-top .phone-wrapper {
@@ -407,6 +433,14 @@
   .price-object {
     margin: 0 0 20px;
   }
+  .types-work-box__img {
+    margin: 0 auto;
+  }
+  .types-work-box__content {
+    padding: 0;
+    width: 100%;
+    margin: 30px 0 0;
+  }
 }
 @media only screen and (max-width: 576px) {
   .col-6 {
@@ -517,6 +551,9 @@
   }
   .home-page h1 {
     font-size: 24px;
+  }
+  .home-service .home-content {
+    max-width: 250px;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -787,5 +824,8 @@
   .price-object {
     margin: 0 0 20px;
     font-size: 22px;
+  }
+  .home-service .text-description {
+    margin-bottom: 0;
   }
 }

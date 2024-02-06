@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Кредит</title>
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+	<!-- add plugins css -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+	<!-- add plugins css end -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="header-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+
+				<div class="btn-burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="nav-menu__close"></div>
+			<div class="container">
+				<nav class="nav-menu">
+
+					<ul class="menu my-ul">
+						<li><a href="index.html">Главная страница</a></li>
+						<li><a href="about.html">О компании</a></li>
+						<li><a href="category.html">Категории</a></li>
+						<li class="dropdown"><a href="services.html" class="dropdown-toggle">Услуги</a>
+							<div class="dropdown-menu">
+								<a href="service-page1.html" class="dropdown-item">Крыша</a>
+								<a href="service-page2.html" class="dropdown-item">Кладка стен</a>
+								<a href="service-page3.html" class="dropdown-item">Монтаж стропильной системы</a>
+								<a href="service-page4.html" class="dropdown-item">Монтаж фундамента</a>
+							</div>
+						</li>
+						<li class="dropdown"><a href="news.html" class="dropdown-toggle">Статьи</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Услуги 1</a>
+								<a href="#" class="dropdown-item">Услуги 2</a>
+								<a href="#" class="dropdown-item">Услуги 3</a>
+								<a href="#" class="dropdown-item">Услуги 4</a>
+								<a href="#" class="dropdown-item">Услуги 5</a>
+								<a href="#" class="dropdown-item">Услуги 6</a>
+								<a href="#" class="dropdown-item">Услуги 7</a>
+							</div>
+						</li>
+						<li><a href="contacts.html">Контакты</a></li>
+						<li><a href="warranty.html">Гарантии</a></li>
+						<li><a href="projects.html">Проекты домов</a></li>
+						<li><a href="project-page.html">Проект дома single</a></li>
+						<li><a href="credits.html">Кредит</a></li>
+					</ul>
+				</nav>
+
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="https://wa.me/79031234567" target="_blank"><img src="img/whatsapp.png" alt=""></a></li>
+						<li><a href="https://t.me/79031234567" target="_blank"><img src="img/telegram.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+79031234567" class="phone">+7 (903) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+				<div class="header-box">
+					<ul class="list-messanger my-ul">
+						<li><a href="tel:+74951234567" class="list-messanger__phone"><img src="img/phone-icon.png" alt=""></a></li>
+					</ul>
+
+					<div class="phone-wrapper">
+						<a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+						<span class="schedule">с 9.00 до 21.00</span>
+					</div>
+				</div>
+
+				<a href="#callback__modal" class="btn btn-accent btn-callback open_modal">
+					<span class="btn-icon"><img src="img/callback-icon.png" alt=""></span>
+					<span class="btn-text">обратный звонок</span>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="home-page home-service home-service3">
+		<div class="container">
+			<ul class="breadcrumb my-ul">
+				<li><a href="index.html">Главная</a></li>
+				<li><span>Монтаж стропильной системы</span></li>
+			</ul>
+			<div class="home-content">
+				<h1>Наша компания
+					производит монтаж
+					стропильной системы
+					любой сложности
+					и конфигурации</h1>
+
+				<a href="#callback__modal" class="btn btn-accent btn-call open_modal">Заказать звонок</a>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="types-work">
+		<div class="container">
+			<h2 class="text-center">Виды стропильных систем</h2>
+			<div class="section-subtext text-center">
+				<p>В зависимости от предназначения строящегося здания, а также от финансовых возможностей его владельца, <br>
+					кровля может быть нескольких разновидностей. Среди них стоит выделить виды, пользующиеся наибольшей
+					популярностью:</p>
+			</div>
+
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work-type8.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">Фальцевая кровля
+					</div>
+					<div class="box-text">
+						<p>Фальцевая кровля сегодня очень популярна. Данный тип кровли обладает великолепными характеристиками по
+							герметичности и
+							внешнему виду. Для устройства такой крыши используют медные, алюминиевые и цинк-титановые и оцинкованные
+							листы.</p>
+
+						<p>Такой вид кровли представляет собой несколько металлических листов («картин»), которые укладываются на
+							крышу особым
+							способом. Достоинствами такой кровли являются:</p>
+						<ol>
+							<li>Возможность использования для любых типов крыш.</li>
+							<li>Отсутствие возможностей для протечек влаги.</li>
+							<li>Расширение металла не влияет на общую структуру.</li>
+							<li>Некоторые виды такой кровли обладают доступной стоимостью.</li>
+							<li>При правильном монтаже металлические листы легко отводят воду и снег.</li>
+							<li>Длительный срок эксплуатации.</li>
+						</ol>
+						<p>Чтобы все эти достоинства реализовались на практике, монтаж фальцевой кровли необходимо доверить
+							профессионалам.</p>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work-type9.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">Металлочерепица</div>
+					<div class="box-text">
+						<p>Металлочерепица – это очень привлекательный и долговечный материал. С его помощью можно создать надежное
+							кровельное
+							покрытие. Монтаж кровли из металлочерепицы – не сложный, но очень ответственный процесс. Даже одна ошибка
+							при укладке
+							листов этого материала может привести к протечкам и ухудшению внешнего вида кровли. Так как этот материал
+							является
+							относительно дорогим, рисковать и укладывать его своими руками не целесообразно. В нашей компании можно
+							заказать такую
+							работу «под ключ».</p>
+
+						<p>Общая стоимость работ складывается из следующих составляющих:</p>
+						<ul class="my-ul">
+							<li>- материалы;</li>
+							<li>- стоимость амортизации оборудования;</li>
+							<li>- стоимость работы;</li>
+						</ul>
+
+						<p>Большую часть стоимости занимают цена листов металлочерепицы. Сюда стоит добавить стоимость коньков,
+							примыканий,
+							гидроизоляции и других элементов кровельного пирога.</p>
+
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work-type10.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">Профнастил</div>
+					<div class="box-text">
+						<p>Профнастил – простой и удобный материал для устройства кровли. Его использование поможет снизить затраты
+							на монтаж. Но
+							без необходимых знаний, использовать профнастил нельзя. Мы готовы выполнить монтаж этого материала «под
+							ключ»
+							профессионально и в сжатые сроки. Выполняем такую работу в соответствии с действующим ГОСТом и СНиПом.</p>
+
+						<p>На стоимость монтажа кровли из профнастила влияет несколько факторов:</p>
+						<ol>
+							<li>Цена материала.</li>
+							<li>Цена гидроизоляции.</li>
+							<li>Стоимость амортизации оборудования.</li>
+							<li>Стоимость работы.</li>
+							<li>Цена крепежа.</li>
+						</ol>
+
+						<p>Профнастил – самый доступный кровельный материал на строительном рынке. Но существует несколько
+							разновидностей
+							профнастила, различающихся не только своими характеристиками, но и ценой. Самый дешевый вариант не имеет
+							защитного
+							напыления.</p>
+
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work-type11.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">Мягкая черепица</div>
+					<div class="box-text">
+						<p>Монтаж мягкой черепицы – услуга устройства качественного кровельного пирога, популярная в России. С
+							помощью такого
+							материала можно создать покрытия различных размеров и форм. Мягкая черепица внешне имеет сходство с
+							природными
+							материалами и обладает стойкостью к солнечному ультрафиолету.</p>
+
+						<p>Устройство кровли из мягкой черепицы обладает высокими эксплуатационными характеристиками. Она
+							складывается из затрат на
+							материалы и оплаты работы кровельщиков. На стоимость создания такой кровли «под ключ» влияют следующие
+							факторы:</p>
+						<ul class="my-ul">
+							<li>- вид мягкой черепицы;</li>
+							<li>- сложность конструкции крыши;</li>
+							<li>- площадь крыши;</li>
+							<li>- вид конструкции стропильного каркаса.</li>
+						</ul>
+
+
+						<p>Мягкая черепица различается между собой по нескольким характеристикам, которые напрямую влияют на
+							стоимость
+							кровли:</p>
+						<ul class="my-ul">
+							<li>- количество слоев, Одно-, двух- и трехслойный материал.</li>
+							<li>- форма лепестков. Драконий зуб, бобровый хвост, кирпич, дранка и т.п.</li>
+							<li>- вид верхнего слоя. Базальтовая или сланцевая черепица.</li>
+						</ul>
+
+						<p>Сильное влияние на ценообразование материала оказывают количество слоев и структура верхнего слоя. Что
+							отражается и на
+							стоимости монтажа мягкой черепицы «под ключ».
+							напыления.</p>
+
+						<p>Для кровельных работ подходит материал, имеющий покрытие из пурала или полиэстера. Кроме превосходного
+							внешнего вида,
+							такое покрытие обеспечивает защиту металлической основы и продлевает долговечность материалу.</p>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work-type12.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">Ондулин
+					</div>
+					<div class="box-text">
+						<p>Ондулин при правильном монтаже и при условии несложного ухода может служить вплоть до 50 лет, что
+							доказано длительной
+							эксплуатацией домов с подобной кровлей.</p>
+
+						<p>Основные плюсы материала – лёгкость, гибкость, водонепроницаемость, биоинертность. Вместе с тем еврошифер
+							относится к
+							горючим материалам, краска со временем выгорает.</p>
+						<p>Ондулин чувствителен к качеству монтажа и требует особенной тщательности подготовки стропильных
+							конструкций и обрешётки.</p>
+
+						<p>Технические характеристики ондулина:</p>
+						<ul class="my-ul">
+							<li>плотность – 0,87-1,15 г/см³</li>
+							<li>прочность – 6,5 МПа</li>
+							<li>предел прочности на изгиб: при температуре -40С – 23 МПа, при +20С – 7 МПа</li>
+							<li>максимальная температура эксплуатации: +110С</li>
+							<li>морозоустойчивость – 25 циклов</li>
+							<li>водопоглощение – 1,5%</li>
+						</ul>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work-type13.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">Монтаж снегозадержания</div>
+					<div class="box-text">
+						<p>Монтаж систем снегозадержания обязателен, независимо от типа, размеров и конструкции кровли. Их наличие
+							обеспечивает
+							длительный срок использования кровли, сохраняет ее прочность и целостность, предотвращает возможность
+							механического
+							повреждения.</p>
+
+						<p>Устанавливать снегозадержатели необходимо по всему периметру кровли, а также над дверными и оконными
+							проёмами, с учётом
+							длины скатов и количества выпадающего снега в вашем регионе.
+							Монтаж снегозадержателей можно производить в любое время года, но лучше успеть это сделать до наступления
+							зимы, не
+							дожидаясь появления большой массы снега на крыше.</p>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+			<div class="types-work-box">
+				<div class="types-work-box__img">
+					<img src="img/work-type14.png" alt="">
+				</div>
+				<div class="types-work-box__content">
+					<div class="types-work-box__name">Монтаж водосточной системы</div>
+					<div class="box-text">
+						<p>Водосточная система — это совокупность различных элементов, которые устанавливаются согласно определенной
+							последовательности на кровле и фасаде здания. Водосточная система предназначена для защиты кровли, фасада
+							и фундамента
+							здания от негативного воздействия атмосферных осадков.</p>
+
+						<p>Нужна ли водосточная система?</p>
+						<p>Она собирает и отводит дождевую или талую воду с поверхности крыши к открытому грунту или дренажному
+							каналу.</p>
+							<p>Водосточная система необходима каждому дому. Благодаря ей на стенах, фасаде, цоколе и отмостке не будет
+							скапливаться
+							сезонная влага, появляться грибок и плесень, образовываться трещины, из-за которых быстро изнашивается
+							строение.</p>
+					</div>
+					<div class="types-work-box__price">
+						<p><strong class="color-blue text-transform">Стоимость:</strong> от 12500 руб./м2</p>
+					</div>
+					<a href="#callback__modal" class="btn btn-sm btn-accent open_modal types-work-box__btn">Получить
+						консультацию</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="callback-section callback-service m-100">
+		<div class="container">
+			<div class="callback-content">
+				<h2>У вас остались вопросы?</h2>
+				<div class="box-text">
+					<p>Получите исчерпывающую консультацию</p>
+				</div>
+
+				<form method="post" class="form form-callback">
+
+					<label><input type="text" name="name" placeholder="Ваше имя"></label>
+
+					<label><input type="text" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+
+
+					<button type="submit" class="btn btn-accent btn-submit">Оставить заявку</button>
+				</form>
+
+				<ul class="list-messangers-call my-ul">
+					<li><a href="https://wa.me/79031234567" target="_blank" class="list-messangers-call-link link-whatsapp">
+							<span class="list-messangers-call__icon"><img src="img/whatsapp-call.png" alt=""></span><span
+								class="list-messangers-call__text">Написать в WhatsApp</span>
+						</a></li>
+					<li><a href="https://t.me/79031234567" target="_blank" class="list-messangers-call-link link-telegram">
+							<span class="list-messangers-call__icon"><img src="img/telegram-white.png" alt=""></span><span
+								class="list-messangers-call__text">Написать в Telegram</span>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="works m-100">
+		<div class="container">
+			<h2 class="text-center">Наши работы</h2>
+
+			<div class="w-100">
+				<div class="row">
+					<div class="col-3 mb-100">
+						<div class="works-box">
+							<a href="project-page.html" class="works-box__img"><img src="img/gallery1.jpg" alt="">
+								<span class="works-box__btn btn btn-border-white">подробнее</span>
+							</a>
+							<div class="works-box__body">
+								<a href="project-page.html" class="works-box__name">Загородное шоссе 154</a>
+								<a href="project-page.html" class="link-details">подробнее</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-100">
+						<div class="works-box">
+							<a href="project-page.html" class="works-box__img"><img src="img/gallery1.jpg" alt="">
+								<span class="works-box__btn btn btn-border-white">подробнее</span>
+							</a>
+							<div class="works-box__body">
+								<a href="project-page.html" class="works-box__name">Загородное шоссе 154</a>
+								<a href="project-page.html" class="link-details">подробнее</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-3 mb-100">
+						<div class="works-box">
+							<a href="project-page.html" class="works-box__img"><img src="img/gallery1.jpg" alt="">
+								<span class="works-box__btn btn btn-border-white">подробнее</span>
+							</a>
+							<div class="works-box__body">
+								<a href="project-page.html" class="works-box__name">Загородное шоссе 154</a>
+								<a href="project-page.html" class="link-details">подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<a href="projects.html" class="btn btn-accent btn-all m-auto">больше работ</a>
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+
+				<div class="footer-wrapper">
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">О компании</a></li>
+							<li><a href="category.html" class="h3">Категории</a></li>
+							<li><a href="category.html">Категория 1</a></li>
+							<li><a href="category.html">Категория 2</a></li>
+							<li><a href="category.html">Категория 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="about.html" class="h3">Услуги</a></li>
+							<li><a href="service.html">Услуга 1</a></li>
+							<li><a href="service.html">Услуга 2</a></li>
+							<li><a href="service.html">Услуга 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="news.html" class="h3">Статьи</a></li>
+							<li><a href="article.html">Статья 1</a></li>
+							<li><a href="article.html">Статья 2</a></li>
+							<li><a href="article.html">Статья 3</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<ul class="footer-menu my-ul">
+							<li><a href="contacts.html" class="h3">Контакты</a></li>
+							<li><a href="warranty.html" class="h3">Гарантии</a></li>
+							<li><a href="projects.html" class="h3">Проекты домов</a></li>
+							<li><a href="project-page.html" class="h3">Проект дома single</a></li>
+							<li><a href="credits.html" class="h3">Кредит</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-contacts">
+					<a href="tel:+74951234567" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/phone-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">+7 (495) 123-45-67</span>
+					</a>
+					<a href="mailto:info@mail.ru" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/mail.png" alt=""></span>
+						<span class="footer-contacts-link__text">info@mail.ru</span>
+					</a>
+					<a href="#" target="_blank" class="footer-contacts-link">
+						<span class="footer-contacts-link__icon"><img src="img/location-icon.png" alt=""></span>
+						<span class="footer-contacts-link__text">Открытое шоссе 15</span>
+					</a>
+				</div>
+
+				<div class="payments-box">
+					<p>Принимаем к оплате</p>
+					<div class="payments-box__icon">
+						<img src="img/payments.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<a href="#" class="link-documents color-accent" target="_blank">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</footer>
+
+
+	<a href="#" class="fixed-btn fixed-btn-whatsapp"><img src="img/whatsapp-call.png" alt=""></a>
+	<a href="#" class="fixed-btn fixed-btn-chat"><img src="img/chat-icon.png" alt=""></a>
+
+	<!--модалное окно-->
+	<div class="modal__div" id="callback__modal">
+		<div class="modal__wrapper">
+			<div class="modal__close"></div>
+			<div class="modal-title">Обратный звонок</div>
+
+			<form method="post" class="modal-form">
+
+				<label><input type="text" name="name" placeholder="Ваше имя"></label>
+
+				<label><input type="text" name="phone" placeholder="+7 (___) ___-__-__" required></label>
+
+
+				<button type="submit" class="btn btn-accent btn-submit">Отправить</button>
+			</form>
+		</div>
+	</div>
+	<!-- Пoдлoжкa -->
+	<div class="overlay"></div>
+
+	<!-- add plugins js-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+	<!-- add plugins js end-->
+
+	<script src="js/common.js"></script>
+
+</body>
+
+</html>
