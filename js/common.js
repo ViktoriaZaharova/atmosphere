@@ -9,6 +9,28 @@ $('.nav-menu__close').on('click', function () {
 	$('.header-bottom').fadeOut();
 });
 
+// закрытие по клику вне области на мобильном
+function mediaClick() {
+	var checkWidth = $(window).width();
+	if (checkWidth < 992) {
+
+
+		$(document).mouseup(function (e) { // событие клика по веб-документу
+			var div = $(".header-bottom"); // тут указываем ID элемента
+			var btn = $('.btn-burger');
+			if (!div.is(e.target) // если клик был не по нашему блоку
+				&& !btn.is(e.target) && btn.has(e.target).length === 0
+				&& div.has(e.target).length === 0) { // и не по его дочерним элементам
+				div.fadeOut(); // скрываем его
+				// btn.removeClass('on');
+			}
+		});
+	}
+
+}
+
+mediaClick();
+$(window).resize(mediaClick);
 
 // модальные окна (несколько)
 $(function () {
@@ -238,3 +260,5 @@ $('.btn-filter').click(function (e) {
 $('.sidebar__close').click(function () {
 	$('.sidebar-projects').fadeOut();
 });
+
+
